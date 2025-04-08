@@ -1,4 +1,5 @@
-Template for development of regional lab manuals as part of the PAM SI
+This manual serves as the 'go-to' handbook for the behind-the-scenes information to support our science.
+
 
 ### Disclaimer
 
