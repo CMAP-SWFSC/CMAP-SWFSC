@@ -1,0 +1,6 @@
+---
+title: Stock Assessments
+---
+
+## Background
+Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.

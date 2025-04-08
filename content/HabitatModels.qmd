@@ -1,0 +1,9 @@
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](images/habitatModels.png){width="365"}
+
+## Background
+
+[Species distribution models](https://www.fisheries.noaa.gov/west-coast/science-data/species-distribution-models) or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division's extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.

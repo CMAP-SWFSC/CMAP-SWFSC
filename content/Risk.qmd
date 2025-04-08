@@ -1,0 +1,7 @@
+---
+title: Population Risk Assessment
+---
+
+
+## Background
+Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., [entanglement risk for large whales](https://www.fisheries.noaa.gov/resource/document/infographic-west-coast-humpback-whale-entanglements)). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.

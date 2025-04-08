@@ -1,0 +1,10 @@
+---
+title: Publications and Presentations
+---
+
+Note: 
+If you have time, please add your publications to this Zotero Library:
+https://www.zotero.org/groups/5945188/cmap-swfsc
+
+Here are instructions for using Zotero:
+https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html

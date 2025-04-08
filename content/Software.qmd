@@ -2,8 +2,6 @@
 title: Software
 ---
 
-A software section is required and should include the following information;
+Quick Links to software/code developed to support our work
 
--   List of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)
--   Software packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)
-    -   [SAEL example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Analysis-software.html)
+Background Paragraph (what they are, why we do it)

@@ -1,0 +1,6 @@
+---
+title: Long Term Dataset on Sea Lion Diets
+---
+
+## Background
+For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.

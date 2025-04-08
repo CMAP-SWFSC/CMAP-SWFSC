@@ -1,0 +1,8 @@
+---
+title: Shipboard Surveys
+---
+
+Background
+Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA. 
+
+[Link to our Website with more information](https://www.fisheries.noaa.gov/west-coast/science-data/ship-based-cetacean-and-ecosystem-assessment-surveys-california-current)

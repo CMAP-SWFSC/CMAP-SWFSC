@@ -1,0 +1,6 @@
+---
+title: Passive Acoustic Monitoring
+---
+
+## Background
+Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment. 
