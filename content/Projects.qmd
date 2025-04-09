@@ -1,0 +1,21 @@
+---
+title: Projects
+---
+
+## Background
+
+This is a landing page for additional Projects. To add an additional project page, follow these instructions:
+
+1.  Navigate to the CMAP-SWFSC/content folder
+
+2.  Add a new Quarto Document and label it: "Project-xxx", where 'xxx' is an abbreviated name for your project
+
+3.  Add the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)
+
+    ![](images/addProjectPageYml.PNG){width="211"}
+
+4.  Open to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):
+
+![](images/addProject2quartoYml.PNG){width="267"}
+
+-- You will need to add 1 lines to include your project, using the appropriate syntax "content/Project-xxx.qmd"

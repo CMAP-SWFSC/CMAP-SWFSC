@@ -5,10 +5,51 @@ page-layout: full
 ---
 
 ## What We Do
-The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.  
 
+The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.
 
 ## How to Use this Lab Manual
 
-This lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.
+This lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin\@noaa.gov) or Kourtney (kourtney.burger\@noaa.gov), or make a pull request.
 
+## CMAP Team: How to Backup Your Brain
+
+We have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a 'field guide to our brains', and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:
+
+### Hard Drive Backup
+
+We have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a 'readme' text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger\@noaa.gov.
+
+### CMAP Github Organization and Lab Manual
+
+The Lab Manual will serve as the initial 'go to' place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? *Let us know!* To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.
+
+#### Get Help!
+
+You can either email Shannon to get you started, or send us info for each topic following these methods:
+
+1.  For each topic, prepare content in format that works for you.
+
+    1.  Create a project summary
+
+    2.  Add other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.
+
+    3.  Identify all links, pathways (if not online), etc.
+
+2.  If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, \# files, total size of info, is there any PII?). We can help make this publicly available for you.
+
+3.  When all info is complied, Go to the webpage for that topic, and on the right hand side of the page, click on the "Report an Issue". Let us know the topic name, and provide us with all the info you have. On the right hand side, assign to Shannon, Kourtney, and yourself (if you can).
+
+4.  Do this for each 'Topic' you have, including any side projects (give us a new topic name, and state that they are side projects!). We'll Reach out with any questions!
+
+#### Do it Yourself!
+
+If you know how to modify the documents, feel free to do so yourself! Here is a link to more information on these types of Lab Manuals, including how to modify info yourself. There is a 'supplemental' folder for any additional documents, direct link images go in the content/images folder, and if you have individual code/rmd docs, you can add them to the 'code' folder.
+
+If you want to add extra projects, there are instructions on the Projects Page.
+
+If you need to make additional repositories for specific projects, feel free to use our github templates to create a [Lab Manual-style Repo](https://nmfs-ost.github.io/PAM-OpenScience/content/labManual.html) (with a website like this!) or our [Research Compendium template](https://nmfs-ost.github.io/PAM-OpenScience/content/researchCompendium.html)(these set you up with less work!). Instructions are provided in the links.
+
+Once you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).
+
+***As always, reach out if you need help!***

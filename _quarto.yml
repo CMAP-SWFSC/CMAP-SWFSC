@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://nmfs-ost.github.io/PAM_template_lab_manual/" 
-  repo-url: "https://github.com/nmfs-ost/PAM_template_lab_manual"
+  site-url: "https://cmap-swfsc.github.io/CMAP-SWFSC/" 
+  repo-url: "https://github.com/CMAP-SWFSC/CMAP-SWFSC"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
-        text: "NMFS National Passive Acoustic Monitoring Network"
+        href: https://cmap-swfsc.github.io/CMAP-SWFSC
+        text: "CMAP-SWFSC-NOAA Fisheries Lab Manual Website"
       - icon: github
-        href: https://github.com/nmfs-ost/PAM_template_lab_manual
-        text: "NMFS PAM SI Lab Manual Template"
+        href: https://github.com/CMAP-SWFSC/CMAP-SWFSC
+        text: "CMAP-SWFSC-NOAA Fisheries Lab Manual Repository"
 
     style: "docked"
     search: true
@@ -46,7 +46,7 @@ website:
       - href: content/TRT.qmd
         text: Take Reduction
       - href: content/Bycatch.qmd
-        text: Bycatch
+        text: Human-Caused Mortality
       - href: content/Risk.qmd
         text: Risk Assessment
       - href: content/HabitatModels.qmd
@@ -56,6 +56,9 @@ website:
       - href: content/SeaLionDiets.qmd
         text: Sea Lion Diets
       - href: content/DataManagement.qmd
+      - section: content/Projects.qmd
+        contents: 
+          - content/Project-Test.qmd
         text: Data Management
       - href: content/Inventory.qmd
         text: Inventory
