@@ -1,6 +1,5 @@
 ---
-title: "Home"
-subtitle: "SWFSC-CMAP Lab Manual"
+title: "SWFSC-CMAP Lab Manual"
 page-layout: full
 ---
 
