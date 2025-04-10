@@ -59,7 +59,8 @@ website:
         text: Data Management
       - section: content/Projects.qmd
         contents: 
-          - content/Project-Test.qmd
+          - href: content/Project-Test.qmd
+            text: Project Test Page
         text: Data Management
       - href: content/Inventory.qmd
         text: Inventory

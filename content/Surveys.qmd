@@ -5,4 +5,8 @@ title: Population Surveys
 ## Background
 Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.
 
+Surveys by Type:
+[Shipboard Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html)
+[Aerial Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html)
+
 
