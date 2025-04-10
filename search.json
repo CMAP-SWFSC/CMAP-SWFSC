@@ -54,7 +54,7 @@
     "href": "content/Surveys.html",
     "title": "Population Surveys",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
     "crumbs": [
       "Population Surveys"
     ]
@@ -64,7 +64,7 @@
     "href": "content/Surveys.html#background",
     "title": "Population Surveys",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
     "crumbs": [
       "Population Surveys"
     ]
@@ -244,9 +244,9 @@
   {
     "objectID": "content/PAM.html",
     "href": "content/PAM.html",
-    "title": "Passive Acoustic Monitoring",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
     "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
     "crumbs": [
       "Passive Acoustics"
     ]
@@ -254,9 +254,9 @@
   {
     "objectID": "content/PAM.html#background",
     "href": "content/PAM.html#background",
-    "title": "Passive Acoustic Monitoring",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
     "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
     "crumbs": [
       "Passive Acoustics"
     ]
