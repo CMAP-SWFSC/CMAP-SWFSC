@@ -56,6 +56,7 @@ website:
       - href: content/SeaLionDiets.qmd
         text: Sea Lion Diets
       - href: content/DataManagement.qmd
+        text: Data Management
       - section: content/Projects.qmd
         contents: 
           - content/Project-Test.qmd
