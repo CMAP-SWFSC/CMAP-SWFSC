@@ -3,4 +3,5 @@ title: Estimating Fisheries Bycatch and Other Sources of Human-Caused Mortality
 ---
 
 ## Background
+
 We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.
