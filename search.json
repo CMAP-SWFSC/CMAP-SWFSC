@@ -70,35 +70,33 @@
     ]
   },
   {
-    "objectID": "content/ShipSurveys.html",
-    "href": "content/ShipSurveys.html",
-    "title": "Shipboard Surveys",
+    "objectID": "content/Projects.html",
+    "href": "content/Projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
     "crumbs": [
-      "Population Surveys",
-      "Shipboard Surveys"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "objectID": "content/Projects.html#background",
+    "href": "content/Projects.html#background",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
     "crumbs": [
-      "Habitat Models"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
     "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
     "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
+      "Inventory"
     ]
   },
   {
@@ -166,60 +164,56 @@
     "href": "content/TRT.html",
     "title": "Take Reduction Team Efforts",
     "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
+    "text": "Take reduction plans help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.",
     "crumbs": [
       "Take Reduction"
     ]
   },
   {
-    "objectID": "content/Bycatch.html",
-    "href": "content/Bycatch.html",
+    "objectID": "content/PlaneSurveys.html",
+    "href": "content/PlaneSurveys.html",
+    "title": "Aerial Surveys",
+    "section": "",
+    "text": "Background Paragraph (what they are, why we do it)",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "crumbs": [
+      "Habitat Models"
+    ]
+  },
+  {
+    "objectID": "content/ShipSurveys.html",
+    "href": "content/ShipSurveys.html",
+    "title": "Shipboard Surveys",
+    "section": "",
+    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
+    "crumbs": [
+      "Population Surveys",
+      "Shipboard Surveys"
+    ]
+  },
+  {
+    "objectID": "content/Human-Caused Mortality.html",
+    "href": "content/Human-Caused Mortality.html",
     "title": "Estimating Fisheries Bycatch and Other Sources of Human-Caused Mortality",
     "section": "",
-    "text": "We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
+    "text": "We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species."
   },
   {
-    "objectID": "content/Bycatch.html#background",
-    "href": "content/Bycatch.html#background",
+    "objectID": "content/Human-Caused Mortality.html#background",
+    "href": "content/Human-Caused Mortality.html#background",
     "title": "Estimating Fisheries Bycatch and Other Sources of Human-Caused Mortality",
     "section": "",
-    "text": "We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
-  },
-  {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
-    "crumbs": [
-      "Inventory"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html",
-    "href": "content/Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html#background",
-    "href": "content/Projects.html#background",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
-    ]
+    "text": "We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species."
   },
   {
     "objectID": "content/SeaLionDiets.html",
