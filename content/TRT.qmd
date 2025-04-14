@@ -10,4 +10,8 @@ Listed as endangered or threatened under the Endangered Species Act (ESA). Decli
 
 The long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.
 
-Prior TRT/TRP efforts by the Southwest Fisheries Science Center include the \[Pacific Offshore TRT/TRP\](https://www.fisheries.noaa.gov/national/marine-mammal-protection/pacific-offshore-cetacean-take-reduction-plan)
+Prior TRT/TRP efforts by the Southwest Fisheries Science Center include the [Pacific Offshore TRT/TRP](https://www.fisheries.noaa.gov/national/marine-mammal-protection/pacific-offshore-cetacean-take-reduction-plan)
+
+References:
+
+[Barlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1748-7692.2003.tb01108.x)
