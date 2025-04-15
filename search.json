@@ -20,63 +20,63 @@
     ]
   },
   {
-    "objectID": "content/Risk.html",
-    "href": "content/Risk.html",
-    "title": "Population Risk Assessment",
+    "objectID": "content/HumanCausedMortality.html",
+    "href": "content/HumanCausedMortality.html",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
     "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements, and acoustic trauma (St.Leger and Danil 2011)",
     "crumbs": [
-      "Risk Assessment"
+      "Human-Caused Mortality"
     ]
   },
   {
-    "objectID": "content/Risk.html#background",
-    "href": "content/Risk.html#background",
-    "title": "Population Risk Assessment",
+    "objectID": "content/HumanCausedMortality.html#background",
+    "href": "content/HumanCausedMortality.html#background",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
     "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements, and acoustic trauma (St.Leger and Danil 2011)",
     "crumbs": [
-      "Risk Assessment"
+      "Human-Caused Mortality"
     ]
   },
   {
-    "objectID": "content/Software.html",
-    "href": "content/Software.html",
-    "title": "Software",
+    "objectID": "content/PAM.html",
+    "href": "content/PAM.html",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
     "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
     "crumbs": [
-      "Software"
+      "Passive Acoustics"
     ]
   },
   {
-    "objectID": "content/Software.html#mapping-and-summarizing-das-cruise-data",
-    "href": "content/Software.html#mapping-and-summarizing-das-cruise-data",
-    "title": "Software",
+    "objectID": "content/PAM.html#background",
+    "href": "content/PAM.html#background",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
     "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
     "crumbs": [
-      "Software"
+      "Passive Acoustics"
     ]
   },
   {
-    "objectID": "content/Surveys.html",
-    "href": "content/Surveys.html",
-    "title": "Population Surveys",
+    "objectID": "content/SeaLionDiets.html",
+    "href": "content/SeaLionDiets.html",
+    "title": "Long Term Dataset on Sea Lion Diets",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
     "crumbs": [
-      "Population Surveys"
+      "Sea Lion Diets"
     ]
   },
   {
-    "objectID": "content/Surveys.html#background",
-    "href": "content/Surveys.html#background",
-    "title": "Population Surveys",
+    "objectID": "content/SeaLionDiets.html#background",
+    "href": "content/SeaLionDiets.html#background",
+    "title": "Long Term Dataset on Sea Lion Diets",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
     "crumbs": [
-      "Population Surveys"
+      "Sea Lion Diets"
     ]
   },
   {
@@ -212,63 +212,63 @@
     ]
   },
   {
-    "objectID": "content/Human-Caused Mortality.html",
-    "href": "content/Human-Caused Mortality.html",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "objectID": "content/Surveys.html",
+    "href": "content/Surveys.html",
+    "title": "Population Surveys",
     "section": "",
-    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements, and acoustic trauma (St.Leger and Danil 2011)",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
     "crumbs": [
-      "Human-Caused Mortality"
+      "Population Surveys"
     ]
   },
   {
-    "objectID": "content/Human-Caused Mortality.html#background",
-    "href": "content/Human-Caused Mortality.html#background",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "objectID": "content/Surveys.html#background",
+    "href": "content/Surveys.html#background",
+    "title": "Population Surveys",
     "section": "",
-    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction. Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements, and acoustic trauma (St.Leger and Danil 2011)",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
     "crumbs": [
-      "Human-Caused Mortality"
+      "Population Surveys"
     ]
   },
   {
-    "objectID": "content/SeaLionDiets.html",
-    "href": "content/SeaLionDiets.html",
-    "title": "Long Term Dataset on Sea Lion Diets",
+    "objectID": "content/Software.html",
+    "href": "content/Software.html",
+    "title": "Software",
     "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R",
     "crumbs": [
-      "Sea Lion Diets"
+      "Software"
     ]
   },
   {
-    "objectID": "content/SeaLionDiets.html#background",
-    "href": "content/SeaLionDiets.html#background",
-    "title": "Long Term Dataset on Sea Lion Diets",
+    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "title": "Software",
     "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R",
     "crumbs": [
-      "Sea Lion Diets"
+      "Software"
     ]
   },
   {
-    "objectID": "content/PAM.html",
-    "href": "content/PAM.html",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "objectID": "content/Risk.html",
+    "href": "content/Risk.html",
+    "title": "Population Risk Assessment",
     "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
     "crumbs": [
-      "Passive Acoustics"
+      "Risk Assessment"
     ]
   },
   {
-    "objectID": "content/PAM.html#background",
-    "href": "content/PAM.html#background",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "objectID": "content/Risk.html#background",
+    "href": "content/Risk.html#background",
+    "title": "Population Risk Assessment",
     "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
     "crumbs": [
-      "Passive Acoustics"
+      "Risk Assessment"
     ]
   },
   {

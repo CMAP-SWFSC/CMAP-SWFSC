@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Human-Caused Mortality.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/HumanCausedMortality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Human-Caused Mortality</span></a>
   </div>
 </li>
@@ -247,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mapping-and-summarizing-das-cruise-data" id="toc-mapping-and-summarizing-das-cruise-data" class="nav-link active" data-scroll-target="#mapping-and-summarizing-das-cruise-data">Mapping and Summarizing DAS cruise data</a></li>
+  <li><a href="#mapping-and-summarizing-line-transect-survey-das-data" id="toc-mapping-and-summarizing-line-transect-survey-das-data" class="nav-link active" data-scroll-target="#mapping-and-summarizing-line-transect-survey-das-data">Mapping and Summarizing line-transect survey DAS data</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/edit/main/content/Software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Software.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -273,8 +273,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="mapping-and-summarizing-das-cruise-data" class="level2">
-<h2 class="anchored" data-anchor-id="mapping-and-summarizing-das-cruise-data">Mapping and Summarizing DAS cruise data</h2>
+<section id="mapping-and-summarizing-line-transect-survey-das-data" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-and-summarizing-line-transect-survey-das-data">Mapping and Summarizing line-transect survey DAS data</h2>
 <p>Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package <a href="https://github.com/SWFSC/swfscDAS">swfscDAS</a></p>
 <p>The swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)</p>
 <p>Effort and Sighting Maps can be generated using the R-package <a href="https://github.com/SWFSC/CruzPlot">CruzPlot</a>. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script <a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code">Plot_DAS Effort_and_Sightings_Data_SARS.R</a></p>
