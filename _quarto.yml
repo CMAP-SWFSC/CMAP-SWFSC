@@ -45,7 +45,7 @@ website:
         text: Population Assessment
       - href: content/TRT.qmd
         text: Take Reduction
-      - href: content/Human-Caused Mortality.qmd
+      - href: content/HumanCausedMortality.qmd
         text: Human-Caused Mortality
       - href: content/Risk.qmd
         text: Risk Assessment

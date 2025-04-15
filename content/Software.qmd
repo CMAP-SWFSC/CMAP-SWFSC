@@ -2,7 +2,7 @@
 title: Software
 ---
 
-## Mapping and Summarizing DAS cruise data
+## Mapping and Summarizing line-transect survey DAS data
 
 Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman's R-Package [swfscDAS](https://github.com/SWFSC/swfscDAS)
 

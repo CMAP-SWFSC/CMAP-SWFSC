@@ -1,0 +1,11 @@
+---
+title: Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality
+---
+
+## Background
+
+Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.
+
+1.  We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction [(Barlow and Cameron 2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1748-7692.2003.tb01108.x). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.
+
+2.  Other sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements, and acoustic trauma [(St.Leger and Danil 2011)](https://www.ingentaconnect.com/content/mts/mtsj/2011/00000045/00000006/art00012)
