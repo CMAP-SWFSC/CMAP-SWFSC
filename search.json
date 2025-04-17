@@ -100,33 +100,45 @@
     ]
   },
   {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
+    "objectID": "content/ShipSurveys.html",
+    "href": "content/ShipSurveys.html",
+    "title": "Shipboard Surveys",
     "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
     "crumbs": [
-      "Inventory"
+      "Population Surveys",
+      "Shipboard Surveys"
     ]
   },
   {
-    "objectID": "content/PopAssess.html",
-    "href": "content/PopAssess.html",
-    "title": "Stock Assessments",
-    "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
     "crumbs": [
-      "Population Assessment"
+      "Habitat Models"
     ]
   },
   {
-    "objectID": "content/PopAssess.html#background",
-    "href": "content/PopAssess.html#background",
-    "title": "Stock Assessments",
+    "objectID": "content/PlaneSurveys.html",
+    "href": "content/PlaneSurveys.html",
+    "title": "Aerial Surveys",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "text": "Background Paragraph (what they are, why we do it)",
     "crumbs": [
-      "Population Assessment"
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/TRT.html",
+    "href": "content/TRT.html",
+    "title": "Take Reduction Team (TRT) Efforts",
+    "section": "",
+    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
+    "crumbs": [
+      "Take Reduction"
     ]
   },
   {
@@ -170,46 +182,48 @@
     ]
   },
   {
-    "objectID": "content/TRT.html",
-    "href": "content/TRT.html",
-    "title": "Take Reduction Team (TRT) Efforts",
+    "objectID": "content/PopAssess.html",
+    "href": "content/PopAssess.html",
+    "title": "Stock Assessments",
     "section": "",
-    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
     "crumbs": [
-      "Take Reduction"
+      "Population Assessment"
     ]
   },
   {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
+    "objectID": "content/PopAssess.html#background",
+    "href": "content/PopAssess.html#background",
+    "title": "Stock Assessments",
     "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
     "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
+      "Population Assessment"
     ]
   },
   {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
     "crumbs": [
-      "Habitat Models"
+      "Inventory"
     ]
   },
   {
-    "objectID": "content/ShipSurveys.html",
-    "href": "content/ShipSurveys.html",
-    "title": "Shipboard Surveys",
+    "objectID": "content/MMPA_Implementation.html",
+    "href": "content/MMPA_Implementation.html",
+    "title": "MMPA_Implementation",
     "section": "",
-    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
-    "crumbs": [
-      "Population Surveys",
-      "Shipboard Surveys"
-    ]
+    "text": "Generally, where to find stuff…\n\n\n\nDirectory Listing\n\n\n\n\nMarine Mammal Stock Assessments (SARS) Locations: “C:Assessment Reports (SARS)SAR Word Files” Also check for files in the Sar2024 and Sar2025 folders of the main SARS directory, as draft 2024 SARs were released for public comment in February of 2025, and draft 2025 SARS are being reviewed by the PSRG in April 2025. The Pacific Islands Science Center will have the most-recent versions of their reports, if you need to locate the latest version being prepared for SRG review and public comment. An overview of all Pacific SARS that show the current and proposed revision status is included in a Word doc titled “SAR Summary Table 2025 Draft SARs.docx” as of this writing in April 2025. It is also found in the ‘Current SAR Word Files’ folder. The SAR editor should read and be familiar with the Guidelines for Preparing Marine Mammal Stock Assessments (NMFS 2023) and section 117 of the Marine Mammal Protection Act. Other than those two documents, keeping up with the marine mammal literature is probably one of the more difficult parts of the job. The editor is also responsible for drafting and coordinating responses to public comments on draft SARS. The Pacific Region SARs are written by 4 separate laboratories: SWFSC, NWFSC (Southern Resident Killer Whale = Brad Hanson), AKFSC (several pinniped reports = Sharon Melin), and PIFSC (Amanda Bradford). The Pacific SAR editor coordinates the annual revision of reports, along with the Office of Protected Resources (OPR review of draft and final reports). Responsibility for archiving the most-recent versions of individual SAR files ultimately rests with the authors of the individual SARs, for example, PIFSC maintains its own files. It is probably good practice for the next SAR editor to try to mirror all up-to-date SAR files in a single place though. If a Word file is lost or corrupted, a PDF to Word conversion (using the online versions of published SARs) is useful for reconstruction. Prepare draft SARs each fall / winter in preparation for the winter / spring Pacific Scientific Review Group meeting. Draft SARs are submitted to the SRG liaison (Laura.McCue@noaa.gov PIFSC) 6 weeks before the meeting, so that 1) OPR can have 3 weeks to review them for issues and 2) the SRG liaison can send them to the Pacific Scientific Review Group (PSRG) 3 weeks before the meeting. Post-meeting, draft SARs are further revised, based on comments received. By summer, draft SARs are usually published in the Federal Register for a 90-day public comment period. The SAR annual cycle has taken a year to complete in recent years. For example, the 2024 draft SARs were just released for public comment in March 2025, during the same time that we were submitting draft 2025 SARs to the PSRG. This overlap makes the SAR editor task more difficult, as it means multiple ‘draft’ versions of the same SAR may exist at one time (e.g., there are currently two versions of the Southern Resident Killer Whale SAR (draft 2024 in public comment and draft 2025 submitted for PSRG review). Ideally, the final 2024 version should have been published prior to drafting a 2025 report. This necessitates accepting changes to the draft 2024 version to use as a template for the 2025 report, not a good situation. A variety of techniques are being used to revise the reports annually, from the simplest (Word markup and track changes, SWFSC), to more complex R-based revision, using Quarto or Markdown (MML, PIFSC). Common to all approaches is the requirement to show transparent revisions for the regional Scientific Review Groups and the public to assess. Some examples of how actual revisions should appear are shown in Figure 1. List of current SAR personnel and roles Jim.Carretta@noaa.gov (Writes, edits, coordinates the production of SARs from multiple Science Centers. Sometimes responsible for ensuring that final SARs are 508 compliant for posting on websites. Otherwise, someone in the publications division (formerly Kit.Johnston@noaa.gov, retired) who deals with Technical Memoranda should help with this. Compliant documents need to be sent to the NOAA Institutional Repository to be checked prior to publication. Eric.Patterson@noaa.gov, Kristy.Long@noaa.gov, Megan.Wallen@noaa.gov (National review of draft and final SARs prior to release for SRG review / public comment, and final publication). Zachary.Schackner@noaa.gov (Federal Register coordination and review of SARs for release as drafts and 90-day public comment period). Laura.McCue@noaa.gov (Pacific SRG liaison. Draft SARs sent to her at least 3 weeks before an SRG meeting for distribution to the group.) Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov : they provide annual information on the human-caused mortality and serious injury cases that feed into the SAR revision process."
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html#mmpa-implementation-and-data-management-carretta",
+    "href": "content/MMPA_Implementation.html#mmpa-implementation-and-data-management-carretta",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "Generally, where to find stuff…\n\n\n\nDirectory Listing\n\n\n\n\nMarine Mammal Stock Assessments (SARS) Locations: “C:Assessment Reports (SARS)SAR Word Files” Also check for files in the Sar2024 and Sar2025 folders of the main SARS directory, as draft 2024 SARs were released for public comment in February of 2025, and draft 2025 SARS are being reviewed by the PSRG in April 2025. The Pacific Islands Science Center will have the most-recent versions of their reports, if you need to locate the latest version being prepared for SRG review and public comment. An overview of all Pacific SARS that show the current and proposed revision status is included in a Word doc titled “SAR Summary Table 2025 Draft SARs.docx” as of this writing in April 2025. It is also found in the ‘Current SAR Word Files’ folder. The SAR editor should read and be familiar with the Guidelines for Preparing Marine Mammal Stock Assessments (NMFS 2023) and section 117 of the Marine Mammal Protection Act. Other than those two documents, keeping up with the marine mammal literature is probably one of the more difficult parts of the job. The editor is also responsible for drafting and coordinating responses to public comments on draft SARS. The Pacific Region SARs are written by 4 separate laboratories: SWFSC, NWFSC (Southern Resident Killer Whale = Brad Hanson), AKFSC (several pinniped reports = Sharon Melin), and PIFSC (Amanda Bradford). The Pacific SAR editor coordinates the annual revision of reports, along with the Office of Protected Resources (OPR review of draft and final reports). Responsibility for archiving the most-recent versions of individual SAR files ultimately rests with the authors of the individual SARs, for example, PIFSC maintains its own files. It is probably good practice for the next SAR editor to try to mirror all up-to-date SAR files in a single place though. If a Word file is lost or corrupted, a PDF to Word conversion (using the online versions of published SARs) is useful for reconstruction. Prepare draft SARs each fall / winter in preparation for the winter / spring Pacific Scientific Review Group meeting. Draft SARs are submitted to the SRG liaison (Laura.McCue@noaa.gov PIFSC) 6 weeks before the meeting, so that 1) OPR can have 3 weeks to review them for issues and 2) the SRG liaison can send them to the Pacific Scientific Review Group (PSRG) 3 weeks before the meeting. Post-meeting, draft SARs are further revised, based on comments received. By summer, draft SARs are usually published in the Federal Register for a 90-day public comment period. The SAR annual cycle has taken a year to complete in recent years. For example, the 2024 draft SARs were just released for public comment in March 2025, during the same time that we were submitting draft 2025 SARs to the PSRG. This overlap makes the SAR editor task more difficult, as it means multiple ‘draft’ versions of the same SAR may exist at one time (e.g., there are currently two versions of the Southern Resident Killer Whale SAR (draft 2024 in public comment and draft 2025 submitted for PSRG review). Ideally, the final 2024 version should have been published prior to drafting a 2025 report. This necessitates accepting changes to the draft 2024 version to use as a template for the 2025 report, not a good situation. A variety of techniques are being used to revise the reports annually, from the simplest (Word markup and track changes, SWFSC), to more complex R-based revision, using Quarto or Markdown (MML, PIFSC). Common to all approaches is the requirement to show transparent revisions for the regional Scientific Review Groups and the public to assess. Some examples of how actual revisions should appear are shown in Figure 1. List of current SAR personnel and roles Jim.Carretta@noaa.gov (Writes, edits, coordinates the production of SARs from multiple Science Centers. Sometimes responsible for ensuring that final SARs are 508 compliant for posting on websites. Otherwise, someone in the publications division (formerly Kit.Johnston@noaa.gov, retired) who deals with Technical Memoranda should help with this. Compliant documents need to be sent to the NOAA Institutional Repository to be checked prior to publication. Eric.Patterson@noaa.gov, Kristy.Long@noaa.gov, Megan.Wallen@noaa.gov (National review of draft and final SARs prior to release for SRG review / public comment, and final publication). Zachary.Schackner@noaa.gov (Federal Register coordination and review of SARs for release as drafts and 90-day public comment period). Laura.McCue@noaa.gov (Pacific SRG liaison. Draft SARs sent to her at least 3 weeks before an SRG meeting for distribution to the group.) Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov : they provide annual information on the human-caused mortality and serious injury cases that feed into the SAR revision process."
   },
   {
     "objectID": "content/Surveys.html",
