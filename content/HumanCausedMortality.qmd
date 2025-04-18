@@ -21,20 +21,8 @@ Locations: “C:\Carretta\Github\SeriousInjury” and repositories listed below
 A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the [Carretta and Henry (2022)](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: 
 https://github.com/SWFSC/SeriousInjury 
 https://github.com/JimCarretta/SeriousInjury
-The SeriousInjury package can be installed in R as follows: 
 
-# make sure you have devtools installed
-if (!require('devtools')) install.packages('devtools')
+Once installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.
 
-# install from GitHub
-devtools::install_github('SWFSC/SeriousInjury')
-
-# if this install fails, use this alternative method, using package 'pak':
-pak::pkg_install("SWFSC/SeriousInjury")
-
-library(SeriousInjury)
-# see SeriousInjuryTutorial() for a guide to the package
-
-Once installed, the function SeriousInjuryTutorial( ) opens an HTML window as shown in Figure 2.
-Figure 2. SeriousInjury Tutorial screen grab
+![Caption](images/SeriousInjuryShiny.png){width="800"}
 
