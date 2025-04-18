@@ -30,7 +30,8 @@ Some examples of how actual revisions should appear are shown in Figure 1.
 
 ![Figure 1](images/SARTrackChanges.png){width="800"}
 
-The Appendix in the SARs dealing with Fishery Descriptions has largely fallen by the wayside due to lack of bandwidth. Future editors would want to coordinate with the various regional offices for updates, especially whoever works on the NMFS List of Fisheries (Dan.Lawson@noaa.gov West Coast Region).
+The Appendix in the SARs dealing with Fishery Descriptions has largely fallen by the wayside due to lack of bandwidth.
+Future editors would want to coordinate with the various regional offices for updates, especially whoever works on the NMFS List of Fisheries (Dan.Lawson\@noaa.gov West Coast Region).
 
 ## R-Code related to SARS
 
