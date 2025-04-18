@@ -17,8 +17,7 @@ Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including
 
 ## *SeriousInjury* R-Package and Shiny App
 
-Locations: “C:\Carretta\Github\SeriousInjury” and repositories listed below
-A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the [Carretta and Henry (2022)](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: 
+A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the [Carretta and Henry (2022)](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full) publication. Two identical Github repositories exist for the SeriousInjury package: 
 https://github.com/SWFSC/SeriousInjury 
 https://github.com/JimCarretta/SeriousInjury
 
