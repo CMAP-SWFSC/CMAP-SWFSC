@@ -23,5 +23,5 @@ https://github.com/JimCarretta/SeriousInjury
 
 Once installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.
 
-![Caption](images/SeriousInjuryShiny.png){width="800"}
+![Caption](images/SeriousInjuryShiny.png){width="900"}
 
