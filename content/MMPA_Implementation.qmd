@@ -5,6 +5,6 @@ format: html
 
 ## Location of Carretta's files (laptop + backups)
 
-In addition to pages on the CMAP Github, I've written a general guide to the stuff I do in a Word file (**MMPA Implementation Carretta.docx**) located in the directory shown below:
+In addition to pages on the CMAP Github, I've written a general guide (**MMPA Implementation Carretta.docx**), located in the directory shown below:
 
 ![](images/Carretta_Directory_Structure.png){width="800"}
