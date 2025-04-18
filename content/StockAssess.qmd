@@ -5,7 +5,7 @@ editor:
     wrap: sentence
 ---
 
-## Editor's Duties, File Locations, Workflow, Contacts
+## Editor Duties, File Locations, Workflow, Contacts
 
 The SAR editor should be familiar with the [Guidelines for Preparing Marine Mammal Stock Assessments (NMFS 2023)](https://www.fisheries.noaa.gov/national/marine-mammal-protection/guidelines-assessing-marine-mammal-stocks) and section 117 of the Marine Mammal Protection Act.
 Keeping up with the marine mammal literature is also critical.
@@ -32,20 +32,25 @@ Some examples of how actual revisions should appear are shown in Figure 1.
 
 ## R-Code related to SARS
 
-See the [code folder](https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/\_code) of this repository.
-Plot sightings and effort maps directly from DAS data: **Plot DAS Effort and Sightings Data SAR version.R** 
-Code loops through all species codes and generates JPEG maps of on-effort segments and on + off-effort sightings.
+See the [code folder](https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code) of this repository.
+Plot sightings and effort maps directly from DAS data: **Plot DAS Effort and Sightings Data SAR version.R** Code loops through all species codes and generates JPEG maps of on-effort segments and on + off-effort sightings.
 Naming convention uses numeric species codes for cetaceans, e.g. *044 Plot.JPG* = Dall’s Porpoise.
 There is also a Github package (‘CruzPlot’) that can be used to produce low-resolution plots of DAS effort and sightings.
 
-Prorate unidentified whale entanglements and vessel strikes to species: **Prorate_Unid_Whale_Entanglements.R**.  Unidentified large whale entanglements are prorated to species, using a simple *randomForest* model (Carretta 2018).
+Prorate unidentified whale entanglements and vessel strikes to species: **Prorate_Unid_Whale_Entanglements.R**.
+Unidentified large whale entanglements are prorated to species, using a simple *randomForest* model (Carretta 2018).
 Used in tabulating human-caused mortality and serious injury for large whale SARs.
 
 ## List of current SAR personnel and roles
-Jim.Carretta@noaa.gov (Writes, edits, coordinates the production of SARs from multiple Science Centers. Sometimes responsible for ensuring that final SARs are 508 compliant for posting on websites. Otherwise, someone in the publications division (formerly Kit.Johnston@noaa.gov, retired) who deals with Technical Memoranda should help with this. Compliant documents need to be sent to the NOAA Institutional Repository to be checked prior to publication.
-Eric.Patterson@noaa.gov, Kristy.Long@noaa.gov, Megan.Wallen@noaa.gov  (National review of draft and final SARs prior to release for SRG review / public comment, and final publication). Zachary.Schackner@noaa.gov (Federal Register coordination and review of SARs for release as drafts and 90-day public comment period). Laura.McCue@noaa.gov (Pacific SRG liaison. Draft SARs sent to her at least 3 weeks before an SRG meeting for distribution to the group.) Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov : they provide annual information on the human-caused mortality and serious injury cases that feed into the SAR revision process.
+
+Jim.Carretta\@noaa.gov (Writes, edits, coordinates the production of SARs from multiple Science Centers. Sometimes responsible for ensuring that final SARs are 508 compliant for posting on websites. Otherwise, someone in the publications division (formerly Kit.Johnston\@noaa.gov, retired) who deals with Technical Memoranda should help with this.
+Compliant documents need to be sent to the NOAA Institutional Repository to be checked prior to publication.
+Eric.Patterson\@noaa.gov, Kristy.Long\@noaa.gov, Megan.Wallen\@noaa.gov (National review of draft and final SARs prior to release for SRG review / public comment, and final publication).
+Zachary.Schackner\@noaa.gov (Federal Register coordination and review of SARs for release as drafts and 90-day public comment period).
+Laura.McCue\@noaa.gov (Pacific SRG liaison. Draft SARs sent to her at least 3 weeks before an SRG meeting for distribution to the group.) Justin.Greenman\@noaa.gov, Lauren.Saez\@noaa.gov : they provide annual information on the human-caused mortality and serious injury cases that feed into the SAR revision process.
 
 ## References
+
 [Carretta, James V., Justin Greenman, Kristin Wilkinson, Lauren Saez, Dan Lawson, and Justin Viezbicke. 2024. Sources of human-related injury and mortality for U.S. Pacific West Coast marine mammal stock assessments, 2018-2022. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-705.](https://doi.org/10.25923/tj6f-y570)
 
 [Carretta, J.V. and A. Henry. 2022. Risk assessment of large whale entanglements and vessel strikes from case narratives and random forest classification trees. Frontiers in Marine Science.](https://doi.org/10.3389/fmars.2022.863070)
@@ -53,4 +58,3 @@ Eric.Patterson@noaa.gov, Kristy.Long@noaa.gov, Megan.Wallen@noaa.gov  (National 
 [Carretta, J.V., 2018. A machine-learning approach to assign species to ‘unidentified’entangled whales. Endangered Species Research, 36, pp.89-98.](https://doi.org/10.3354/esr00894)
 
 [NMFS. 2023. Guidelines for Preparing Stock Assessment Reports Pursuant to the Marine Mammal Protection Act. Protected Resources Policy Directive 02-204-01.](https://www.fisheries.noaa.gov/s3/2023-05/02-204-01-Final-GAMMS-IV-Revisions-clean-1-kdr.pdf)
-
