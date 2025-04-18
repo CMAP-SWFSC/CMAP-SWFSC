@@ -28,7 +28,7 @@ A variety of techniques are being used to revise the reports annually, from the 
 Common to all approaches is the requirement to show transparent revisions for the regional Scientific Review Groups and the public to assess.
 Some examples of how actual revisions should appear are shown in Figure 1.
 
-![Figure 1](content/images/SARTrackChanges.png){width="800"}
+![Figure 1](images/SARTrackChanges.png){width="800"}
 
 ## R-Code related to SARS
 
