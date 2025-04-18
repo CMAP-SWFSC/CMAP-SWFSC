@@ -1,0 +1,41 @@
+# Description of R utilities for 2024 cruise. updated by Jim Carretta 04/18/2025
+
+# R scripts for use with DAS data.
+
+(DAS-R-E-lines.R)
+# Use script to find if your DAS file has an unequal number of "R" and "E" events, and which line numbers are involved.
+# CruzPlot will throw an error on DAS files with unequal numbers of "R" and "E" events, so, files need to be fixed in
+# order to import into CruzPlot.
+
+(Concatenate_all_DAS.R)
+# While you can concatenate all daily DAS files in a text editor, I prefer to automate it. Your daily, *edited* DAS files
+# should be of the format "2024-mm-dd.DAS". But, as long as a file has the suffix ʻDASʻ, it will be added to the output file
+# of this script, which is DASALL2024.DAS. The script identifies and deletes existing copies of the DASALL2024.DAS in the directory
+# prior to concatenating edited daily files. The DASALL2024.DAS file is what you will use with the CruzPlot package for making 
+# effort and sightings maps. If CruzPlot fails to load the concatendated file, it typically means you have a blank line somewhere in the file
+# typically at file's end.
+
+
+(CruzPlot.R)
+# CruzPlot package by Sam Woodman needs to be loaded.
+# Once you have loaded the library, open the app within R, typing CruzPlot::cruzplot_gui(). 
+
+(appendObserverEstimates.R)
+(appendGroupSizes.R)
+(misc_DAS_funcs.R)
+# All three scripts are required. First, create a separate CSV file with observer number, sighting number, best, high, low estimates 
+# of group size. This CSV file is read and used to append group sizes to the correct line number within a specified DAS output file.
+# Eric Archer greatly improved my developmental version. A time-saver for cruise leaders on days with many
+# sightings. Enter individual observer group size estimates into a CSV file with fields = 
+# 'obs.num', 'sight.num', 'best', 'high', 'low', 'sp1', 'sp2', 'sp3', 'sp4' and specify the output DAS file in appendGroupSizes.R.
+#  Observer number, sighting number, observer estimates, species codes are appended to the DAS file in the correct line numbers and columns
+#  from the reading of the CSV file. The script returns a message indicating which sightings are mixed-species schools, so the user
+#  can manually enter the species percentages into the DAS file in the correct locations.
+ # 1. Manually create CSV file with observer number, sighting number, best, high, low estimates of group size.
+ # 2. Enter the name of your CSV file and desired output DAS filename into appendGroupSizes.R. 
+ # 3. Run the script appendObserverEstimates.R
+
+(DAS_to_JSON.R)
+# Script reads and concatenates all DAS ("*.DAS") files in directory, from which a JSON output file of *on-effort data segments* is created.
+# The resulting JSON can be imported into external software such as Windy and CalTopo for plotting effort. 
+# The CruzPlot package (above) also plots effort and sighting data, and is generally preferred for generating figures.
