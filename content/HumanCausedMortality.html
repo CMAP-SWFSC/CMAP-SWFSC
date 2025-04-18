@@ -256,9 +256,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#annual-mmpa-sar-requirements-to-enumerate-hcmsi" id="toc-annual-mmpa-sar-requirements-to-enumerate-hcmsi" class="nav-link" data-scroll-target="#annual-mmpa-sar-requirements-to-enumerate-hcmsi">Annual MMPA-SAR requirements to enumerate HCMSI</a></li>
   <li><a href="#seriousinjury-r-package-and-shiny-app" id="toc-seriousinjury-r-package-and-shiny-app" class="nav-link" data-scroll-target="#seriousinjury-r-package-and-shiny-app"><em>SeriousInjury</em> R-Package and Shiny App</a></li>
-  <li><a href="#make-sure-you-have-devtools-installed" id="toc-make-sure-you-have-devtools-installed" class="nav-link" data-scroll-target="#make-sure-you-have-devtools-installed">make sure you have devtools installed</a></li>
-  <li><a href="#install-from-github" id="toc-install-from-github" class="nav-link" data-scroll-target="#install-from-github">install from GitHub</a></li>
-  <li><a href="#if-this-install-fails-use-this-alternative-method-using-package-pak" id="toc-if-this-install-fails-use-this-alternative-method-using-package-pak" class="nav-link" data-scroll-target="#if-this-install-fails-use-this-alternative-method-using-package-pak">if this install fails, use this alternative method, using package ‘pak’:</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/edit/main/content/HumanCausedMortality.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/HumanCausedMortality.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -299,21 +296,14 @@ Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including
 </section>
 <section id="seriousinjury-r-package-and-shiny-app" class="level2">
 <h2 class="anchored" data-anchor-id="seriousinjury-r-package-and-shiny-app"><em>SeriousInjury</em> R-Package and Shiny App</h2>
-<p>Locations: “C:” and repositories listed below A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full">Carretta and Henry (2022)</a> publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury The SeriousInjury package can be installed in R as follows:</p>
-</section>
-<section id="make-sure-you-have-devtools-installed" class="level1">
-<h1>make sure you have devtools installed</h1>
-<p>if (!require(‘devtools’)) install.packages(‘devtools’)</p>
-</section>
-<section id="install-from-github" class="level1">
-<h1>install from GitHub</h1>
-<p>devtools::install_github(‘SWFSC/SeriousInjury’)</p>
-</section>
-<section id="if-this-install-fails-use-this-alternative-method-using-package-pak" class="level1">
-<h1>if this install fails, use this alternative method, using package ‘pak’:</h1>
-<p>pak::pkg_install(“SWFSC/SeriousInjury”)</p>
-<p>library(SeriousInjury) # see SeriousInjuryTutorial() for a guide to the package</p>
-<p>Once installed, the function SeriousInjuryTutorial( ) opens an HTML window as shown in Figure 2. Figure 2. SeriousInjury Tutorial screen grab</p>
+<p>Locations: “C:” and repositories listed below A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full">Carretta and Henry (2022)</a> publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury</p>
+<p>Once installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/SeriousInjuryShiny.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>Caption</figcaption>
+</figure>
+</div>
 
 
 </section>

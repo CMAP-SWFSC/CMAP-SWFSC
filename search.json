@@ -54,7 +54,7 @@
     "href": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
     "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
     "section": "SeriousInjury R-Package and Shiny App",
-    "text": "SeriousInjury R-Package and Shiny App\nLocations: “C:” and repositories listed below A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the Carretta and Henry (2022) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury The SeriousInjury package can be installed in R as follows:",
+    "text": "SeriousInjury R-Package and Shiny App\nLocations: “C:” and repositories listed below A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the Carretta and Henry (2022) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury\nOnce installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.\n\n\n\nCaption",
     "crumbs": [
       "Human-Caused Mortality"
     ]
