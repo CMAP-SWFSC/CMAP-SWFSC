@@ -9,3 +9,32 @@ Quantifying human-caused mortality and serious injury (HCMSI) is an integral par
 1.  We use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast [Carretta 2024](https://repository.library.noaa.gov/view/noaa/61363), and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction [(Barlow and Cameron 2003)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1748-7692.2003.tb01108.x). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.
 
 2.  Other sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements [Carretta et al. 2024](https://repository.library.noaa.gov/view/noaa/66175), and acoustic trauma [(St.Leger and Danil 2011)](https://www.ingentaconnect.com/content/mts/mtsj/2011/00000045/00000006/art00012)
+
+## Annual MMPA-SAR requirements to enumerate HCMSI
+
+Annually, accounting for HCMSI is required to 1) produce an annual HCMSI Technical Memorandum and 2) update SARS. The annual HCMSI is produced in the format of Carretta et al. (2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package). The annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.  
+Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov, Nancy.Young@noaa.gov, Amelia.Brower@noaa.gov, Amanda.Bradford@noaa.gov, Kayleigh.Somers@noaa.gov .
+
+## *SeriousInjury* R-Package and Shiny App
+
+Locations: “C:\Carretta\Github\SeriousInjury” and repositories listed below
+A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the [Carretta and Henry (2022)](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: 
+https://github.com/SWFSC/SeriousInjury 
+https://github.com/JimCarretta/SeriousInjury
+The SeriousInjury package can be installed in R as follows: 
+
+# make sure you have devtools installed
+if (!require('devtools')) install.packages('devtools')
+
+# install from GitHub
+devtools::install_github('SWFSC/SeriousInjury')
+
+# if this install fails, use this alternative method, using package 'pak':
+pak::pkg_install("SWFSC/SeriousInjury")
+
+library(SeriousInjury)
+# see SeriousInjuryTutorial() for a guide to the package
+
+Once installed, the function SeriousInjuryTutorial( ) opens an HTML window as shown in Figure 2.
+Figure 2. SeriousInjury Tutorial screen grab
+
