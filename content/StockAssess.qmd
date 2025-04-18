@@ -47,7 +47,10 @@ Eric.Patterson@noaa.gov, Kristy.Long@noaa.gov, Megan.Wallen@noaa.gov  (National 
 
 ## References
 [Carretta, James V., Justin Greenman, Kristin Wilkinson, Lauren Saez, Dan Lawson, and Justin Viezbicke. 2024. Sources of human-related injury and mortality for U.S. Pacific West Coast marine mammal stock assessments, 2018-2022. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-705.](https://doi.org/10.25923/tj6f-y570)
+
 [Carretta, J.V. and A. Henry. 2022. Risk assessment of large whale entanglements and vessel strikes from case narratives and random forest classification trees. Frontiers in Marine Science.](https://doi.org/10.3389/fmars.2022.863070)
+
 [Carretta, J.V., 2018. A machine-learning approach to assign species to ‘unidentified’entangled whales. Endangered Species Research, 36, pp.89-98.](https://doi.org/10.3354/esr00894)
+
 [NMFS. 2023. Guidelines for Preparing Stock Assessment Reports Pursuant to the Marine Mammal Protection Act. Protected Resources Policy Directive 02-204-01.](https://www.fisheries.noaa.gov/s3/2023-05/02-204-01-Final-GAMMS-IV-Revisions-clean-1-kdr.pdf)
 
