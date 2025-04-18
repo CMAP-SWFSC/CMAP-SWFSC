@@ -40,6 +40,26 @@
     ]
   },
   {
+    "objectID": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
+    "href": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "Annual MMPA-SAR requirements to enumerate HCMSI",
+    "text": "Annual MMPA-SAR requirements to enumerate HCMSI\nAnnually, accounting for HCMSI is required to 1) produce an annual HCMSI Technical Memorandum and 2) update SARS. The annual HCMSI is produced in the format of Carretta et al. (2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package). The annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.\nMany contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov, Nancy.Young@noaa.gov, Amelia.Brower@noaa.gov, Amanda.Bradford@noaa.gov, Kayleigh.Somers@noaa.gov .",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
+    "href": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "SeriousInjury R-Package and Shiny App",
+    "text": "SeriousInjury R-Package and Shiny App\nLocations: “C:” and repositories listed below A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is / was under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the Carretta and Henry (2022) publication, and my finest work. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury The SeriousInjury package can be installed in R as follows:",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
     "objectID": "content/PAM.html",
     "href": "content/PAM.html",
     "title": "Southwest Acoustic Ecology Lab (SAEL)",
