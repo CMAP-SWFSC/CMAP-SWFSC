@@ -26,7 +26,7 @@ Ideally, the final 2024 version should have been published prior to drafting a 2
 This necessitates accepting changes to the draft 2024 version to use as a template for the 2025 report, not a good situation.
 A variety of techniques are being used to revise the reports annually, from the simplest (Word markup and track changes, SWFSC), to more complex R-based revision, using Quarto or Markdown (MML, PIFSC).
 Common to all approaches is the requirement to show transparent revisions for the regional Scientific Review Groups and the public to assess.
-Some examples of how actual revisions should appear are shown in Figure 1.
+One example of how revisions should appear:
 
 ![Figure 1](images/SAR_edits_ex.png){width="800"}
 
