@@ -44,7 +44,7 @@ Prorate unidentified whale entanglements and vessel strikes to species: **Prorat
 Unidentified large whale entanglements are prorated to species, using a simple *randomForest* model (Carretta 2018).
 Used in tabulating human-caused mortality and serious injury for large whale SARs.
 
-## List of current SAR personnel and roles
+## SAR contacts and roles
 
 Jim.Carretta\@noaa.gov (Writes, edits, coordinates the production of SARs from multiple Science Centers. Sometimes responsible for ensuring that final SARs are 508 compliant for posting on websites. Otherwise, someone in the publications division (formerly Kit.Johnston\@noaa.gov, retired) who deals with Technical Memoranda should help with this.
 Compliant documents need to be sent to the NOAA Institutional Repository to be checked prior to publication.
