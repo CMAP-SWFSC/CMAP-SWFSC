@@ -249,6 +249,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#editors-duties-file-locations-workflow-contacts" id="toc-editors-duties-file-locations-workflow-contacts" class="nav-link active" data-scroll-target="#editors-duties-file-locations-workflow-contacts">Editor’s Duties, File Locations, Workflow, Contacts</a></li>
   <li><a href="#r-code-related-to-sars" id="toc-r-code-related-to-sars" class="nav-link" data-scroll-target="#r-code-related-to-sars">R-Code related to SARS</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/edit/main/content/StockAssess.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/StockAssess.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -287,7 +288,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="r-code-related-to-sars" class="level2">
 <h2 class="anchored" data-anchor-id="r-code-related-to-sars">R-Code related to SARS</h2>
 <p>See the <a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code">code folder</a> of this repository. Plot sightings and effort maps directly from DAS data: <strong>Plot DAS Effort and Sightings Data SAR version.R</strong> Code loops through all species codes and generates JPEG maps of on-effort segments and on + off-effort sightings. Naming convention uses numeric species codes for cetaceans, e.g.&nbsp;<em>044 Plot.JPG</em> = Dall’s Porpoise. There is also a Github package (‘CruzPlot’) that can be used to produce low-resolution plots of DAS effort and sightings.</p>
-<p>Prorate unidentified whale entanglements and vessel strikes to species: <strong>Prorate_Unid_Whale_Entanglements.R</strong> Unidentified large whale entanglements are prorated to species, using a simple randomForest model (Carretta 2018). Used in tabulating human-caused mortality and serious injury for large whale SARs.</p>
+<p>Prorate unidentified whale entanglements and vessel strikes to species: <strong>Prorate_Unid_Whale_Entanglements.R</strong>. Unidentified large whale entanglements are prorated to species, using a simple <em>randomForest</em> model (Carretta 2018). Used in tabulating human-caused mortality and serious injury for large whale SARs.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p><a href="https://doi.org/10.25923/tj6f-y570">Carretta, James V., Justin Greenman, Kristin Wilkinson, Lauren Saez, Dan Lawson, and Justin Viezbicke. 2024. Sources of human-related injury and mortality for U.S. Pacific West Coast marine mammal stock assessments, 2018-2022. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-705.</a> <a href="https://doi.org/10.3389/fmars.2022.863070">Carretta, J.V. and A. Henry. 2022. Risk assessment of large whale entanglements and vessel strikes from case narratives and random forest classification trees. Frontiers in Marine Science.</a> <a href="https://doi.org/10.3354/esr00894">Carretta, J.V., 2018. A machine-learning approach to assign species to ’unidentified’entangled whales. Endangered Species Research, 36, pp.89-98.</a> <a href="https://www.fisheries.noaa.gov/s3/2023-05/02-204-01-Final-GAMMS-IV-Revisions-clean-1-kdr.pdf">NMFS. 2023. Guidelines for Preparing Stock Assessment Reports Pursuant to the Marine Mammal Protection Act. Protected Resources Policy Directive 02-204-01.</a></p>
 
 
 </section>
