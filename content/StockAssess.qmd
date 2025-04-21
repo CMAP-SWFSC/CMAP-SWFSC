@@ -7,6 +7,8 @@ editor:
 
 ## Editor Duties, File Locations, Workflow, Contacts
 
+![](images/SARS_Directory.png){width="800"}
+
 The SAR editor should be familiar with the [Guidelines for Preparing Marine Mammal Stock Assessments (NMFS 2023)](https://www.fisheries.noaa.gov/national/marine-mammal-protection/guidelines-assessing-marine-mammal-stocks) and section 117 of the Marine Mammal Protection Act.
 Keeping up with the marine mammal literature is also critical.
 The editor is also responsible for drafting and coordinating responses to public comments on draft SARS.
