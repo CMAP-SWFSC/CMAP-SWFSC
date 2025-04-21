@@ -1,167 +1,5 @@
 [
   {
-    "objectID": "content/Publications.html",
-    "href": "content/Publications.html",
-    "title": "Publications and Presentations",
-    "section": "",
-    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html",
-    "crumbs": [
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "content/DataManagement.html",
-    "href": "content/DataManagement.html",
-    "title": "Data Management",
-    "section": "",
-    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/HumanCausedMortality.html",
-    "href": "content/HumanCausedMortality.html",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
-    "section": "",
-    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast Carretta 2024, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements Carretta et al. 2024, and acoustic trauma (St.Leger and Danil 2011)",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
-  },
-  {
-    "objectID": "content/HumanCausedMortality.html#background",
-    "href": "content/HumanCausedMortality.html#background",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
-    "section": "",
-    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast Carretta 2024, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements Carretta et al. 2024, and acoustic trauma (St.Leger and Danil 2011)",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
-  },
-  {
-    "objectID": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
-    "href": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
-    "section": "Annual MMPA-SAR requirements to enumerate HCMSI",
-    "text": "Annual MMPA-SAR requirements to enumerate HCMSI\nAnnually, accounting for HCMSI is required to 1) produce an annual HCMSI Technical Memorandum and 2) update SARS.\nThe annual HCMSI is produced in the format of Carretta et al. (2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package).\nThe annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.\nMany contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov, Nancy.Young@noaa.gov, Amelia.Brower@noaa.gov, Amanda.Bradford@noaa.gov, Kayleigh.Somers@noaa.gov .",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
-  },
-  {
-    "objectID": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
-    "href": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
-    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
-    "section": "SeriousInjury R-Package and Shiny App",
-    "text": "SeriousInjury R-Package and Shiny App\nA Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the Carretta and Henry (2022) publication. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury\nOnce installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.\n\n\n\nCaption",
-    "crumbs": [
-      "Human-Caused Mortality"
-    ]
-  },
-  {
-    "objectID": "content/PAM.html",
-    "href": "content/PAM.html",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
-    "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
-    "crumbs": [
-      "Passive Acoustics"
-    ]
-  },
-  {
-    "objectID": "content/PAM.html#background",
-    "href": "content/PAM.html#background",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
-    "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
-    "crumbs": [
-      "Passive Acoustics"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html",
-    "href": "content/SeaLionDiets.html",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html#background",
-    "href": "content/SeaLionDiets.html#background",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html",
-    "href": "content/Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html#background",
-    "href": "content/Projects.html#background",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/ShipSurveys.html",
-    "href": "content/ShipSurveys.html",
-    "title": "Shipboard Surveys",
-    "section": "",
-    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
-    "crumbs": [
-      "Population Surveys",
-      "Shipboard Surveys"
-    ]
-  },
-  {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
-    "crumbs": [
-      "Habitat Models"
-    ]
-  },
-  {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
-    "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
-    ]
-  },
-  {
-    "objectID": "content/TRT.html",
-    "href": "content/TRT.html",
-    "title": "Take Reduction Team (TRT) Efforts",
-    "section": "",
-    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
-    "crumbs": [
-      "Take Reduction"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SWFSC-CMAP Lab Manual",
@@ -202,6 +40,76 @@
     ]
   },
   {
+    "objectID": "content/HumanCausedMortality.html",
+    "href": "content/HumanCausedMortality.html",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "",
+    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast Carretta 2024, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements Carretta et al. 2024, and acoustic trauma (St.Leger and Danil 2011)",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/HumanCausedMortality.html#background",
+    "href": "content/HumanCausedMortality.html#background",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "",
+    "text": "Quantifying human-caused mortality and serious injury (HCMSI) is an integral part of marine mammal stock assessments. Sources include fishery bycatch, marine debris entanglements, shootings, acoustic trauma, and vessel strikes.\n\nWe use fishery observer data to provide annual estimates of marine mammal bycatch in fisheries along the U.S. West Coast Carretta 2024, and to identify environmental factors and fishing gear improvements to reduce bycatch risk. We work with the Pacific Offshore Take Reduction Team that includes fishermen, conservation organizations, and scientists, to evaluate bycatch trends in the U.S. West Coast swordfish gillnet fishery and implement strategies for bycatch reduction (Barlow and Cameron 2003). Our involvement in bycatch reduction and assessment led to the introduction of acoustic pingers into the swordfish gillnet fishery in the 1990s, which resulted in the elimination of beaked whale bycatch and large reductions in the bycatch of other marine mammal species.\nOther sources of human-caused mortality and serious injury include vessel strikes, shootings, marine debris entanglements Carretta et al. 2024, and acoustic trauma (St.Leger and Danil 2011)",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
+    "href": "content/HumanCausedMortality.html#annual-mmpa-sar-requirements-to-enumerate-hcmsi",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "Annual MMPA-SAR requirements to enumerate HCMSI",
+    "text": "Annual MMPA-SAR requirements to enumerate HCMSI\nAnnually, accounting for HCMSI is required to 1) produce an annual HCMSI Technical Memorandum and 2) update SARS.\nThe annual HCMSI is produced in the format of Carretta et al. (2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package).\nThe annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.\nMany contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov, Nancy.Young@noaa.gov, Amelia.Brower@noaa.gov, Amanda.Bradford@noaa.gov, Kayleigh.Somers@noaa.gov .",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/HumanCausedMortality.html#bycatch-estimation-in-ca-swordfish-gillnet-fishery",
+    "href": "content/HumanCausedMortality.html#bycatch-estimation-in-ca-swordfish-gillnet-fishery",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "Bycatch Estimation in CA Swordfish gillnet fishery",
+    "text": "Bycatch Estimation in CA Swordfish gillnet fishery\nThis fishery is scheduled for phase-out in 2027, stay tuned. Only a handful of vessels participating. Data is housed at PacFin and requires a login and a data confidentiality agreement. The files used for data manipulation and analysis are in the directory “C:/CARRETTA/Github/DGNBycatch” (R-Studio project, not a package). The entire workflow including data download, variable selection, and bycatch estimation is found in the HTML file: “C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.html”, Which is generated via “C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.RMD”\n\n\n\nCaption\n\n\nPeople to know: charles.villafana@noaa.gov (Observer program). He knows all the PacFin folks housing the data, including: Ryann Turcotte RTurcotte@psmfc.org , and Robert Ryznar RRyznar@psmfc.org",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
+    "href": "content/HumanCausedMortality.html#seriousinjury-r-package-and-shiny-app",
+    "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
+    "section": "SeriousInjury R-Package and Shiny App",
+    "text": "SeriousInjury R-Package and Shiny App\nA Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the Carretta and Henry (2022) publication. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury\nOnce installed, the function SeriousInjuryTutorial( ) opens an HTML window. You can also run the Shiny App, based on instructions in the tutorial.\n\n\n\nCaption",
+    "crumbs": [
+      "Human-Caused Mortality"
+    ]
+  },
+  {
+    "objectID": "content/PAM.html",
+    "href": "content/PAM.html",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "section": "",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "crumbs": [
+      "Passive Acoustics"
+    ]
+  },
+  {
+    "objectID": "content/PAM.html#background",
+    "href": "content/PAM.html#background",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "section": "",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "crumbs": [
+      "Passive Acoustics"
+    ]
+  },
+  {
     "objectID": "content/PopAssess.html",
     "href": "content/PopAssess.html",
     "title": "Stock Assessments",
@@ -222,73 +130,13 @@
     ]
   },
   {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
+    "objectID": "content/TRT.html",
+    "href": "content/TRT.html",
+    "title": "Take Reduction Team (TRT) Efforts",
     "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
     "crumbs": [
-      "Inventory"
-    ]
-  },
-  {
-    "objectID": "content/MMPA_Implementation.html",
-    "href": "content/MMPA_Implementation.html",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide (MMPA Implementation Carretta.docx), located in the directory shown below:",
-    "crumbs": [
-      "MMPA Implementation"
-    ]
-  },
-  {
-    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide (MMPA Implementation Carretta.docx), located in the directory shown below:",
-    "crumbs": [
-      "MMPA Implementation"
-    ]
-  },
-  {
-    "objectID": "content/Surveys.html",
-    "href": "content/Surveys.html",
-    "title": "Population Surveys",
-    "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
-    "crumbs": [
-      "Population Surveys"
-    ]
-  },
-  {
-    "objectID": "content/Surveys.html#background",
-    "href": "content/Surveys.html#background",
-    "title": "Population Surveys",
-    "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
-    "crumbs": [
-      "Population Surveys"
-    ]
-  },
-  {
-    "objectID": "content/Software.html",
-    "href": "content/Software.html",
-    "title": "Software",
-    "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "title": "Software",
-    "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
-    "crumbs": [
-      "Software"
+      "Take Reduction"
     ]
   },
   {
@@ -309,6 +157,88 @@
     "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
     "crumbs": [
       "Risk Assessment"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html",
+    "href": "content/SeaLionDiets.html",
+    "title": "Long Term Dataset on Sea Lion Diets",
+    "section": "",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#background",
+    "href": "content/SeaLionDiets.html#background",
+    "title": "Long Term Dataset on Sea Lion Diets",
+    "section": "",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/ShipSurveys.html",
+    "href": "content/ShipSurveys.html",
+    "title": "Shipboard Surveys",
+    "section": "",
+    "text": "Background Since 1991, the Marine Mammal and Turtle Division (MMTD), previously the Protected Resources Division (PRD), has conducted large-vessel cetacean and ecosystem assessment surveys in waters off the U.S. West Coast. These line-transect surveys, conducted aboard NOAA research vessels (David Starr Jordan, McArthur, McArthur II, Reuben Lasker, Bell M. Shimada), typically occur in summer and fall and span waters out 300 nautical miles offshore, from the US-Canada to US-Mexico border, but sometimes include waters in Canada or Mexico as well. Data types collected principally include visual sightings data for cetaceans and seabirds, passive acoustic (e.g., towed or drifting array) data for cetaceans, tissue biopsy sampling used for genetics analysis, and oceanographic sampling. Survey data have been used to estimate cetacean population size and trends, delineate cetacean population stock structure, describe cetacean and seabird distributions and hotspots, develop species distribution models, and inform marine mammal stock assessment reports pursuant to statutory requirements under the MMPA.\nLink to our Website with more information",
+    "crumbs": [
+      "Population Surveys",
+      "Shipboard Surveys"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html",
+    "href": "content/MMPA_Implementation.html",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx, located in the directory shown below:\n\nContent in these CMAP web pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx, located in the directory shown below:\n\nContent in these CMAP web pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/PlaneSurveys.html",
+    "href": "content/PlaneSurveys.html",
+    "title": "Aerial Surveys",
+    "section": "",
+    "text": "Background Paragraph (what they are, why we do it)",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html",
+    "href": "content/DataManagement.html",
+    "title": "Data Management",
+    "section": "",
+    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "crumbs": [
+      "Habitat Models"
     ]
   },
   {
@@ -359,6 +289,86 @@
     "text": "References\nCarretta, James V., Justin Greenman, Kristin Wilkinson, Lauren Saez, Dan Lawson, and Justin Viezbicke. 2024. Sources of human-related injury and mortality for U.S. Pacific West Coast marine mammal stock assessments, 2018-2022. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-705.\nCarretta, J.V. and A. Henry. 2022. Risk assessment of large whale entanglements and vessel strikes from case narratives and random forest classification trees. Frontiers in Marine Science.\nCarretta, J.V., 2018. A machine-learning approach to assign species to ’unidentified’entangled whales. Endangered Species Research, 36, pp.89-98.\nNMFS. 2023. Guidelines for Preparing Stock Assessment Reports Pursuant to the Marine Mammal Protection Act. Protected Resources Policy Directive 02-204-01.",
     "crumbs": [
       "Stock Assessments"
+    ]
+  },
+  {
+    "objectID": "content/Publications.html",
+    "href": "content/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "content/Surveys.html",
+    "href": "content/Surveys.html",
+    "title": "Population Surveys",
+    "section": "",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
+    "crumbs": [
+      "Population Surveys"
+    ]
+  },
+  {
+    "objectID": "content/Surveys.html#background",
+    "href": "content/Surveys.html#background",
+    "title": "Population Surveys",
+    "section": "",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys Aerial Surveys",
+    "crumbs": [
+      "Population Surveys"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "crumbs": [
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/Software.html",
+    "href": "content/Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "title": "Software",
+    "section": "",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html",
+    "href": "content/Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html#background",
+    "href": "content/Projects.html#background",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Data Management"
     ]
   },
   {
