@@ -14,7 +14,8 @@ In addition to DAS data collected with WinCruz and Viscruz on our surveys, there
 
 ![](images/Scanned_RV-Data.png){width="900"}
 
-## R-utilities related to cruise data. 
+## R-utilities related to cruise data.
+
 ![](images/R_utilities.png){width="900"}
 
 Several R-scripts were developed for the 2024 CalCurCEAS cruise to aid with entering group sizes into DAS files from green books (3 related scripts, appendObserverEstimates.R, misc_DAS_funcs.R, and appendGroupSizes.R, see screen grab above for directory listing). All three scripts are required to interact with a specified DAS file and a CSV file that the user creates to house the daily data for uptake into a specified DAS file. Another useful script is get_Sightings_swfscDAS.R that interacts directly with a DAS file and the R-package swfscDAS to produce a CSV file of all sighting information (see swfscDAS package vignette). There is also a script (DAS_to_JSON.R) used for converting DAS files to JSON (for plotting in CalTopo for example). See the [Software](https://cmap-swfsc.github.io/CMAP-SWFSC/content/Software.html) page for more info.
