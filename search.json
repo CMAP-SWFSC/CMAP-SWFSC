@@ -166,8 +166,8 @@
     "objectID": "content/ShipSurveys.html#r-utilities-related-to-cruise-data.",
     "href": "content/ShipSurveys.html#r-utilities-related-to-cruise-data.",
     "title": "Shipboard Surveys",
-    "section": "R-utilities related to cruise data. ",
-    "text": "R-utilities related to cruise data. \nSeveral R-scripts were developed for the 2024 CalCurCEAS cruise to aid with entering group sizes into DAS files from green books (3 related scripts, appendObserverEstimates.R, misc_DAS_funcs.R, and appendGroupSizes.R, see screen grab above for directory listing). All three scripts are required to interact with a specified DAS file and a CSV file that the user creates to house the daily data for uptake into a specified DAS file. Another useful script is get_Sightings_swfscDAS.R that interacts directly with a DAS file and the R-package swfscDAS to produce a CSV file of all sighting information (see swfscDAS package vignette). There is also a script (DAS_to_JSON.R) used for converting DAS files to JSON (for plotting in CalTopo for example). See the Software page for more info.\nLink to our Website with more information",
+    "section": "R-utilities related to cruise data.",
+    "text": "R-utilities related to cruise data.\n\nSeveral R-scripts were developed for the 2024 CalCurCEAS cruise to aid with entering group sizes into DAS files from green books (3 related scripts, appendObserverEstimates.R, misc_DAS_funcs.R, and appendGroupSizes.R, see screen grab above for directory listing). All three scripts are required to interact with a specified DAS file and a CSV file that the user creates to house the daily data for uptake into a specified DAS file. Another useful script is get_Sightings_swfscDAS.R that interacts directly with a DAS file and the R-package swfscDAS to produce a CSV file of all sighting information (see swfscDAS package vignette). There is also a script (DAS_to_JSON.R) used for converting DAS files to JSON (for plotting in CalTopo for example). See the Software page for more info.\nLink to our Website with more information",
     "crumbs": [
       "Population Surveys",
       "Shipboard Surveys"
