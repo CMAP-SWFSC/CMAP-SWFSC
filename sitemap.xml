@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Publications.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/DataManagement.html</loc>
-    <lastmod>2025-04-21T18:02:31.154Z</lastmod>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/index.html</loc>
+    <lastmod>2025-04-21T18:07:59.735Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HumanCausedMortality.html</loc>
-    <lastmod>2025-04-21T18:02:31.154Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.722Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PAM.html</loc>
-    <lastmod>2025-04-21T18:02:31.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/SeaLionDiets.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Projects.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HabitatModels.html</loc>
-    <lastmod>2025-04-21T18:02:31.154Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html</loc>
-    <lastmod>2025-04-21T18:02:31.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/TRT.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/index.html</loc>
-    <lastmod>2025-04-21T18:02:31.169Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.726Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PopAssess.html</loc>
-    <lastmod>2025-04-21T18:02:31.159Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.726Z</lastmod>
   </url>
   <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-Test.html</loc>
-    <lastmod>2025-04-21T18:02:31.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Inventory.html</loc>
-    <lastmod>2025-04-21T18:02:31.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/MMPA_Implementation.html</loc>
-    <lastmod>2025-04-21T18:02:31.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Surveys.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Software.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/TRT.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Risk.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/SeaLionDiets.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/MMPA_Implementation.html</loc>
+    <lastmod>2025-04-21T18:07:59.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html</loc>
+    <lastmod>2025-04-21T18:07:59.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/DataManagement.html</loc>
+    <lastmod>2025-04-21T18:07:59.721Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HabitatModels.html</loc>
+    <lastmod>2025-04-21T18:07:59.722Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/StockAssess.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Publications.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Surveys.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-Test.html</loc>
+    <lastmod>2025-04-21T18:07:59.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Inventory.html</loc>
+    <lastmod>2025-04-21T18:07:59.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Software.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Projects.html</loc>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Resources.html</loc>
-    <lastmod>2025-04-21T18:02:31.160Z</lastmod>
+    <lastmod>2025-04-21T18:07:59.727Z</lastmod>
   </url>
 </urlset>
