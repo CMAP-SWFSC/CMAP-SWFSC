@@ -39,6 +39,8 @@ website:
             text: Shipboard Surveys
           - href: content/PlaneSurveys.qmd
             text: Aerial Surveys
+      - href: content/MMPA_Implementation.qmd
+        text: MMPA Implementation
       - href: content/StockAssess.qmd
         text: Stock Assessments
       - href: content/PopAssess.qmd
@@ -70,8 +72,7 @@ website:
         text: Publications
       - href: content/Resources.qmd
         text: Resources
-      - href: content/MMPA_Implementation.qmd
-        text: MMPA Implementation
+
 
         
 format:
