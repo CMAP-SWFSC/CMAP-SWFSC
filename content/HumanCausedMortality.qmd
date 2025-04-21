@@ -19,6 +19,17 @@ The annual HCMSI is produced in the format of Carretta et al. (2024), based on R
 The annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.\
 Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson\@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman\@noaa.gov, Lauren.Saez\@noaa.gov, Nancy.Young\@noaa.gov, Amelia.Brower\@noaa.gov, Amanda.Bradford\@noaa.gov, Kayleigh.Somers\@noaa.gov .
 
+## Bycatch Estimation in CA Swordfish gillnet fishery
+
+This fishery is scheduled for phase-out in 2027, stay tuned. Only a handful of vessels participating. Data is housed at [PacFin](https://reports.psmfc.org/pacfin/f?p=501:1000) and requires a login and a data confidentiality agreement. The files used for data manipulation and analysis are in the directory “C:/CARRETTA/Github/DGNBycatch” (R-Studio project, not a package). The entire workflow including data download, variable selection, and bycatch estimation is found in the HTML file: 
+“C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.html”,
+Which is generated via “C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.RMD”
+
+![Caption](images/DGN_Bycatch_1.png){width="900"}
+
+People to know: charles.villafana@noaa.gov (Observer program). He knows all the PacFin folks housing the data, including: Ryann Turcotte RTurcotte@psmfc.org , and Robert Ryznar RRyznar@psmfc.org 
+
+
 ## *SeriousInjury* R-Package and Shiny App
 
 A Shiny Tool and R-Package used to assess the probability of death for large whale injuries. It is under consideration for use as a NMFS National Policy for assessing large whale injuries. Based on the [Carretta and Henry (2022)](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.863070/full) publication. Two identical Github repositories exist for the SeriousInjury package: https://github.com/SWFSC/SeriousInjury https://github.com/JimCarretta/SeriousInjury
