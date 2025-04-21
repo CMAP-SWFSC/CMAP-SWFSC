@@ -1,22 +1,42 @@
 [
   {
-    "objectID": "content/Publications.html",
-    "href": "content/Publications.html",
-    "title": "Publications and Presentations",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "Publications"
+      "Home"
     ]
   },
   {
-    "objectID": "content/DataManagement.html",
-    "href": "content/DataManagement.html",
-    "title": "Data Management",
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "Data Management"
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-lab-manual",
+    "href": "index.html#how-to-use-this-lab-manual",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "How to Use this Lab Manual",
+    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
+    "href": "index.html#cmap-team-how-to-backup-your-brain",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "CMAP Team: How to Backup Your Brain",
+    "text": "CMAP Team: How to Backup Your Brain\nWe have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a ‘field guide to our brains’, and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:\n\nHard Drive Backup\nWe have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.\n\n\nCMAP Github Organization and Lab Manual\nThe Lab Manual will serve as the initial ‘go to’ place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? Let us know! To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.\n\nGet Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
+    "crumbs": [
+      "Home"
     ]
   },
   {
@@ -90,6 +110,56 @@
     ]
   },
   {
+    "objectID": "content/PopAssess.html",
+    "href": "content/PopAssess.html",
+    "title": "Stock Assessments",
+    "section": "",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "crumbs": [
+      "Population Assessment"
+    ]
+  },
+  {
+    "objectID": "content/PopAssess.html#background",
+    "href": "content/PopAssess.html#background",
+    "title": "Stock Assessments",
+    "section": "",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "crumbs": [
+      "Population Assessment"
+    ]
+  },
+  {
+    "objectID": "content/TRT.html",
+    "href": "content/TRT.html",
+    "title": "Take Reduction Team (TRT) Efforts",
+    "section": "",
+    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
+    "crumbs": [
+      "Take Reduction"
+    ]
+  },
+  {
+    "objectID": "content/Risk.html",
+    "href": "content/Risk.html",
+    "title": "Population Risk Assessment",
+    "section": "",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
+    "objectID": "content/Risk.html#background",
+    "href": "content/Risk.html#background",
+    "title": "Population Risk Assessment",
+    "section": "",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
     "objectID": "content/SeaLionDiets.html",
     "href": "content/SeaLionDiets.html",
     "title": "Long Term Dataset on Sea Lion Diets",
@@ -107,26 +177,6 @@
     "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
     "crumbs": [
       "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html",
-    "href": "content/Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html#background",
-    "href": "content/Projects.html#background",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Data Management"
     ]
   },
   {
@@ -174,107 +224,6 @@
     ]
   },
   {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
-    "crumbs": [
-      "Habitat Models"
-    ]
-  },
-  {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
-    "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
-    ]
-  },
-  {
-    "objectID": "content/TRT.html",
-    "href": "content/TRT.html",
-    "title": "Take Reduction Team (TRT) Efforts",
-    "section": "",
-    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
-    "crumbs": [
-      "Take Reduction"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#how-to-use-this-lab-manual",
-    "href": "index.html#how-to-use-this-lab-manual",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "How to Use this Lab Manual",
-    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
-    "href": "index.html#cmap-team-how-to-backup-your-brain",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "CMAP Team: How to Backup Your Brain",
-    "text": "CMAP Team: How to Backup Your Brain\nWe have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a ‘field guide to our brains’, and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:\n\nHard Drive Backup\nWe have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.\n\n\nCMAP Github Organization and Lab Manual\nThe Lab Manual will serve as the initial ‘go to’ place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? Let us know! To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.\n\nGet Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/PopAssess.html",
-    "href": "content/PopAssess.html",
-    "title": "Stock Assessments",
-    "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
-    "crumbs": [
-      "Population Assessment"
-    ]
-  },
-  {
-    "objectID": "content/PopAssess.html#background",
-    "href": "content/PopAssess.html#background",
-    "title": "Stock Assessments",
-    "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
-    "crumbs": [
-      "Population Assessment"
-    ]
-  },
-  {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
-    "crumbs": [
-      "Inventory"
-    ]
-  },
-  {
     "objectID": "content/MMPA_Implementation.html",
     "href": "content/MMPA_Implementation.html",
     "title": "MMPA_Implementation",
@@ -295,63 +244,34 @@
     ]
   },
   {
-    "objectID": "content/Surveys.html",
-    "href": "content/Surveys.html",
-    "title": "Population Surveys",
+    "objectID": "content/PlaneSurveys.html",
+    "href": "content/PlaneSurveys.html",
+    "title": "Aerial Surveys",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys\nAerial Surveys",
+    "text": "Background Paragraph (what they are, why we do it)",
     "crumbs": [
-      "Population Surveys"
+      "Population Surveys",
+      "Aerial Surveys"
     ]
   },
   {
-    "objectID": "content/Surveys.html#background",
-    "href": "content/Surveys.html#background",
-    "title": "Population Surveys",
+    "objectID": "content/DataManagement.html",
+    "href": "content/DataManagement.html",
+    "title": "Data Management",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys\nAerial Surveys",
+    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages",
     "crumbs": [
-      "Population Surveys"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/Software.html",
-    "href": "content/Software.html",
-    "title": "Software",
-    "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
     "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "title": "Software",
-    "section": "",
-    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Risk.html",
-    "href": "content/Risk.html",
-    "title": "Population Risk Assessment",
-    "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
-    "crumbs": [
-      "Risk Assessment"
-    ]
-  },
-  {
-    "objectID": "content/Risk.html#background",
-    "href": "content/Risk.html#background",
-    "title": "Population Risk Assessment",
-    "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
-    "crumbs": [
-      "Risk Assessment"
+      "Habitat Models"
     ]
   },
   {
@@ -402,6 +322,86 @@
     "text": "References\nCarretta, James V., Justin Greenman, Kristin Wilkinson, Lauren Saez, Dan Lawson, and Justin Viezbicke. 2024. Sources of human-related injury and mortality for U.S. Pacific West Coast marine mammal stock assessments, 2018-2022. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-705.\nCarretta, J.V. and A. Henry. 2022. Risk assessment of large whale entanglements and vessel strikes from case narratives and random forest classification trees. Frontiers in Marine Science.\nCarretta, J.V., 2018. A machine-learning approach to assign species to ’unidentified’entangled whales. Endangered Species Research, 36, pp.89-98.\nNMFS. 2023. Guidelines for Preparing Stock Assessment Reports Pursuant to the Marine Mammal Protection Act. Protected Resources Policy Directive 02-204-01.",
     "crumbs": [
       "Stock Assessments"
+    ]
+  },
+  {
+    "objectID": "content/Publications.html",
+    "href": "content/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "content/Surveys.html",
+    "href": "content/Surveys.html",
+    "title": "Population Surveys",
+    "section": "",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys\nAerial Surveys",
+    "crumbs": [
+      "Population Surveys"
+    ]
+  },
+  {
+    "objectID": "content/Surveys.html#background",
+    "href": "content/Surveys.html#background",
+    "title": "Population Surveys",
+    "section": "",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type: Shipboard Surveys\nAerial Surveys",
+    "crumbs": [
+      "Population Surveys"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "crumbs": [
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/Software.html",
+    "href": "content/Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "title": "Software",
+    "section": "",
+    "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html",
+    "href": "content/Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html#background",
+    "href": "content/Projects.html#background",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Data Management"
     ]
   },
   {
