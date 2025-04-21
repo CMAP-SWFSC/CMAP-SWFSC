@@ -7,6 +7,7 @@ Our program conducts ship-, aerial-, and land-based surveys of marine mammals th
 
 Surveys by Type:
 [Shipboard Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html)
+
 [Aerial Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html)
 
 
