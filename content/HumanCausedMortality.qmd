@@ -23,7 +23,7 @@ Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including
 
 This fishery is scheduled for phase-out in 2027, stay tuned. Only a handful of vessels participating. Data is housed at [PacFin](https://reports.psmfc.org/pacfin/f?p=501:1000) and requires a login and a data confidentiality agreement. The files used for data manipulation and analysis are in the directory “C:/CARRETTA/Github/DGNBycatch” (R-Studio project, not a package). The entire workflow including data download, variable selection, and bycatch estimation is found in the HTML file: “C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.html”, Which is generated via “C:/Carretta/GitHub/DGNBycatch/R/DGN_Bycatch_Workflow.RMD”
 
-![Caption](images/DGN_Bycatch_1.png){width="900"}
+![](images/DGN_Bycatch.PNG){width="900"}
 
 People to know: charles.villafana@noaa.gov (Observer program). He knows all the PacFin folks housing the data, including: Ryann Turcotte RTurcotte@psmfc.org , and Robert Ryznar RRyznar@psmfc.org
 

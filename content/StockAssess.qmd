@@ -9,7 +9,7 @@ editor:
 
 Editor Duties, File Locations, Workflow, Contacts
 
-![](images/SARS_directory.png){width="900"}
+![](images/SARS_directory.PNG){width="900"}
 
 The SAR editor should be familiar with the [Guidelines for Preparing Marine Mammal Stock Assessments (NMFS 2023)](https://www.fisheries.noaa.gov/national/marine-mammal-protection/guidelines-assessing-marine-mammal-stocks) and section 117 of the Marine Mammal Protection Act.
 Keeping up with the marine mammal literature is also critical.
@@ -32,7 +32,7 @@ A variety of techniques are being used to revise the reports annually, from the 
 Common to all approaches is the requirement to show transparent revisions for the regional Scientific Review Groups and the public to assess.
 One example of how revisions should appear:
 
-![Figure 1](images/SAR_edits_ex.png){width="800"}
+![](images/SAR_edits.PNG){width="800"}
 
 The Appendix in the SARs dealing with Fishery Descriptions has largely fallen by the wayside due to lack of bandwidth.
 Future editors would want to coordinate with the various regional offices for updates, especially whoever works on the NMFS List of Fisheries (Dan.Lawson\@noaa.gov West Coast Region).
