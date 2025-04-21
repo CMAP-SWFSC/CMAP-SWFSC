@@ -17,7 +17,7 @@ Annually, accounting for HCMSI is required to 1) produce an annual HCMSI Technic
 The annual HCMSI is produced in the format of Carretta et al. (2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package).
 
 The annual report is based on data-mining an Excel file (“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”) that is updated annually. The annual HCMSI report includes the most-recent 5 years of data to inform SARS.\
-Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson\@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman\@noaa.gov, Lauren.Saez\@noaa.gov, Nancy.Young\@noaa.gov, Amelia.Brower\@noaa.gov, Amanda.Bradford\@noaa.gov, Kayleigh.Somers\@noaa.gov .
+Many contacts exist for acquiring HCMSI data that inform Pacific SARS, including individual states (CA sea lion removals under Sec. 120 of the MMPA robert.c.anderson@noaa.gov ), regional offices (AK, WCR), with a roster including Justin.Greenman@noaa.gov, Lauren.Saez@noaa.gov, Nancy.Young@noaa.gov, Amelia.Brower@noaa.gov, Amanda.Bradford@noaa.gov, Kayleigh.Somers@noaa.gov .
 
 ## Bycatch Estimation in CA Swordfish gillnet fishery
 
@@ -25,7 +25,7 @@ This fishery is scheduled for phase-out in 2027, stay tuned. Only a handful of v
 
 ![Caption](images/DGN_Bycatch_1.png){width="900"}
 
-People to know: charles.villafana\@noaa.gov (Observer program). He knows all the PacFin folks housing the data, including: Ryann Turcotte RTurcotte\@psmfc.org , and Robert Ryznar RRyznar\@psmfc.org
+People to know: charles.villafana@noaa.gov (Observer program). He knows all the PacFin folks housing the data, including: Ryann Turcotte RTurcotte@psmfc.org , and Robert Ryznar RRyznar@psmfc.org
 
 ## *SeriousInjury* R-Package and Shiny App
 
