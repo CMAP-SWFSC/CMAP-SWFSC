@@ -8,5 +8,3 @@ format: html
 In addition to pages on the CMAP Github, I've written a general guide [**MMPA Implementation Carretta.docx**](https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/MMPA%20Implementation%20CARRETTA.docx). The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.
 
 ![](images/Carretta_Directory_Structure.png){width="800"}
-
-
