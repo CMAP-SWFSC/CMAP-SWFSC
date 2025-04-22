@@ -5,9 +5,7 @@ editor:
     wrap: sentence
 ---
 
-## Stock Assessments
-
-Editor Duties, File Locations, Workflow, Contacts
+## Editor Duties, File Locations, Workflow, Contacts
 
 ![](images/SARS_directory.PNG){width="900"}
 
