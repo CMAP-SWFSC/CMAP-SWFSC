@@ -14,7 +14,17 @@
     "href": "content/DataManagement.html",
     "title": "Data Management",
     "section": "",
-    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nSpecies reference guide for your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nPIFSC working on this, use them as an example once finalized\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#pam-data-management",
+    "href": "content/DataManagement.html#pam-data-management",
+    "title": "Data Management",
+    "section": "",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
     "crumbs": [
       "Data Management"
     ]
@@ -116,7 +126,7 @@
     "section": "",
     "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
     "crumbs": [
-      "Data Management"
+      "Projects"
     ]
   },
   {
@@ -126,7 +136,7 @@
     "section": "",
     "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
     "crumbs": [
-      "Data Management"
+      "Projects"
     ]
   },
   {
@@ -330,6 +340,16 @@
     "title": "Software",
     "section": "",
     "text": "Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#pam-software",
+    "href": "content/Software.html#pam-software",
+    "title": "Software",
+    "section": "PAM Software",
+    "text": "PAM Software\nLink to Software developed by Soutwest Acoustic Ecology Lab",
     "crumbs": [
       "Software"
     ]
