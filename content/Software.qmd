@@ -11,3 +11,6 @@ The swfscDAS package is intended to standardize and streamline basic DAS data pr
 Effort and Sighting Maps can be generated using the R-package [CruzPlot](https://github.com/SWFSC/CruzPlot). CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script [Plot_DAS Effort_and_Sightings_Data_SARS.R](https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code)
 
 Another useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: "get_Sightings_swfscDAS.R" This script is in the "c:/carretta/cruise_1652/R_utilities" directory. You can also just read the swfscDAS documentation to do the same thing.
+
+## PAM Software
+[Link](https://sael-swfsc.github.io/SAEL-lab-manual/content/SAEL-Analysis-software.html) to Software developed by Soutwest Acoustic Ecology Lab

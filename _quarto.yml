@@ -57,12 +57,11 @@ website:
         text: Passive Acoustics
       - href: content/SeaLionDiets.qmd
         text: Sea Lion Diets
-      - href: content/DataManagement.qmd
-        text: Data Management
       - section: content/Projects.qmd
         contents: 
           - href: content/Project-Test.qmd
             text: Project Test Page
+      - href: content/DataManagement.qmd
         text: Data Management
       - href: content/Inventory.qmd
         text: Inventory
