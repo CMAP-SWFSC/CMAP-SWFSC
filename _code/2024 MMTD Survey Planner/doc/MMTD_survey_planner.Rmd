@@ -1,0 +1,306 @@
+---
+title: "MMTD Survey Planner"
+author: "Kevin L. Stierhoff"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE,
+                      fig.align = 'center', dev = "png", dpi = 150,
+                      dev.args = list(type = "cairo"))
+```
+
+```{r load-libraries-functions, error=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+# Install and load pacman (library management package)
+if (!require("pacman")) install.packages("pacman")
+
+# Install and load required packages from CRAN ---------------------------------
+pacman::p_load(tidyverse,swfscMisc,lubridate,here,leaflet,fs,sf,rnaturalearth,
+               mapview,knitr,shadowtext,htmltools)
+
+# Install and load required packages from Github -------------------------------
+# atm
+pacman::p_load_gh("kstierhoff/atm")
+# rnaturalearth data
+pacman::p_load_gh("ropenscilabs/rnaturalearthdata")
+pacman::p_load_gh("ropenscilabs/rnaturalearthhires")
+
+# Set preferences
+# Plot theme
+theme_set(theme_bw())
+
+# Set coordinate reference systems
+crs.proj <- 3310 # CA Teale Albers; equal area projection
+crs.geog <- 4326 # WGS84; for lat/long data in decimal degrees
+```
+
+```{r load-shapefiles, results = FALSE}
+# This is a great source for mapping data/functions/approaches. It's a 3-part blog. This is the first page
+# https://r-spatial.org/r/2018/10/25/ggplot2-sf.html
+
+# EEZs
+# sf::st_read will create an sf (simple features) object from a shapefile
+eez.us <- sf::st_read(here("data/shapefiles/eez_us.shp"))
+eez.mx <- sf::st_read(here("data/shapefiles/eez_mex.shp"))
+eez.ca <- sf::st_read(here("data/shapefiles/eez_canada.shp"))
+# mapview::mapview is a nice utility for quickly viewing spatial (e.g., sf) objects
+# mapview::mapview(eez.us) + mapview::mapview(eez.mx) + mapview::mapview(eez.ca)
+
+# 2000m isobaths
+bathy.contours <- sf::st_read(here("data/shapefiles/polygon_2000m.shp"))
+
+# mapview::mapview(bathy_contours, zcol = "Contour")
+
+# Land
+# Load world boundaries
+world <- ne_countries(scale = "medium", returnclass = "sf")
+# Extract US, Canada, and Mexico layers
+na.land <- filter(world, name %in% c("United States of America", "Mexico","Canada"), 
+                  subregion %in% c("Northern America", "Central America"))
+# mapview::mapview(na.land)
+
+# code provided by Kevin Stierhoff that is in non-loading ʻatmʻ package
+
+project_df <- function (df, from = 4326, to) 
+{
+    df <- sf::st_as_sf(df, coords = c("long", "lat"), crs = from) %>% 
+        dplyr::mutate(long = as.data.frame(sf::st_coordinates(.))$X, 
+            lat = as.data.frame(sf::st_coordinates(.))$Y) %>% 
+        sf::st_transform(crs = to)
+    df.xy <- as.data.frame(sf::st_coordinates(df))
+    df <- df %>% dplyr::bind_cols(df.xy) %>% sf::st_set_geometry(NULL)
+    return(df)
+}
+
+
+# Locations
+# This has common landmarks along the West Coast; you can filter or subset however you'd like
+landmarks <- read_csv(here("data/locations_v2.csv")) %>% 
+  # Add x/y coordinates in 3310 crs
+  project_df(to = crs.proj)
+```
+
+## Create a base map
+
+```{r create-basemap}
+# Determine map boundaries
+# Use the extent of the US EEZ for now
+map.bounds <- eez.us %>%
+  st_transform(crs = crs.proj) %>%
+  st_bbox()
+
+# Determine map aspect ratio and set height and width
+map.height <- 10 # Output height of the map, in inches (good starting point)
+map.aspect <- (map.bounds$xmax - map.bounds$xmin)/(map.bounds$ymax - map.bounds$ymin)
+map.width  <- map.height*map.aspect
+
+base.map <- ggplot() + 
+  geom_sf(data = na.land, colour="gray50") +
+  geom_point(data = landmarks, aes(X, Y),
+             fill = "black", colour = "gray50", shape = 21) +
+  geom_shadowtext(data = landmarks,  
+                  aes(X, Y, label = name),
+                  hjust = 0, nudge_x = 0.2, nudge_y = 0.05, angle = 25, 
+                  size = 2, fontface = 'bold', 
+                  colour = "black", bg.colour = "white") +
+  # Format axes and titles
+  xlab("Longitude") + ylab("Latitude") + 
+  coord_sf(crs = crs.proj, 
+           xlim = unname(c(map.bounds["xmin"], map.bounds["xmax"])), 
+           ylim = unname(c(map.bounds["ymin"], map.bounds["ymax"])))
+
+# Save base map
+ggsave(base.map, 
+       filename = here("figs/fig_base_map.png"), 
+       height = map.height, width = map.width)
+
+knitr::include_graphics(here("figs/fig_base_map.png"))
+```
+
+
+```{r do-spatial-stuff, results = FALSE}
+# Create baselines -------------------------------------------
+# Read start locations
+baseline.info <- read_csv(here("data/baselines_v2.csv")) %>% 
+  arrange(order) 
+
+# Create endpoints for segments used to generate random points
+locations <- baseline.info %>% 
+  group_by(loc) %>% 
+  mutate(
+    lat1  = destination(lat, long, brg_t, dist_nmi, units = "nm", type = "ellipsoid")["lat"],
+    long1 = destination(lat, long, brg_t, dist_nmi, units = "nm", type = "ellipsoid")["lon"]
+  ) 
+
+# Create baselines
+baselines <- select(locations, loc, lat, long) %>% 
+  bind_rows(select(locations, loc, lat = lat1, long = long1)) %>% 
+  st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
+  group_by(loc) %>% 
+  summarise(do_union = FALSE) %>% 
+  st_cast("LINESTRING") %>% 
+  st_transform(crs = 3310)
+
+# mapview(baselines)
+
+# Segment baselines ---------------------------------------------
+# Create segments from baselines
+# dfMaxLength is 10 nautical miles (or 18520 m)
+segments <- st_segmentize(baselines, dfMaxLength = 1852 * 75) # 75 nmi transect spacing
+
+# Extract points from segments and determine the offshore endpoints
+points <- st_cast(segments, "POINT") %>% 
+  left_join(select(locations, order, loc, brg_t, tx_dist_nmi, brg_tx)) %>% 
+  mutate(X = as.data.frame(st_coordinates(.))$X,
+         Y = as.data.frame(st_coordinates(.))$Y) %>% 
+  st_transform(crs = 4326) %>% 
+  mutate(long = as.data.frame(st_coordinates(.))$X,
+         lat = as.data.frame(st_coordinates(.))$Y) %>% 
+  arrange(order, lat) %>% 
+  mutate(id  = seq(n())) %>% 
+  st_set_geometry(NULL) %>% 
+  group_by(id) %>% 
+  mutate(
+    lat1  = destination(lat, long, brg_tx, tx_dist_nmi, units = "nm")["lat"],
+    long1 = destination(lat, long, brg_tx, tx_dist_nmi, units = "nm")["lon"]
+  )
+
+# Create transect lines from points
+transects <- select(points, id, loc, lat, long) %>% 
+  bind_rows(select(points, id, loc, lat = lat1, long = long1)) %>% 
+  st_as_sf(coords = c("long", "lat"), crs = 4326) %>% 
+  group_by(loc, id) %>% 
+  summarise(do_union = FALSE) %>% 
+  st_cast("LINESTRING") 
+
+# mapview(baselines) + mapview(transects, zcol = "loc")  
+
+# Import the eez_us.shp file used to clip offshore study area boundary
+
+eez.us.clip <- st_read(here("data/shapefiles/eez_us.shp")) %>% 
+  st_make_valid()
+
+# Import the 5m bathy polygon used to clip the transects on the eastern edge
+
+bathy.5m.clip <- st_read(here("data/shapefiles/isobath_5m_na.shp")) %>%
+  st_make_valid()
+
+# Import the 2000m bathy polygon used to clip the transects on 2000m 
+bathy.2000m.clip <- st_read(here("data/shapefiles/polygon_2000m.shp")) %>% 
+  st_make_valid()
+
+# Remove transects.final if it exists
+if (exists("transects.final")) rm(transects.final)
+
+# Clip each set of FSV transects using the inshore and offshore polygons
+for (i in unique(transects$loc)) {
+  tx.temp <- ungroup(filter(transects, loc == i)) %>% 
+#    st_difference(eez.us.clip) %>% 
+#    st_intersection(bathy.2000m.clip) %>% 
+    st_difference(bathy.5m.clip) %>% 
+    st_intersection(eez.us.clip) %>% 
+    select(loc, id)
+  
+  # Combine results
+  if (exists("transects.final")) {
+    transects.final <- rbind(transects.final, tx.temp)
+  } else {
+    transects.final <- tx.temp
+  }
+}
+
+# mapview(transects.final, zcol = "loc")
+
+# Calculate transect distances
+transects.final <- transects.final %>% 
+  mutate(distance = as.numeric(st_length(.))/1852) %>% # Distance; nmi
+  filter(distance > 5) %>% 
+  mutate(id = rank(id)) %>% 
+  rename(transect = id) %>% 
+  arrange(transect)
+
+# Convert transects to waypoints
+waypoints.final <- transects.final %>% 
+  st_cast("MULTIPOINT") %>% 
+  st_cast("POINT") %>% 
+  mutate(id  = seq(n()))
+
+# Convert waypoints to df for writeGPX
+waypoints.final.df <- waypoints.final %>% 
+  mutate(
+    long = as.data.frame(st_coordinates(.))$X,
+    lat  = as.data.frame(st_coordinates(.))$Y) %>% 
+  st_set_geometry(NULL) %>% 
+  select(transect, id, long, lat) %>% 
+  as.data.frame()
+
+# Save to CSV
+write_csv(waypoints.final.df, 
+          here("output/waypoints_final.csv"))
+```
+
+## Add transects to base map
+
+```{r map-transects}
+map.transects <- base.map + 
+  geom_sf(data = transects.final, aes(colour = loc)) +
+  # Format axes and titles
+  xlab("Longitude") + ylab("Latitude") + 
+  coord_sf(crs = crs.proj, 
+           xlim = unname(c(map.bounds["xmin"], map.bounds["xmax"])), 
+           ylim = unname(c(map.bounds["ymin"], map.bounds["ymax"])))
+
+# Save transect map
+ggsave(map.transects, 
+       filename = here("figs/fig_transect_map.png"), 
+       height = map.height, width = map.width)
+
+include_graphics(here("figs/fig_transect_map.png"))
+```
+
+## Create an interactive Leaflet map
+
+```{r create-leaflet-map}
+# Set padding around data  
+imap.bounds <- map_bounds(landmarks$lat, landmarks$long, 0.1) 
+
+# Create interactive Leaflet map
+i.map <- leaflet() %>% 
+  # Add provider tiles; # http://leaflet-extras.github.io/leaflet-providers/preview/index.html
+  addProviderTiles(providers$Esri.NatGeoWorldMap, 
+                   group = "Esri.NatGeoWorldMap") %>%
+  # Add EEZs
+  addPolylines(data = eez.us, color = "#000414", weight = 3, 
+               label = "EEZ-U.S.", group = "Exclusive Economic Zones") %>% 
+  addPolylines(data = eez.ca, color = "#000414", weight = 3, 
+               label = "EEZ-Canada", group = "Exclusive Economic Zones") %>% 
+  addPolylines(data = eez.mx, color = "#000414", weight = 3, 
+               label = "EEZ-Mexico", group = "Exclusive Economic Zones") %>%
+  # Add transect lines and waypoints
+  addPolylines(data = transects.final, weight = 3, 
+               label = ~paste("Transect: ", transect, 
+                              " , Distance: ", round(distance, 1), " nmi",
+                              sep = ""), popup = ~htmlEscape(transect), 
+               group = "Planned Transects") %>% 
+  addCircleMarkers(data = waypoints.final,
+                   radius = 3, stroke = TRUE,
+                   opacity = 0.8, fillOpacity = 1, weight = 1, 
+                   label = ~paste("Transect:", transect),
+                   group = "Planned Transects") %>%
+  # Add layer controls
+  addLayersControl(
+    overlayGroups = c("Exclusive Economic Zones",
+                      "Planned Transects"),
+    options = layersControlOptions(collapsed = FALSE)) %>% 
+  fitBounds(imap.bounds$range.lon[1], imap.bounds$range.lat[1],
+            imap.bounds$range.lon[2], imap.bounds$range.lat[2])
+
+# Display interactive map
+i.map
+```
+
+
+
+
+

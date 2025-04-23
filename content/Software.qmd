@@ -2,6 +2,20 @@
 title: Software
 ---
 
+## Generating transects using R-Package 'atm'
+
+Kevin Stierhoff provided us with R-code from the ['atm' package](https://github.com/SWFSC/atm) used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into [CalTopo](https://caltopo.com/about/) for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the [code folder](https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code).
+
+Open the MMTD Survey Planner R-Project in RStudio
+
+![](images/MMTD_Survey_Planner_Directory.PNG){width="900"}
+
+Then go to the 'doc' folder and open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and 'knit' the file to create transect lines.
+
+![](images/MMTD_Survey_Planner_RStudio.PNG){width="900"}
+
+The R-markdown file will generate a series of plots, corresponding to sections of the code: ![](images/MMTD_Survey_Planner_Base_Map1.PNG){width="900"} ![](images/MMTD_Survey_Planner_Base_Map2.PNG){width="900"} ... including an interactive Leaflet map: ![](images/MMTD_Survey_Planner_Leaflet_map.PNG){width="900"}
+
 ## Mapping and Summarizing line-transect survey DAS data
 
 Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman's R-Package [swfscDAS](https://github.com/SWFSC/swfscDAS)

@@ -1,0 +1,3 @@
+order,loc,lat,long,brg_m,brg_t,dist_nmi,tx_dist_nmi,brg_tx
+1,northwest,24.0516,-120.4351,29,39,1200,1400,315
+2,northeast,24.3639,-119.6860,295,315,1500,1200,35

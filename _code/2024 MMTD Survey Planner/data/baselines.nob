@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<NavObjectCollection created="20240319T173156Z">
+	<Name>Navigation Objects</Name>
+	<Visible>true</Visible>
+	<ViewSettings created="20240319T173233Z">
+		<Position>44.911359 N 127.380951 W</Position>
+		<Scale>20290375.676195</Scale>
+		<Quilting>true</Quilting>
+		<HybridVector>true</HybridVector>
+		<CurTopoSource>nm_topo</CurTopoSource>
+	</ViewSettings>
+	<RangeBearing created="20240319T173325Z" id="{2ef84c19-7ac6-4dab-ad15-757e1aaea581}">
+		<Marks>
+		{a2146d92-3267-4062-a7cc-9cec29a42157}
+		{c2fd4bb7-bc99-4487-a601-da2fc7b39624}
+		</Marks>
+		<Bearing>039&#176;T / 029&#176;M</Bearing>
+		<Range>1115.13 NM</Range>
+	</RangeBearing>
+	<RangeBearing created="20240319T173459Z" id="{999d93a7-b12d-49a6-80a5-f5f827cdbd0a}">
+		<Marks>
+		{ad930f87-1af2-448e-ab99-1ceccd46d744}
+		{eff9d345-c2f9-4898-ab74-c0b74d0b8a1e}
+		</Marks>
+		<Bearing>309&#176;T / 299&#176;M</Bearing>
+		<Range>1428.63 NM</Range>
+	</RangeBearing>
+	<RangeBearing created="20240319T174038Z" id="{ec9afce6-6f68-4424-8ae6-1ef44b355bbb}">
+		<Marks>
+		{f844e0a3-7a67-4a46-9f60-4c3b70ce94ae}
+		{75c1235a-8e00-4c0b-bcc7-a73c0833fe42}
+		</Marks>
+		<Bearing>307&#176;T / 299&#176;M</Bearing>
+		<Range>1196.67 NM</Range>
+	</RangeBearing>
+	<RangeBearing created="20240319T174109Z" id="{f09f8b53-e4da-4e64-9d98-a1f000a6416e}">
+		<Marks>
+		{a42a03b7-56f6-40c5-a945-3516d94e72e4}
+		{07cd0172-f3d6-4408-bea4-230126c24eb4}
+		</Marks>
+		<Bearing>047&#176;T / 033&#176;M</Bearing>
+		<Range>1085.27 NM</Range>
+	</RangeBearing>
+	<Mark created="20240319T173326Z" id="{a2146d92-3267-4062-a7cc-9cec29a42157}">
+		<Position>24.051609 N 120.435073 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T173333Z" id="{c2fd4bb7-bc99-4487-a601-da2fc7b39624}">
+		<Position>38.489807 N 106.679512 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T173520Z" id="{ad930f87-1af2-448e-ab99-1ceccd46d744}">
+		<Position>24.363893 N 119.686008 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T173556Z" id="{eff9d345-c2f9-4898-ab74-c0b74d0b8a1e}">
+		<Position>39.393856 N 141.545093 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T174041Z" id="{f844e0a3-7a67-4a46-9f60-4c3b70ce94ae}">
+		<Position>38.060360 N 105.930447 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T174046Z" id="{75c1235a-8e00-4c0b-bcc7-a73c0833fe42}">
+		<Position>50.162154 N 128.130016 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T174110Z" id="{a42a03b7-56f6-40c5-a945-3516d94e72e4}">
+		<Position>38.650189 N 142.430352 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+	<Mark created="20240319T174221Z" id="{07cd0172-f3d6-4408-bea4-230126c24eb4}">
+		<Position>51.071935 N 123.771818 W</Position>
+		<ArrivalCircleRadius>0.05 NM</ArrivalCircleRadius>
+		<ShowName>false</ShowName>
+		<NamePosition>0.000000 N 0.000000 E</NamePosition>
+		<DescriptionPosition>0.000000 N 0.000000 E</DescriptionPosition>
+		<RangeCircleRadius>0 NM</RangeCircleRadius>
+		<NameOffset>0,8</NameOffset>
+		<DescriptionOffset>0,24</DescriptionOffset>
+	</Mark>
+</NavObjectCollection>
