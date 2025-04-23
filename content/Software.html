@@ -41,8 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2060c1fdc48bdcd166b162226a62f917.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-0045eb1c33f61f19c2496553aa0e9380.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a4f09a128564692efbd2e4b7986dbcea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8f4cbf19915c7ede4ee9758edf4cc63c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -253,7 +253,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mapping-and-summarizing-line-transect-survey-das-data" id="toc-mapping-and-summarizing-line-transect-survey-das-data" class="nav-link active" data-scroll-target="#mapping-and-summarizing-line-transect-survey-das-data">Mapping and Summarizing line-transect survey DAS data</a></li>
+  <li><a href="#generating-transects-using-r-package-atm" id="toc-generating-transects-using-r-package-atm" class="nav-link active" data-scroll-target="#generating-transects-using-r-package-atm">Generating transects using R-Package ‘atm’</a></li>
+  <li><a href="#mapping-and-summarizing-line-transect-survey-das-data" id="toc-mapping-and-summarizing-line-transect-survey-das-data" class="nav-link" data-scroll-target="#mapping-and-summarizing-line-transect-survey-das-data">Mapping and Summarizing line-transect survey DAS data</a></li>
   <li><a href="#pam-software" id="toc-pam-software" class="nav-link" data-scroll-target="#pam-software">PAM Software</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/edit/main/content/Software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Software.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -280,6 +281,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="generating-transects-using-r-package-atm" class="level2">
+<h2 class="anchored" data-anchor-id="generating-transects-using-r-package-atm">Generating transects using R-Package ‘atm’</h2>
+<p>Kevin Stierhoff provided us with R-code from the <a href="https://github.com/SWFSC/atm">‘atm’ package</a> used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into <a href="https://caltopo.com/about/">CalTopo</a> for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the <a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code">code folder</a>.</p>
+<p>Open the MMTD Survey Planner R-Project in RStudio</p>
+<p><img src="images/MMTD_Survey_Planner_Directory.PNG" class="img-fluid" width="900"></p>
+<p>Then go to the ‘doc’ folder and open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and ‘knit’ the file to create transect lines.</p>
+<p><img src="images/MMTD_Survey_Planner_RStudio.PNG" class="img-fluid" width="900"></p>
+<p>The R-markdown file will generate a series of plots, corresponding to sections of the code: <img src="images/MMTD_Survey_Planner_Base_Map1.PNG" class="img-fluid" width="900"> <img src="images/MMTD_Survey_Planner_Base_Map2.PNG" class="img-fluid" width="900"> … including an interactive Leaflet map: <img src="images/MMTD_Survey_Planner_Leaflet_map.PNG" class="img-fluid" width="900"></p>
+</section>
 <section id="mapping-and-summarizing-line-transect-survey-das-data" class="level2">
 <h2 class="anchored" data-anchor-id="mapping-and-summarizing-line-transect-survey-das-data">Mapping and Summarizing line-transect survey DAS data</h2>
 <p>Our research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package <a href="https://github.com/SWFSC/swfscDAS">swfscDAS</a></p>
