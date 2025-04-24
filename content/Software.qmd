@@ -14,10 +14,20 @@ Then go to the 'doc' folder and open the MMTD_Survey_Planner.RMD file. Learn the
 
 ![](images/MMTD_Survey_Planner_RStudio.PNG){width="900"}
 
-The R-markdown file will generate a series of plots, corresponding to sections of the code: ![](images/MMTD_Survey_Planner_Base_Map1.PNG){width="900"} ![](images/MMTD_Survey_Planner_Base_Map2.PNG){width="900"}
-including an interactive Leaflet map: ![](images/MMTD_Survey_Planner_Leaflet_map.PNG){width="900"}
+The R-markdown file will generate a series of plots, corresponding to sections of the code: 
+![](images/MMTD_Survey_Planner_Base_Map1.PNG){width="900"} ![](images/MMTD_Survey_Planner_Base_Map2.PNG){width="900"}
 
-Knitting the document also produces an Excel file with transect points: ![](images/MMTD_Survey_Planner_output.PNG){width="900} which looks like this: ![](images/MMTD_Survey_Planner_output_Excel.PNG){width="\"900"} Individual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.
+including an interactive Leaflet map:
+
+![](images/MMTD_Survey_Planner_Leaflet_map.PNG){width="900"}
+
+Knitting the document also produces an Excel file with transect points: ![](images/MMTD_Survey_Planner_output.PNG){width="900} 
+
+which looks like this:
+
+![](images/MMTD_Survey_Planner_output_Excel.PNG){width="\"900"} 
+
+Individual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.
 
 ## Mapping and Summarizing line-transect survey DAS data
 
