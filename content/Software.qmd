@@ -2,7 +2,7 @@
 title: Software
 ---
 
-## Generating transects using R-Package 'atm'
+## Generating transects using R-Package '*atm*'
 
 Kevin Stierhoff provided us with R-code from the ['atm' package](https://github.com/SWFSC/atm) used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into [CalTopo](https://caltopo.com/about/) for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the [code folder](https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/_code).
 
