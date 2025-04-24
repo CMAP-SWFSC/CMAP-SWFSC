@@ -10,7 +10,7 @@ Open the MMTD Survey Planner R-Project in RStudio
 
 ![](images/MMTD_Survey_Planner_Directory.PNG){width="900"}
 
-Then go to the 'doc' folder and open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and 'knit' the file to create transect lines.
+Go to the 'doc' folder, open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and 'knit' the file to create transect lines.
 
 ![](images/MMTD_Survey_Planner_RStudio.PNG){width="900"}
 
@@ -20,7 +20,7 @@ including an interactive Leaflet map:
 
 ![](images/MMTD_Survey_Planner_Leaflet_map.PNG){width="900"}
 
-Knitting the document also produces an Excel file with transect points: ![](images/MMTD_Survey_Planner_output.PNG){width="\"900"}
+Knitting the document also produces a CSV file (*waypoints_final.csv*) with transect points: ![](images/MMTD_Survey_Planner_output.PNG){width="\"900"}
 
 which looks like this:
 
