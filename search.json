@@ -416,6 +416,16 @@
     ]
   },
   {
+    "objectID": "content/Risk.html#obscovgtools",
+    "href": "content/Risk.html#obscovgtools",
+    "title": "Population Risk Assessment",
+    "section": "ObsCovgTools",
+    "text": "ObsCovgTools\nAssessing the potential risk of fisheries to marine wildlife populations may include an evaluation of observer coverage in terms of how well it documents bycatch of a species of conservation concern. The R package ‘ObsCovgTools’ (Curtis, 2020) provides utilities for evaluating observer coverage with respect to documenting and estimating rare bycatch, including (1) probabilities of observing a bycatch event and of one occurring in total effort, (2) upper confidence limit for bycatch given none was observed, and (3) bycatch estimation CV (coefficient of variation). Alex Curtis and Jim Carretta published a paper applying this package to a broad suite of protected species bycatch in the California drift gillnet fishery (Curtis and Carretta, 2020).\nThis package includes a Shiny web application (i.e., a GUI) that is served on the NMFS Posit Connect server at https://connect.fisheries.noaa.gov/ObsCovg/. The package version served on Posit Connect must have been built in one of the R versions available on the server. If a Shiny app is no longer working on the Posit Connect server, one of the administrators will typically notify the maintainer of the app. The maintainer can then update the package build to a newer version of R, or otherwise troubleshoot it as needed, and then redeploy it on the server. Contacts who may be able to provide assistance with this process include Kathryn Doering (kathryn.doering@noaa.gov, SWFSC) and Sam Woodman (sam.woodman@noaa.gov, SWFSC), and Christine Stawitz (christine.stawitz@noaa.gov, OST).\n\nReferences\nCurtis K. A. 2020. ObsCovgTools: Evaluate Fishery Observer Coverage for Bycatch Estimation. R package version 3.1.1. https://kacurtis.github.io/ObsCovgTools\nCurtis K. A., Carretta J. V. 2020. ObsCovgTools: Assessing observer coverage needed to document and estimate rare event bycatch. Fisheries Research, 225: 105493. https://doi.org/10.1016/j.fishres.2020.105493",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
     "objectID": "content/Software.html",
     "href": "content/Software.html",
     "title": "Software",
@@ -451,6 +461,16 @@
     "title": "Software",
     "section": "PAM Software",
     "text": "PAM Software\nLink to Software developed by Soutwest Acoustic Ecology Lab",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#obscovgtools",
+    "href": "content/Software.html#obscovgtools",
+    "title": "Software",
+    "section": "ObsCovgTools",
+    "text": "ObsCovgTools\nThe ObsCovgTools R package is discussed under Risk Assessment.",
     "crumbs": [
       "Software"
     ]
