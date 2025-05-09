@@ -42,11 +42,11 @@ website:
       - href: content/MMPA_Implementation.qmd
         text: MMPA Implementation
       - href: content/StockAssess.qmd
-        text: Stock Assessments
+        text: Stock Assessment Reports
       - href: content/PopAssess.qmd
         text: Population Assessment
       - href: content/TRT.qmd
-        text: Take Reduction
+        text: Take Reduction Teams
       - href: content/HumanCausedMortality.qmd
         text: Human-Caused Mortality
       - href: content/Risk.qmd
