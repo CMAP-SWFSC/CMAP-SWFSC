@@ -3,4 +3,13 @@ title: Stock Assessments
 ---
 
 ## Background
-Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.
+Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference. 
+
+## Humpback whale
+* put stuff here about USWC abund and trend (Becker et al., 2020; Calambokidis and Barlow, 2020) then new stocks with new estimates.
+* link to repos on SW, which Jeff has read-access to 
+
+#### References
+
+
+
