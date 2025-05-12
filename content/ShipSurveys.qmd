@@ -14,7 +14,7 @@ For survey design software tools, see [Software](https://cmap-swfsc.github.io/CM
 
 ## Line Transect (DAS) Data, R-Code and related physical assets.
 
-In addition to DAS data collected with WinCruz and Viscruz on our surveys, there are binders of sighting forms, observer green books, and microfiche located in Room 263 off the parking garage. We have maxed-out on space, so there is currently overflow from 2018 and 2024 cruises in Room 421 (Carretta). Additionally, we store microfiche data with Corovan offsite, the point of contact is Henry Salazar and email is sdvault\@corodata.com . There are a limited number of cruises that Al Jackson and others scanned the sighting forms for, located on the shared drive swc-storage-4s/LineTransect/Scanning. Below is a screen grab showing which cruise numbers have scanned sighting forms. I did not scan the most-recent 2024 CalCurCEAS cruise (Cruise 1652).
+In addition to DAS data collected with WinCruz and Viscruz on our surveys, there are binders of sighting forms, observer green books, and microfiche located in Room 263 off the parking garage. We have maxed-out on space, so there is currently overflow from 2018 and 2024 cruises in Room 370 (Moore). Additionally, we store microfiche data with Corovan offsite, the point of contact is Henry Salazar and email is sdvault\@corodata.com . There are a limited number of cruises that Al Jackson and others scanned the sighting forms for, located on the shared drive swc-storage-4s/LineTransect/Scanning. Below is a screen grab showing which cruise numbers have scanned sighting forms. Sighting forms from the most most-recent 2024 CalCurCEAS cruise (Cruise 1652) are not scanned.
 
 ![](images/Scanned_RV_Data.PNG){width="900"}
 
