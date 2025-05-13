@@ -380,7 +380,7 @@
     "href": "content/PopAssess.html",
     "title": "Stock Assessments",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
     "crumbs": [
       "Population Assessment"
     ]
@@ -390,7 +390,17 @@
     "href": "content/PopAssess.html#background",
     "title": "Stock Assessments",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "crumbs": [
+      "Population Assessment"
+    ]
+  },
+  {
+    "objectID": "content/PopAssess.html#humpback-whale",
+    "href": "content/PopAssess.html#humpback-whale",
+    "title": "Stock Assessments",
+    "section": "Humpback whale",
+    "text": "Humpback whale\nHumpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al. (2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).\nThe version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the CMRutils repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\n\n2022 estimate data:\n\nR code for these estimates is available in the CASM-Mn-abundance-2022 repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\nMCMC results for these estimates and for related analyses are available at ‘mmddisk://CurtisA/Humpbacks/results/Curtis et al 2022 and related exploration/’\nThe version of the CRC MN ID database, ‘MN ID 20210831.mdb’ on which these estimates are based is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\nAssessment update:\n\nPreliminary MCMC results updating these estimates through 2022 are at ‘mmddisk://CurtisA/Humpbacks/results/updating Central America assessment/’.\nR code updating data import and filtering to current standards and data is in a private GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nNotes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been copied to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe most recently acquired version of the CRC MN ID database, ‘MN ID 20250313.mdb’ that is being used to develop new estimates is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\n\n\nReferences\nBecker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.\nCalambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.\nCurtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.",
     "crumbs": [
       "Population Assessment"
     ]

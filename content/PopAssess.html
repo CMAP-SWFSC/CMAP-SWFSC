@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,9 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -419,6 +419,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#humpback-whale" id="toc-humpback-whale" class="nav-link" data-scroll-target="#humpback-whale">Humpback whale</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/edit/main/content/PopAssess.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/PopAssess.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -447,9 +448,35 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys.</p>
+<p>Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.</p>
+</section>
+<section id="humpback-whale" class="level2">
+<h2 class="anchored" data-anchor-id="humpback-whale">Humpback whale</h2>
+<p>Humpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al.&nbsp;(2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).</p>
+<p>The version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the <a href="https://github.com/kacurtis/CMRutils"><code>CMRutils</code></a> repository on GitHub, which has been forked to the <a href="https://github.com/SWFSC/CMRutils">SWFSC GitHub Enterprise</a> organization.</p>
+<ul>
+<li>2022 estimate data:
+<ul>
+<li>R code for these estimates is available in the <a href="https://github.com/kacurtis/CASM-Mn-abundance-2022"><code>CASM-Mn-abundance-2022</code></a> repository on GitHub, which has been <a href="https://github.com/SWFSC/CASM-Mn-abundance-2022">forked to the SWFSC GitHub Enterprise</a> organization.</li>
+<li>MCMC results for these estimates and for related analyses are available at ‘mmddisk://CurtisA/Humpbacks/results/Curtis et al 2022 and related exploration/’</li>
+<li>The version of the CRC MN ID database, ‘MN ID 20210831.mdb’ on which these estimates are based is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.</li>
+</ul></li>
+<li>Assessment update:
+<ul>
+<li>Preliminary MCMC results updating these estimates through 2022 are at ‘mmddisk://CurtisA/Humpbacks/results/updating Central America assessment/’.</li>
+<li>R code updating data import and filtering to current standards and data is in a private GitHub repository that has been <a href="https://github.com/SWFSC/Mn-sandbox">forked to the SWFSC GitHub Enterprise</a> organization, with read permission for Jeff Moore.</li>
+<li>Notes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been <a href="https://github.com/orgs/SWFSC/projects/11">copied to the SWFSC GitHub Enterprise</a> organization, with read permission for Jeff Moore.</li>
+<li>The most recently acquired version of the CRC MN ID database, ‘MN ID 20250313.mdb’ that is being used to develop new estimates is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.</li>
+</ul></li>
+</ul>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
+<p>Becker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.</p>
+<p>Calambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.</p>
+<p>Curtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
