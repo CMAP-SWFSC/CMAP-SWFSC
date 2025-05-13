@@ -45,4 +45,7 @@ Another useful script interacts with the R-Package *swfscDAS* and a DAS file to 
 [Link](https://sael-swfsc.github.io/SAEL-lab-manual/content/SAEL-Analysis-software.html) to Software developed by Soutwest Acoustic Ecology Lab
 
 ## ObsCovgTools
-The ObsCovgTools R package is discussed under [Risk Assessment](https://cmap-swfsc.github.io/CMAP-SWFSC/content/Risk.html). 
+The `ObsCovgTools` R package is discussed under [Risk Assessment](https://cmap-swfsc.github.io/CMAP-SWFSC/content/Risk.html). 
+
+## ApportionMnStocks
+The `ApportionMnStocks` R package is discussed under [Projects/Mn Stock Proportions](https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-MnStockProps.html). 

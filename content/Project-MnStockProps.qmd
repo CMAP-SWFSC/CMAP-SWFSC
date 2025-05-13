@@ -1,0 +1,11 @@
+---
+title: Humpback Stock Proportions
+---
+
+Curtis et al. (in center review) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package [`ApportionMnStocks`](https://github.com/kacurtis/ApportionMnStocks), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results. 
+
+* Additional data and files:
+    + R code for this analysis is in the [Mn-StockProportions-USWC-2025](https://github.com/kacurtis/Mn-StockProportions-USWC-2025) GitHub repository that has been [forked to the SWFSC GitHub Enterprise](https://github.com/SWFSC/Mn-StockProportions-USWC-2025) organization, with read permission for Jeff Moore.
+    + The version of the CRC MN ID database used for this analysis, 'MN ID 20250303.mdb' is available at 'mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/'. 
+
+The AssignMnStocks and Mn-StockProportions-USWC-2025 repositories are currently private and will be made public and published to Zenodo with the publication of the Tech Memo. 
