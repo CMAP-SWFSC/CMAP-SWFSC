@@ -1,63 +1,22 @@
 [
   {
-    "objectID": "content/Surveys.html",
-    "href": "content/Surveys.html",
-    "title": "Population Surveys",
+    "objectID": "content/MMPA_Implementation.html",
+    "href": "content/MMPA_Implementation.html",
+    "title": "MMPA_Implementation",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
     "crumbs": [
-      "Population Surveys"
+      "MMPA Implementation"
     ]
   },
   {
-    "objectID": "content/Surveys.html#background",
-    "href": "content/Surveys.html#background",
-    "title": "Population Surveys",
+    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "title": "MMPA_Implementation",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
     "crumbs": [
-      "Population Surveys"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html",
-    "href": "content/SeaLionDiets.html",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html#background",
-    "href": "content/SeaLionDiets.html#background",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
-    "crumbs": [
-      "Inventory"
-    ]
-  },
-  {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
-    "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
+      "MMPA Implementation"
     ]
   },
   {
@@ -116,26 +75,6 @@
     ]
   },
   {
-    "objectID": "content/Projects.html",
-    "href": "content/Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html#background",
-    "href": "content/Projects.html#background",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
     "objectID": "content/PAM.html",
     "href": "content/PAM.html",
     "title": "Southwest Acoustic Ecology Lab (SAEL)",
@@ -156,33 +95,84 @@
     ]
   },
   {
+    "objectID": "content/Project-MnStockProps.html",
+    "href": "content/Project-MnStockProps.html",
+    "title": "Humpback Stock Proportions",
+    "section": "",
+    "text": "Curtis et al. (in center review) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package ApportionMnStocks, available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results.\n\nAdditional data and files:\n\nR code for this analysis is in the Mn-StockProportions-USWC-2025 GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe version of the CRC MN ID database used for this analysis, ‘MN ID 20250303.mdb’ is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\n\nThe AssignMnStocks and Mn-StockProportions-USWC-2025 repositories are currently private and will be made public and published to Zenodo with the publication of the Tech Memo.",
+    "crumbs": [
+      "Projects",
+      "Mn Stock Proportions"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website\n\nSAEL Lab Example",
+    "crumbs": [
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html",
+    "href": "content/Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html#background",
+    "href": "content/Projects.html#background",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "content/TRT.html",
+    "href": "content/TRT.html",
+    "title": "Take Reduction Team (TRT) Efforts",
+    "section": "",
+    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
+    "crumbs": [
+      "Take Reduction Teams"
+    ]
+  },
+  {
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "crumbs": [
+      "Habitat Models"
+    ]
+  },
+  {
     "objectID": "content/Publications.html",
     "href": "content/Publications.html",
     "title": "Publications and Presentations",
     "section": "",
-    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html",
+    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html\nTo copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library.",
     "crumbs": [
       "Publications"
-    ]
-  },
-  {
-    "objectID": "content/MMPA_Implementation.html",
-    "href": "content/MMPA_Implementation.html",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
-    "crumbs": [
-      "MMPA Implementation"
-    ]
-  },
-  {
-    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
-    "crumbs": [
-      "MMPA Implementation"
     ]
   },
   {
@@ -223,6 +213,26 @@
     "text": "CMAP Team: How to Backup Your Brain\nWe have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a ‘field guide to our brains’, and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:\n\nHard Drive Backup\nWe have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.\n\n\nCMAP Github Organization and Lab Manual\nThe Lab Manual will serve as the initial ‘go to’ place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? Let us know! To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.\n\nGet Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html",
+    "href": "content/DataManagement.html",
+    "title": "Data Management",
+    "section": "",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "crumbs": [
+      "Data Management"
+    ]
+  },
+  {
+    "objectID": "content/DataManagement.html#pam-data-management",
+    "href": "content/DataManagement.html#pam-data-management",
+    "title": "Data Management",
+    "section": "",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "crumbs": [
+      "Data Management"
     ]
   },
   {
@@ -276,103 +286,23 @@
     ]
   },
   {
-    "objectID": "content/PopAssess.html",
-    "href": "content/PopAssess.html",
-    "title": "Stock Assessments",
+    "objectID": "content/Surveys.html",
+    "href": "content/Surveys.html",
+    "title": "Population Surveys",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
     "crumbs": [
-      "Population Assessment"
+      "Population Surveys"
     ]
   },
   {
-    "objectID": "content/PopAssess.html#background",
-    "href": "content/PopAssess.html#background",
-    "title": "Stock Assessments",
+    "objectID": "content/Surveys.html#background",
+    "href": "content/Surveys.html#background",
+    "title": "Population Surveys",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
     "crumbs": [
-      "Population Assessment"
-    ]
-  },
-  {
-    "objectID": "content/PopAssess.html#humpback-whale",
-    "href": "content/PopAssess.html#humpback-whale",
-    "title": "Stock Assessments",
-    "section": "Humpback whale",
-    "text": "Humpback whale\nHumpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al. (2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).\nThe version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the CMRutils repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\n\n2022 estimate data:\n\nR code for these estimates is available in the CASM-Mn-abundance-2022 repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\nMCMC results for these estimates and for related analyses are available at ‘mmddisk://CurtisA/Humpbacks/results/Curtis et al 2022 and related exploration/’\nThe version of the CRC MN ID database, ‘MN ID 20210831.mdb’ on which these estimates are based is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\nAssessment update:\n\nPreliminary MCMC results updating these estimates through 2022 are at ‘mmddisk://CurtisA/Humpbacks/results/updating Central America assessment/’.\nR code updating data import and filtering to current standards and data is in a private GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nNotes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been copied to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe most recently acquired version of the CRC MN ID database, ‘MN ID 20250313.mdb’ that is being used to develop new estimates is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\n\n\nReferences\nBecker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.\nCalambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.\nCurtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.",
-    "crumbs": [
-      "Population Assessment"
-    ]
-  },
-  {
-    "objectID": "content/TRT.html",
-    "href": "content/TRT.html",
-    "title": "Take Reduction Team (TRT) Efforts",
-    "section": "",
-    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
-    "crumbs": [
-      "Take Reduction Teams"
-    ]
-  },
-  {
-    "objectID": "content/Software.html",
-    "href": "content/Software.html",
-    "title": "Software",
-    "section": "",
-    "text": "Kevin Stierhoff provided us with R-code from the ‘atm’ package used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into CalTopo for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the code folder.\nOpen the MMTD Survey Planner R-Project in RStudio\n\nGo to the ‘doc’ folder, open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and ‘knit’ the file to create transect lines.\n\nThe R-markdown file will generate a series of plots, corresponding to sections of the code:  \nincluding an interactive Leaflet map:\n\nKnitting the document also produces a CSV file (waypoints_final.csv) with transect points: \nwhich looks like this:\n\nIndividual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.\nIn R, there are many ways to convert Excel or CSV files to shapefiles, JSON, or GPX format. You will need to become familiar with spatial object formats, maybe rely on AI a little for example code. To generate shapefiles and JSON format from a data frame of transect points, use the R script Linestrings_Points_Shapefiles_from_df.R.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#generating-transects-using-r-package-atm",
-    "href": "content/Software.html#generating-transects-using-r-package-atm",
-    "title": "Software",
-    "section": "",
-    "text": "Kevin Stierhoff provided us with R-code from the ‘atm’ package used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into CalTopo for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the code folder.\nOpen the MMTD Survey Planner R-Project in RStudio\n\nGo to the ‘doc’ folder, open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and ‘knit’ the file to create transect lines.\n\nThe R-markdown file will generate a series of plots, corresponding to sections of the code:  \nincluding an interactive Leaflet map:\n\nKnitting the document also produces a CSV file (waypoints_final.csv) with transect points: \nwhich looks like this:\n\nIndividual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.\nIn R, there are many ways to convert Excel or CSV files to shapefiles, JSON, or GPX format. You will need to become familiar with spatial object formats, maybe rely on AI a little for example code. To generate shapefiles and JSON format from a data frame of transect points, use the R script Linestrings_Points_Shapefiles_from_df.R.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
-    "title": "Software",
-    "section": "Mapping and Summarizing line-transect survey DAS data",
-    "text": "Mapping and Summarizing line-transect survey DAS data\nOur research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#pam-software",
-    "href": "content/Software.html#pam-software",
-    "title": "Software",
-    "section": "PAM Software",
-    "text": "PAM Software\nLink to Software developed by Soutwest Acoustic Ecology Lab",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/Software.html#obscovgtools",
-    "href": "content/Software.html#obscovgtools",
-    "title": "Software",
-    "section": "ObsCovgTools",
-    "text": "ObsCovgTools\nThe ObsCovgTools R package is discussed under Risk Assessment.",
-    "crumbs": [
-      "Software"
-    ]
-  },
-  {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
-    "crumbs": [
-      "Habitat Models"
+      "Population Surveys"
     ]
   },
   {
@@ -426,23 +356,64 @@
     ]
   },
   {
-    "objectID": "content/DataManagement.html",
-    "href": "content/DataManagement.html",
-    "title": "Data Management",
+    "objectID": "content/PlaneSurveys.html",
+    "href": "content/PlaneSurveys.html",
+    "title": "Aerial Surveys",
     "section": "",
-    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "text": "Background Paragraph (what they are, why we do it)",
     "crumbs": [
-      "Data Management"
+      "Population Surveys",
+      "Aerial Surveys"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#pam-data-management",
-    "href": "content/DataManagement.html#pam-data-management",
-    "title": "Data Management",
+    "objectID": "content/SeaLionDiets.html",
+    "href": "content/SeaLionDiets.html",
+    "title": "Long Term Dataset on Sea Lion Diets",
     "section": "",
-    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
     "crumbs": [
-      "Data Management"
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#background",
+    "href": "content/SeaLionDiets.html#background",
+    "title": "Long Term Dataset on Sea Lion Diets",
+    "section": "",
+    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/PopAssess.html",
+    "href": "content/PopAssess.html",
+    "title": "Stock Assessments",
+    "section": "",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "crumbs": [
+      "Population Assessment"
+    ]
+  },
+  {
+    "objectID": "content/PopAssess.html#background",
+    "href": "content/PopAssess.html#background",
+    "title": "Stock Assessments",
+    "section": "",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "crumbs": [
+      "Population Assessment"
+    ]
+  },
+  {
+    "objectID": "content/PopAssess.html#humpback-whale",
+    "href": "content/PopAssess.html#humpback-whale",
+    "title": "Stock Assessments",
+    "section": "Humpback whale",
+    "text": "Humpback whale\nHumpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al. (2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).\nThe version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the R package CMRutils available on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\n\n2022 estimate data:\n\nR code for these estimates is available in the CASM-Mn-abundance-2022 repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\nMCMC results for these estimates and for related analyses are available at ‘mmddisk://CurtisA/Humpbacks/results/Curtis et al 2022 and related exploration/’\nThe version of the CRC MN ID database, ‘MN ID 20210831.mdb’ on which these estimates are based is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\nAssessment update:\n\nPreliminary MCMC results updating these estimates through 2022 are at ‘mmddisk://CurtisA/Humpbacks/results/updating Central America assessment/’.\nR code updating data import and filtering to current standards and data is in a private GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nNotes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been copied to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe most recently acquired version of the CRC MN ID database, ‘MN ID 20250313.mdb’ that is being used to develop new estimates is available at ‘mmddisk://CurtisA/Humpbacks/Humpbacks-20250512T192139Z-001.zip/Humpbacks/Data/Cascadia humpback data/’.\n\n\n\nReferences\nBecker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.\nCalambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.\nCurtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.",
+    "crumbs": [
+      "Population Assessment"
     ]
   },
   {
@@ -476,13 +447,63 @@
     ]
   },
   {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
+    "objectID": "content/Software.html",
+    "href": "content/Software.html",
+    "title": "Software",
     "section": "",
-    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to.",
+    "text": "Kevin Stierhoff provided us with R-code from the ‘atm’ package used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into CalTopo for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the code folder.\nOpen the MMTD Survey Planner R-Project in RStudio\n\nGo to the ‘doc’ folder, open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and ‘knit’ the file to create transect lines.\n\nThe R-markdown file will generate a series of plots, corresponding to sections of the code:  \nincluding an interactive Leaflet map:\n\nKnitting the document also produces a CSV file (waypoints_final.csv) with transect points: \nwhich looks like this:\n\nIndividual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.\nIn R, there are many ways to convert Excel or CSV files to shapefiles, JSON, or GPX format. You will need to become familiar with spatial object formats, maybe rely on AI a little for example code. To generate shapefiles and JSON format from a data frame of transect points, use the R script Linestrings_Points_Shapefiles_from_df.R.",
     "crumbs": [
-      "Resources"
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#generating-transects-using-r-package-atm",
+    "href": "content/Software.html#generating-transects-using-r-package-atm",
+    "title": "Software",
+    "section": "",
+    "text": "Kevin Stierhoff provided us with R-code from the ‘atm’ package used to generate a transect grid for the 2024 CalCurCEAS survey. These transects were then incorporated into CalTopo for planning and to track cruise progress. The package files are also included on the SWFSC-CMAP Lab Manual Github site in the code folder.\nOpen the MMTD Survey Planner R-Project in RStudio\n\nGo to the ‘doc’ folder, open the MMTD_Survey_Planner.RMD file. Learn the code, make adjustments to transect spacing, and ‘knit’ the file to create transect lines.\n\nThe R-markdown file will generate a series of plots, corresponding to sections of the code:  \nincluding an interactive Leaflet map:\n\nKnitting the document also produces a CSV file (waypoints_final.csv) with transect points: \nwhich looks like this:\n\nIndividual transects may contain more than 2 points, as new segments are generated when a transect crosses a land or island boundary.\nIn R, there are many ways to convert Excel or CSV files to shapefiles, JSON, or GPX format. You will need to become familiar with spatial object formats, maybe rely on AI a little for example code. To generate shapefiles and JSON format from a data frame of transect points, use the R script Linestrings_Points_Shapefiles_from_df.R.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "href": "content/Software.html#mapping-and-summarizing-line-transect-survey-das-data",
+    "title": "Software",
+    "section": "Mapping and Summarizing line-transect survey DAS data",
+    "text": "Mapping and Summarizing line-transect survey DAS data\nOur research cruises utilize the software VisCruz to collect data in the data acquisition system? (DAS) format. DAS data can be error-checked, processed, and tabulated using Sam Woodman’s R-Package swfscDAS\nThe swfscDAS package is intended to standardize and streamline basic DAS data processing. Functionality currently includes reading DAS data into a data frame, processing this data (extracting state and condition information for each DAS event), and summarizing sighting, effort, and comment information. Learn more in vignette(“swfscDAS”)\nEffort and Sighting Maps can be generated using the R-package CruzPlot. CruzPlot contains a GUI for creating maps, plotting data, and performing basic data summaries from data files in the “DAS” format, produced by the SWFSC software WinCruz and VisCruz. Fancier JPG maps for Marine Mammal Stock Assessments (U.S. West Coast only) can be generated using the R-script Plot_DAS Effort_and_Sightings_Data_SARS.R\nAnother useful script interacts with the R-Package swfscDAS and a DAS file to produce a tabular, CSV format summary of all sightings data: “get_Sightings_swfscDAS.R” This script is in the “c:/carretta/cruise_1652/R_utilities” directory. You can also just read the swfscDAS documentation to do the same thing.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#pam-software",
+    "href": "content/Software.html#pam-software",
+    "title": "Software",
+    "section": "PAM Software",
+    "text": "PAM Software\nLink to Software developed by Soutwest Acoustic Ecology Lab",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#obscovgtools",
+    "href": "content/Software.html#obscovgtools",
+    "title": "Software",
+    "section": "ObsCovgTools",
+    "text": "ObsCovgTools\nThe ObsCovgTools R package is discussed under Risk Assessment.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
+    "objectID": "content/Software.html#apportionmnstocks",
+    "href": "content/Software.html#apportionmnstocks",
+    "title": "Software",
+    "section": "ApportionMnStocks",
+    "text": "ApportionMnStocks\nThe ApportionMnStocks R package is discussed under Projects/Mn Stock Proportions.",
+    "crumbs": [
+      "Software"
     ]
   }
 ]
