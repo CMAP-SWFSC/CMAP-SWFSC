@@ -12,6 +12,8 @@ Assessing the potential risk of fisheries to marine wildlife populations may inc
 The package includes a Shiny web application that is served on the NMFS Posit Connect server at [https://connect.fisheries.noaa.gov/ObsCovg/](https://connect.fisheries.noaa.gov/ObsCovg/) (which requires a Posit Connect account). Login to [Posit Connect](https://connect.fisheries.noaa.gov/) (via single sign-on) provides access to a dashboard with usage statistics and settings for the app deployment. The package version served on Posit Connect must have been built in one of the R versions available on the server. If a Shiny app is no longer working on the Posit Connect server, one of the administrators will typically notify the maintainer of the app, who will need to update the package build to a newer version of R, or otherwise troubleshoot it as needed, and then redeploy it on the server. Resources for Posit Connect users include [NMFS-generated FAQs](https://docs.google.com/document/d/1wWBg_L8vkzTH7kNmJnI2yG4HkVybVo48qWtCrLEei6U/edit#) and a
 [Posit Connect demo video](https://drive.google.com/file/d/1SRCn2ANf8SxOMcPsvYuU6LRCaYnvhoZs/view?usp=sharing). Contacts who may be able to provide help with setting up a Posit Connect account and redeploying an app include Kathryn Doering (kathryn.doering@noaa.gov, SWFSC), Sam Woodman (sam.woodman@noaa.gov, SWFSC), and Christine Stawitz (christine.stawitz@noaa.gov, OST). 
 
+The `ObsCovgTools` repository has also been [forked to the SWFSC GitHub Enterprise](https://github.com/SWFSC/ObsCovgTools) organization. 
+
 #### References
 Curtis K. A. 2020. ObsCovgTools: Evaluate Fishery Observer Coverage for Bycatch Estimation. R package version 3.1.1. https://kacurtis.github.io/ObsCovgTools
 
