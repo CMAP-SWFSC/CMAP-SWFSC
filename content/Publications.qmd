@@ -8,3 +8,5 @@ https://www.zotero.org/groups/5945188/cmap-swfsc
 
 Here are instructions for using Zotero:
 https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html
+
+To copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library. 
