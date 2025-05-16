@@ -488,6 +488,16 @@
     ]
   },
   {
+    "objectID": "content/Software.html#seriousinjury",
+    "href": "content/Software.html#seriousinjury",
+    "title": "Software",
+    "section": "SeriousInjury",
+    "text": "SeriousInjury\nSeriousInjury uses Random Forest classification trees to assess injury severity of large whale entanglements and vessel strikes. Discussed under Human-Caused Mortality.",
+    "crumbs": [
+      "Software"
+    ]
+  },
+  {
     "objectID": "content/Projects.html",
     "href": "content/Projects.html",
     "title": "Projects",
