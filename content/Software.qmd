@@ -49,3 +49,6 @@ The `ObsCovgTools` R package is discussed under [Risk Assessment](https://cmap-s
 
 ## ApportionMnStocks
 The `ApportionMnStocks` R package is discussed under [Projects/Mn Stock Proportions](https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-MnStockProps.html). 
+
+## SeriousInjury
+`SeriousInjury` uses Random Forest classification trees to assess injury severity of large whale entanglements and vessel strikes. Discussed under [Human-Caused Mortality](https://cmap-swfsc.github.io/CMAP-SWFSC/content/HumanCausedMortality.html).
