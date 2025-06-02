@@ -3,3 +3,11 @@ title: Aerial Surveys
 ---
 
 Background Paragraph (what they are, why we do it)
+
+## Pinniped population surveys
+Starting in 1993(?), the then-named Coastal Marine Mammal Program led aerial surveys to census populations of pinniped species -- primarily California sea lions, northern elephant seals, and harbor seals -- at haul-outs along the U.S. West Coast. In 2020, the California Current Ecosystem Program at Alaska Fisheries Science Center assumed responsibility for the continuation of these surveys, and they house the most current version of the database of pinniped counts from the photos (sharon.melin@noaa.gov). Many of these surveys were funded by the U.S. Navy. 
+
+Photos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:
+
+* Physical film archive in storage closet in LJ 389
+* Digital photo archive (2010-2020) on the Pinniped drive on //swc-storage4-s

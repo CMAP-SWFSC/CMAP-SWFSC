@@ -61,6 +61,10 @@ website:
         contents: 
           - href: content/Project-Test.qmd
             text: Project Test Page
+          - href: content/Project-MnStockProps.qmd
+            text: Mn Stock Proportions
+          - href: content/Project-OtoCatalog.qmd
+            text: Otolith Catalog
       - href: content/DataManagement.qmd
         text: Data Management
       - href: content/Inventory.qmd

@@ -1,0 +1,16 @@
+---
+title: Humpback Stock Proportions
+---
+
+Curtis et al. (2025) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package [`ApportionMnStocks`](https://github.com/kacurtis/ApportionMnStocks) (Curtis, 2025), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results. 
+
+* Additional data and files:
+    + R code for this analysis is in the [Mn-StockProportions-USWC-2025](https://github.com/kacurtis/Mn-StockProportions-USWC-2025) GitHub repository that has been [forked to the SWFSC GitHub Enterprise](https://github.com/SWFSC/Mn-StockProportions-USWC-2025) organization.
+    + The version of the CRC MN ID database used for this analysis, is available at 
+    'SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20250303.zip/MN ID.mdb'. 
+
+#### References
+
+Curtis, K.A. 2025. ApportionMnStocks. Version 1.0.0. NOAA Fisheries, Southwest Fisheries Science Center, 8901 La Jolla Shores Dr., La Jolla, CA 92037, DOI: 10.5281/zenodo.15540189
+
+Curtis, K.A., Calambokidis, J., Audley, K., Becker, E.A., Bejder, L., Black, N., Carretta, J.V., Cabanilles, P., Castaneda, M.G., Cheeseman, T., Currie, J.J., de Luna, E., De Weerdt, J., Doe, N., Doniol-Valcroze, T., Flynn, K., Forney, K.A., Frisch-Jordán, A., Fry, S., Gabriele, C., Gisborne, B., Huggins, J.L., Lyman, E., Martínez-Loustalot, P., McMillan, C.J., Pack, A.A., Quintana-Rizzo, E., Ransome, N., Shaw, T.J.H., Szabo, A., Torres, L., Urbán R., J., van Aswegen, M., Wray, J., Moore, J. 2025. Harnessing the power of photo-ID data for apportionment to migratory whale herds: U.S. West Coast humpback whale stock proportions by latitude for the period 2019-2024, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-723. https://doi.org/10.25923/ah7d-sj35
