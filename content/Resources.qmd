@@ -3,4 +3,4 @@ title: Resources
 ---
 
 ## Permits
-The data collection efforts referenced here have been conducted under a series of permits from NMFS PR to SWFSC. Specific permit information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries [Authorizations and Permits for Protected Species (APPS) database](https://apps.nmfs.noaa.gov/search/search.cfm). 
+The data collection efforts referenced here have been conducted under a series of MMPA/ESA Reseach/Enhancement permits issued to SWFSC. Specific information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries [Authorizations and Permits for Protected Species (APPS) database](https://apps.nmfs.noaa.gov/search/search.cfm). 
