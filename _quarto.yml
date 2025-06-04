@@ -39,6 +39,8 @@ website:
             text: Shipboard Surveys
           - href: content/AerialSurveys.qmd
             text: Aerial Surveys
+          - href: content/GroundSurveys.qmd
+            text: Ground Surveys
       - href: content/MMPA_Implementation.qmd
         text: MMPA Implementation
       - href: content/StockAssess.qmd
