@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Surveys.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.250Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Resources.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Risk.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/DataManagement.html</loc>
-    <lastmod>2025-06-03T20:49:14.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-Test.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Projects.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PAM.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Publications.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/MMPA_Implementation.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/index.html</loc>
-    <lastmod>2025-06-03T20:49:14.372Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/StockAssess.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PopAssess.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/TRT.html</loc>
-    <lastmod>2025-06-03T20:49:14.358Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Software.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HabitatModels.html</loc>
-    <lastmod>2025-06-03T20:49:14.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HumanCausedMortality.html</loc>
-    <lastmod>2025-06-03T20:49:14.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-MnStockProps.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Inventory.html</loc>
-    <lastmod>2025-06-03T20:49:14.347Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-MnStockProps.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-Test.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html</loc>
+    <lastmod>2025-06-04T18:33:03.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Projects.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PAM.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/PopAssess.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/StockAssess.html</loc>
+    <lastmod>2025-06-04T18:33:03.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/index.html</loc>
+    <lastmod>2025-06-04T18:33:03.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/MMPA_Implementation.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Publications.html</loc>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/AerialSurveys.html</loc>
+    <lastmod>2025-06-04T18:33:03.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/TRT.html</loc>
+    <lastmod>2025-06-04T18:33:03.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Software.html</loc>
+    <lastmod>2025-06-04T18:33:03.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HabitatModels.html</loc>
+    <lastmod>2025-06-04T18:33:03.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/HumanCausedMortality.html</loc>
+    <lastmod>2025-06-04T18:33:03.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/DataManagement.html</loc>
+    <lastmod>2025-06-04T18:33:03.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/GroundSurveys.html</loc>
+    <lastmod>2025-06-04T18:33:03.239Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/SeaLionDiets.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
   </url>
   <url>
     <loc>https://cmap-swfsc.github.io/CMAP-SWFSC/content/Project-OtoCatalog.html</loc>
-    <lastmod>2025-06-03T20:49:14.357Z</lastmod>
+    <lastmod>2025-06-04T18:33:03.249Z</lastmod>
   </url>
 </urlset>

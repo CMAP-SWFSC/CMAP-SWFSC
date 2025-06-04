@@ -4,7 +4,7 @@
     "href": "content/Surveys.html",
     "title": "Population Surveys",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys\nGround Surveys",
     "crumbs": [
       "Population Surveys"
     ]
@@ -14,7 +14,7 @@
     "href": "content/Surveys.html#background",
     "title": "Population Surveys",
     "section": "",
-    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys",
+    "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys\nGround Surveys",
     "crumbs": [
       "Population Surveys"
     ]
@@ -70,45 +70,24 @@
     ]
   },
   {
-    "objectID": "content/DataManagement.html",
-    "href": "content/DataManagement.html",
-    "title": "Data Management",
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
     "section": "",
-    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website.\n\nSAEL Lab Example\n\nMeanwhile, stuff people should be aware of: * Alex Curtis has an Iridium satellite phone (inherited from Annette) in her office.",
     "crumbs": [
-      "Data Management"
+      "Inventory"
     ]
   },
   {
-    "objectID": "content/DataManagement.html#pam-data-management",
-    "href": "content/DataManagement.html#pam-data-management",
-    "title": "Data Management",
+    "objectID": "content/Project-MnStockProps.html",
+    "href": "content/Project-MnStockProps.html",
+    "title": "Humpback Stock Proportions",
     "section": "",
-    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
+    "text": "Curtis et al. (2025) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package ApportionMnStocks (Curtis, 2025), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results.\n\nAdditional data and files:\n\nR code for this analysis is in the Mn-StockProportions-USWC-2025 GitHub repository that has been forked to the SWFSC GitHub Enterprise organization.\nThe version of the CRC MN ID database used for this analysis, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20250303.zip/MN ID.mdb’.\n\n\n\nReferences\nCurtis, K.A. 2025. ApportionMnStocks. Version 1.0.0. NOAA Fisheries, Southwest Fisheries Science Center, 8901 La Jolla Shores Dr., La Jolla, CA 92037, DOI: 10.5281/zenodo.15540189\nCurtis, K.A., Calambokidis, J., Audley, K., Becker, E.A., Bejder, L., Black, N., Carretta, J.V., Cabanilles, P., Castaneda, M.G., Cheeseman, T., Currie, J.J., de Luna, E., De Weerdt, J., Doe, N., Doniol-Valcroze, T., Flynn, K., Forney, K.A., Frisch-Jordán, A., Fry, S., Gabriele, C., Gisborne, B., Huggins, J.L., Lyman, E., Martínez-Loustalot, P., McMillan, C.J., Pack, A.A., Quintana-Rizzo, E., Ransome, N., Shaw, T.J.H., Szabo, A., Torres, L., Urbán R., J., van Aswegen, M., Wray, J., Moore, J. 2025. Harnessing the power of photo-ID data for apportionment to migratory whale herds: U.S. West Coast humpback whale stock proportions by latitude for the period 2019-2024, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-723. https://doi.org/10.25923/ah7d-sj35",
     "crumbs": [
-      "Data Management"
-    ]
-  },
-  {
-    "objectID": "content/PlaneSurveys.html",
-    "href": "content/PlaneSurveys.html",
-    "title": "Aerial Surveys",
-    "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
-    ]
-  },
-  {
-    "objectID": "content/PlaneSurveys.html#pinniped-population-surveys",
-    "href": "content/PlaneSurveys.html#pinniped-population-surveys",
-    "title": "Aerial Surveys",
-    "section": "Pinniped population surveys",
-    "text": "Pinniped population surveys\nStarting in 1993(?), the then-named Coastal Marine Mammal Program led aerial surveys to census populations of pinniped species – primarily California sea lions, northern elephant seals, and harbor seals – at haul-outs along the U.S. West Coast. In 2020, the California Current Ecosystem Program at Alaska Fisheries Science Center assumed responsibility for the continuation of these surveys, and they house the most current version of the database of pinniped counts from the photos (sharon.melin@noaa.gov). Many of these surveys were funded by the U.S. Navy.\nPhotos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:\n\nPhysical film archive in storage closet in LJ 389\nDigital photo archive (2010-2020) on the Pinniped drive on //swc-storage4-s",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
+      "Projects",
+      "Mn Stock Proportions"
     ]
   },
   {
@@ -207,73 +186,33 @@
     ]
   },
   {
-    "objectID": "content/Publications.html",
-    "href": "content/Publications.html",
-    "title": "Publications and Presentations",
+    "objectID": "content/PopAssess.html",
+    "href": "content/PopAssess.html",
+    "title": "Stock Assessments",
     "section": "",
-    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html\nTo copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library.",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
     "crumbs": [
-      "Publications"
+      "Population Assessment"
     ]
   },
   {
-    "objectID": "content/MMPA_Implementation.html",
-    "href": "content/MMPA_Implementation.html",
-    "title": "MMPA_Implementation",
+    "objectID": "content/PopAssess.html#background",
+    "href": "content/PopAssess.html#background",
+    "title": "Stock Assessments",
     "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
     "crumbs": [
-      "MMPA Implementation"
+      "Population Assessment"
     ]
   },
   {
-    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "objectID": "content/PopAssess.html#humpback-whale",
+    "href": "content/PopAssess.html#humpback-whale",
+    "title": "Stock Assessments",
+    "section": "Humpback whale",
+    "text": "Humpback whale\nHumpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al. (2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).\nThe version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the R package CMRutils available on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\n\n2022 estimate data:\n\nR code for these estimates is available in the CASM-Mn-abundance-2022 repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\nMCMC results for these estimates and for related analyses are available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/results/Curtis et al 2022 and related exploration/’\nThe version of the CRC MN ID database on which these estimates are based is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20210831.mdb’.\n\nAssessment update:\n\nPreliminary MCMC results updating these estimates through 2022 are at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/results/updating Central America assessment/’.\nR code updating data import and filtering to current standards and data is in a private GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nNotes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been copied to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe most recently acquired version of the CRC MN ID database, which is being used to develop new estimates, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/’MN ID 20250313.zip/MN ID.mdb’.\n\n\n\nReferences\nBecker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.\nCalambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.\nCurtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.",
     "crumbs": [
-      "MMPA Implementation"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#how-to-use-this-lab-manual",
-    "href": "index.html#how-to-use-this-lab-manual",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "How to Use this Lab Manual",
-    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
-    "href": "index.html#cmap-team-how-to-backup-your-brain",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "CMAP Team: How to Backup Your Brain",
-    "text": "CMAP Team: How to Backup Your Brain\nWe have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a ‘field guide to our brains’, and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:\n\nHard Drive Backup\nWe have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.\n\n\nCMAP Github Organization and Lab Manual\nThe Lab Manual will serve as the initial ‘go to’ place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? Let us know! To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.\n\nGet Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
-    "crumbs": [
-      "Home"
+      "Population Assessment"
     ]
   },
   {
@@ -327,33 +266,95 @@
     ]
   },
   {
-    "objectID": "content/PopAssess.html",
-    "href": "content/PopAssess.html",
-    "title": "Stock Assessments",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "Population Assessment"
+      "Home"
     ]
   },
   {
-    "objectID": "content/PopAssess.html#background",
-    "href": "content/PopAssess.html#background",
-    "title": "Stock Assessments",
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "Our program applies or develops novel analytical methods for estimating population parameters such as population size, population trends, and survival rates from line-transect, passive acoustic, and photo ID data collected from our and others’ surveys. Below are details for some recent or ongoing assessments that may be needed for reference.",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "Population Assessment"
+      "Home"
     ]
   },
   {
-    "objectID": "content/PopAssess.html#humpback-whale",
-    "href": "content/PopAssess.html#humpback-whale",
-    "title": "Stock Assessments",
-    "section": "Humpback whale",
-    "text": "Humpback whale\nHumpback whales that feed along the U.S. West Coast in summer used to be managed as a single stock, but are now managed as separate stocks based on both feeding area and wintering area destination. Abundance estimates for the U.S. West Coast as a whole are similar between mark-recapture estimates, which are based on photo-ID data from California and Oregon, and estimates from species distribution models using data from ship-based surveys of U.S. waters off California, Oregon, and Washington (Becker et al., 2020; Calambokidis and Barlow, 2020). Curtis et al. (2022) estimated abundance for the CentAm/SMex-CA/OR/WA stock from wintering area photo-ID data collected during 2019-2021, corrected for negative bias due to sex heterogeneity. They also estimated the MMex-CA/OR/WA stock size by subtraction from the most recent estimate by Calambokidis and Barlow (2020).\nThe version of the CAPTURE program used by Barlow and Calambokidis (2020) to estimate abundance using a Chao Mth model, and a function for running it, are available in the R package CMRutils available on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\n\n2022 estimate data:\n\nR code for these estimates is available in the CASM-Mn-abundance-2022 repository on GitHub, which has been forked to the SWFSC GitHub Enterprise organization.\nMCMC results for these estimates and for related analyses are available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/results/Curtis et al 2022 and related exploration/’\nThe version of the CRC MN ID database on which these estimates are based is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20210831.mdb’.\n\nAssessment update:\n\nPreliminary MCMC results updating these estimates through 2022 are at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/results/updating Central America assessment/’.\nR code updating data import and filtering to current standards and data is in a private GitHub repository that has been forked to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nNotes on a work plan to update the stock abundance estimates through 2024 are in a private GitHub project that has been copied to the SWFSC GitHub Enterprise organization, with read permission for Jeff Moore.\nThe most recently acquired version of the CRC MN ID database, which is being used to develop new estimates, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/’MN ID 20250313.zip/MN ID.mdb’.\n\n\n\nReferences\nBecker, E.A., Forney, K.A., Miller, D.L., Fiedler, P.C., Barlow, J., Moore, J.E. 2020. Habitat-based density estimates for cetaceans in the California Current Ecosystem based on 1991-2018 survey data. NOAA Technical Memorandum NMFS-SWFSC-638.\nCalambokidis, J., Barlow, J. 2020. Updated abundance estimates for blue and humpback whales along the U.S. West Coast using data through 2018. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-634.\nCurtis, K.A., Calambokidis, J., Audley, K., Castaneda, M.G., De Weerdt, J., García Chávez, A.J., Garita, F., Martínez-Loustalot, P., Palacios-Alfaro, J.D., Pérez, B., Quintana-Rizzo, E., Ramírez Barragan, R., Ransome, N., Rasmussen, K., Urbán R, J., Villegas Zurita, F., Flynn, K., Cheeseman, T., Barlow, J., Steel, D., Moore, J. 2022. Abundance of humpback whales (Megaptera novaeangliae) wintering in Central America and southern Mexico from a one-dimensional spatial capture-recapture model. NOAA Technical Memorandum NMFS-SWFSC-661.",
+    "objectID": "index.html#how-to-use-this-lab-manual",
+    "href": "index.html#how-to-use-this-lab-manual",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "How to Use this Lab Manual",
+    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
     "crumbs": [
-      "Population Assessment"
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
+    "href": "index.html#cmap-team-how-to-backup-your-brain",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "CMAP Team: How to Backup Your Brain",
+    "text": "CMAP Team: How to Backup Your Brain\nWe have two steps to backing up our brain: (1) Backup data/info to an external hard drive and (2) Backup information to Github (including this site). This Lab Manual will serve as a ‘field guide to our brains’, and will include a summary of all data/projects/SOP/manuals/etc as well as links or paths to more information. Kourtney and Shannon are here to help! Below are the initial steps:\n\nHard Drive Backup\nWe have set up a hard drive (20Tb) set up to a computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.\n\n\nCMAP Github Organization and Lab Manual\nThe Lab Manual will serve as the initial ‘go to’ place for any/all information. For each topic, we have a section (see left sidebar), and we have an additional section for other random projects. Do you need extra Topic Headings? Let us know! To have content added, you can either do it yourself, or ask us for help. Below are intro instructions for either approach.\n\nGet Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html",
+    "href": "content/MMPA_Implementation.html",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/Publications.html",
+    "href": "content/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html\nTo copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "content/AerialSurveys.html",
+    "href": "content/AerialSurveys.html",
+    "title": "Aerial Surveys",
+    "section": "",
+    "text": "Background Paragraph (what they are, why we do it)",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/AerialSurveys.html#pinniped-population-surveys",
+    "href": "content/AerialSurveys.html#pinniped-population-surveys",
+    "title": "Aerial Surveys",
+    "section": "Pinniped population surveys",
+    "text": "Pinniped population surveys\nStarting in 1993(?), the then-named Coastal Marine Mammal Program led aerial surveys to census populations of pinniped species – primarily California sea lions, northern elephant seals, and harbor seals – at haul-outs along the U.S. West Coast. In 2020, the California Current Ecosystem Program at Alaska Fisheries Science Center assumed responsibility for the continuation of these surveys, and they house the most current version of the database of pinniped counts from the photos (sharon.melin@noaa.gov). Many of these surveys were funded by the U.S. Navy.\nPhotos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:\n\nPhysical film archive in storage closet in LJ 389\nDigital photo archive (2010-2020) on the Pinniped drive at //swc-storage4-s/Pinniped and backed up at ‘SWFSC-MMTD-CMAP://Alex Curtis/Pinniped surveys’",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
     ]
   },
   {
@@ -497,25 +498,38 @@
     ]
   },
   {
-    "objectID": "content/Project-MnStockProps.html",
-    "href": "content/Project-MnStockProps.html",
-    "title": "Humpback Stock Proportions",
+    "objectID": "content/DataManagement.html",
+    "href": "content/DataManagement.html",
+    "title": "Data Management",
     "section": "",
-    "text": "Curtis et al. (2025) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package ApportionMnStocks (Curtis, 2025), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results.\n\nAdditional data and files:\n\nR code for this analysis is in the Mn-StockProportions-USWC-2025 GitHub repository that has been forked to the SWFSC GitHub Enterprise organization.\nThe version of the CRC MN ID database used for this analysis, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20250303.zip/MN ID.mdb’.\n\n\n\nReferences\nCurtis, K.A. 2025. ApportionMnStocks. Version 1.0.0. NOAA Fisheries, Southwest Fisheries Science Center, 8901 La Jolla Shores Dr., La Jolla, CA 92037, DOI: 10.5281/zenodo.15540189\nCurtis, K.A., Calambokidis, J., Audley, K., Becker, E.A., Bejder, L., Black, N., Carretta, J.V., Cabanilles, P., Castaneda, M.G., Cheeseman, T., Currie, J.J., de Luna, E., De Weerdt, J., Doe, N., Doniol-Valcroze, T., Flynn, K., Forney, K.A., Frisch-Jordán, A., Fry, S., Gabriele, C., Gisborne, B., Huggins, J.L., Lyman, E., Martínez-Loustalot, P., McMillan, C.J., Pack, A.A., Quintana-Rizzo, E., Ransome, N., Shaw, T.J.H., Szabo, A., Torres, L., Urbán R., J., van Aswegen, M., Wray, J., Moore, J. 2025. Harnessing the power of photo-ID data for apportionment to migratory whale herds: U.S. West Coast humpback whale stock proportions by latitude for the period 2019-2024, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-723. https://doi.org/10.25923/ah7d-sj35",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
     "crumbs": [
-      "Projects",
-      "Mn Stock Proportions"
+      "Data Management"
     ]
   },
   {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
+    "objectID": "content/DataManagement.html#pam-data-management",
+    "href": "content/DataManagement.html#pam-data-management",
+    "title": "Data Management",
     "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website.\n\nSAEL Lab Example\n\nMeanwhile, stuff people should be aware of: * Alex Curtis has an Iridium satellite phone (inherited from Annette) in her office.",
+    "text": "Link to Data Management information for Southwest Acoustic Ecology Lab",
     "crumbs": [
-      "Inventory"
+      "Data Management"
     ]
+  },
+  {
+    "objectID": "content/GroundSurveys.html",
+    "href": "content/GroundSurveys.html",
+    "title": "Ground Surveys",
+    "section": "",
+    "text": "Counts taken from the ground are also used for pinnipeds at times when aerial surveys are not possible. These counts can be calibrated based on years with contemporaneous aerial survey data, since ground surveys tend to undercount animals due to limited visibility, greater disturbance of the animals, and other conditions such as light and weather."
+  },
+  {
+    "objectID": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
+    "href": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
+    "title": "Ground Surveys",
+    "section": "Pinniped ground surveys at San Clemente Island",
+    "text": "Pinniped ground surveys at San Clemente Island\nStarting in 1981, SWFSC biologists began monitoring pinnipeds at San Clemente Island near Mail Point, the location of rookeries for California sea lions (CSL) and Northern elephant seals (NES), collecting both count data from ground surveys and diet data for California sea lions specifically. For the majority of the time series, the ground surveys have been quarterly and have included all life stages. Since 2019, only pups have been routinely counted, and only during the respective breeding seasons for CSL (July-August) and NES (January-February). Counts of CSL pups from this southernmost rookery for the U.S. stock provide complementary and often contrasting information with trends at other rookeries to the north. The NES rookery is very small and may provide limited ecological insight.\nData from these surveys are available on GitHub and forked to the SWFSC GitHub Enterprise organization."
   },
   {
     "objectID": "content/SeaLionDiets.html",
