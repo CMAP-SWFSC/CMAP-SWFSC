@@ -9,6 +9,7 @@ Surveys by Type:
 
 [Shipboard Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/ShipSurveys.html)
 
-[Aerial Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/PlaneSurveys.html)
+[Aerial Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/AerialSurveys.html)
 
+[Ground Surveys](https://cmap-swfsc.github.io/CMAP-SWFSC/content/GroundSurveys.html)
 
