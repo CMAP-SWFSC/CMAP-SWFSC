@@ -37,7 +37,7 @@ website:
         contents: 
           - href: content/ShipSurveys.qmd
             text: Shipboard Surveys
-          - href: content/PlaneSurveys.qmd
+          - href: content/AerialSurveys.qmd
             text: Aerial Surveys
       - href: content/MMPA_Implementation.qmd
         text: MMPA Implementation
