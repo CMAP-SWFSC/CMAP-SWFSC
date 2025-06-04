@@ -1,0 +1,14 @@
+---
+title: Otolith Catalog
+---
+
+The regional otolith catalog developed by Mark Lowry (Lowry 2011) contains 
+relatively low resolution photographs. Original and edited photographs for this 
+catalog, of much higher quality, are stored at
+SWFSC-MMTD-CMAP://Alex Curtis/Otolith files/ as well as on //swc-storage4-s/scatdb/
+(restricted access).
+
+#### References
+Lowry MS (2011) Photographic catalog of California marine fish otoliths: Prey of 
+California sea lions (<i>Zalophus californianus</i>). NOAA Technical Memorandum 
+NOAA-TM-NMFS-SWFSC-483, 256 p.
