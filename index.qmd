@@ -39,13 +39,14 @@ Instructions for setting up Google Drive for Desktop [Link Here](https://sites.g
 
 
 ### CMAP Hard Drive (temporary)
+*TEMPORARY* 
 External hard drive set up for temporary local use prior to porting to the cloud. Set up on computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a 'readme' text file with a basic summary of what is in that folder. 
 *Resources*:
 When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger\@noaa.gov.
 
 
 
-#### Get Help!
+## Get Help!
 
 You can either email Shannon to get you started, or send us info for each topic following these methods:
 
