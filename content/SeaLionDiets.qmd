@@ -1,6 +1,46 @@
 ---
-title: Long Term Dataset on Sea Lion Diets
+title: Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey
 ---
 
 ## Background
-For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.
+Since 1981, we have been collecting a quarterly time series of California sea lion diet from major southern Channel Islands rookeries, providing long-term ecological information on pelagic foraging conditions in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how the pelagic forage community in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm. 
+
+## Sample archive
+The sample archive and partially processed samples for SLiDERS are stored in the Marine Mammal Ecology Lab (LJ 389). Unprocessed frozen samples are stored in red buckets in the necropsy freezer (LJ 119). 
+
+## File storage
+Files for SLiDERS are distributed among three places: 
+
+* The SLiDERS-Survey GitHub organization ('SLiDERS GitHub organization', currently access-restricted, and all repositories forked to the SWFSC GitHub organization, with access provided to Jeff Moore)
+* The scatdb directory on the on-prem swc data server (<i>scatdb-drive</i>, access-restricted; Jeff Moore has access)
+* Alex's Google Drive directory SLiDERS shared with Jeff Moore (<i>SLiDERS-GDrive</i>)
+
+All files are backed up to <i>SWFSC-MMTD-CMAP://Alex Curtis/SLiDERS</i>.
+
+## Data and metadata
+Data for processed samples as well as an inventory of unprocessed samples are maintained in the R package `SLiDERS.data.raw`, as a repository in the SLiDERS GitHub organization (currently access-restricted). Additional information and context for the time series are available in <i>SLiDERS-GDrive/About SLiDERS</i> and <i>scatdb-drive/SCB sea lions as samplers white paper</i>. Data not yet imported to `SLiDERS.data.raw`, for partially processed trips, are available in <i>scatdb-drive/New Scat Data</i>. 
+
+A separate data set supporting prey size reconstruction, including data on prey and prey hard part sizes as well as regressions relating these, was published at [Seanoe](https://www.seanoe.org/data/00663/77522/) and in a [2020 Technical Memorandum (Lowry et al., 2020)](https://swfsc-publications.fisheries.noaa.gov/publications/CR/2020/2020Lowry2.pdf). Underlying data and scripts are in <i>scatdb-drive/Prey Size</i>.
+
+## Data management
+The `SLiDERS.data.mgmt` R package, containing functions for checking new data and adding them to the data package (only once both otolith and EtOH fractions for a trip have been processed), is in the SLiDERS GitHub organization.
+
+## Diet reconstruction and time series
+`SLiDERS.data.raw` (above) includes an initial data editing function that must be run prior to further data processing. <i>scatdb-drive/R scripts</i> contains scripts for producing time series of prey frequency of occurrence, numeric abundance, biomass consumed per sample, and relative biomass consumed over time (integrating changing sea lion population abundance). Prey size and numeric reconstruction are informed by captive feeding studies, including model-predicted numeric correction factors from an analysis of prey recovery from scats based on otolith characteristics (Curtis et al., 2022), for which scripts and data are in <i>scatdb-drive/Captive feeding analysis</i>.
+
+## Protocols
+Sample collection and processing protocols, inclusive of field trip planning information and permit-related records, are maintained in <i>SLiDERS-GDrive/Sample collection</i> and <i>SLiDERS-GDrive/Sample processing</i>. Prey identification resources are collected in <i>scatdb-drive/ID references</i>. 
+
+## Lab management
+<i>scatdb-drive/Lab admin</i> contains documentation of completed training for personnel and files related to maintaining the online chemical inventory. <i>scatdb-drive/Microscopes</i> contains information on the lab microscopes and calibrations. 
+
+## Publications
+Publications based on or utilizing the SLiDERS and related data sets are compiled in <i>SLiDERS-GDrive/Publications</i>.
+
+## References
+
+Curtis, K. A., Lowry, M. S., Sweeney, J. M., Orr, A. J., and Harvey, J. T. 2022. Predicting prey recovery from scats of California sea lions (<i>Zalophus californianus</i>) for novel prey species and sizes. ICES Journal of Marine Science, 79:193-203.
+
+Lowry, M.S., Curtis, K.A., Boerger, C.M. 2020. Measurements and regressions of otoliths, cephalopod beaks, and other prey hard parts used to reconstruct California Current predator diet composition, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-637.
+
+
