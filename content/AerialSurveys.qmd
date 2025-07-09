@@ -10,4 +10,4 @@ Starting in 1993(?), the then-named Coastal Marine Mammal Program led aerial sur
 Photos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:
 
 * Physical film archive in storage closet in LJ 389
-* Digital photo archive (2010-2020) on the Pinniped drive on //swc-storage4-s
+* Digital photo archive (2010-2020) on the Pinniped drive at //swc-storage4-s/Pinniped and backed up at 'SWFSC-MMTD-CMAP://Alex Curtis/Pinniped surveys'

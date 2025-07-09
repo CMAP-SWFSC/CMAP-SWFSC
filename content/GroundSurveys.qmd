@@ -1,0 +1,11 @@
+---
+title: Ground Surveys
+---
+
+Counts taken from the ground are also used for pinnipeds at times when aerial surveys are not possible. These counts can be calibrated based on years with contemporaneous aerial survey data, since ground surveys tend to undercount animals due to limited visibility, greater disturbance of the animals, and other conditions such as light and weather. 
+
+## Pinniped ground surveys at San Clemente Island
+
+Starting in 1981, SWFSC biologists began monitoring pinnipeds at San Clemente Island near Mail Point, the location of rookeries for California sea lions (CSL) and Northern elephant seals (NES), collecting both count data from ground surveys and [diet data for California sea lions specifically](https://cmap-swfsc.github.io/CMAP-SWFSC/content/SeaLionDiets.html). For the majority of the time series, the ground surveys have been quarterly and have included all life stages. Since 2019, only pups have been routinely counted, and only during the respective breeding seasons for CSL (July-August) and NES (January-February). Counts of CSL pups from this southernmost rookery for the U.S. stock provide complementary and often contrasting information with trends at other rookeries to the north. The NES rookery is very small and may provide little ecological insight.
+
+Data from these surveys are available [on GitHub](https://github.com/SLiDERS-Survey/SLiDERS-ground-count) (access restricted) and  [forked to the SWFSC GitHub Enterprise](https://github.com/SWFSC/SLiDERS-ground-count) organization.
