@@ -1,97 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "",
-    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#how-to-use-this-lab-manual",
-    "href": "index.html#how-to-use-this-lab-manual",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "How to Use this Lab Manual",
-    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
-    "href": "index.html#cmap-team-how-to-backup-your-brain",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "CMAP Team: How to Backup Your Brain",
-    "text": "CMAP Team: How to Backup Your Brain\n\nCMAP Lab Manual\nCATALOG Your one-stop shop to identify and find all CMAP related data and metadata (this manual!) Resources: Link to Get Help!, here (below)\n\n\nGithub\nCODE Project based repositories (research compendiums, code repositories) Resources: PSAW 2022 R/Github Trainings, specifically the video for an Intro to Github (this is a good approach to using Github) NMFS Open Science Resource Book\n\n\nGoogle Cloud (standby!)\nData Archive Long term data storage (minimum), will also serve as a working space when virtual machine (vm) is set up. Resources: standby!\n\n\nGoogle Drive\nNONPUBLIC Data/Metadata For data/metadata that must be accessed locally and/or is not to be publicly accessible. Also appropriate for data/metadata for collaborations that do not work well via github and/or cloud. Resources: CMAP shared Google Drive Link Here Instructions for setting up Google Drive for Desktop Link Here\n\n\nCMAP Hard Drive (temporary)\nTEMPORARY External hard drive set up for temporary local use prior to porting to the cloud. Set up on computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. Resources: When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#get-help",
-    "href": "index.html#get-help",
-    "title": "SWFSC-CMAP Lab Manual",
-    "section": "Get Help!",
-    "text": "Get Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/Publications.html",
-    "href": "content/Publications.html",
-    "title": "Publications and Presentations",
-    "section": "",
-    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html\nTo copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library.",
-    "crumbs": [
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "content/Inventory.html",
-    "href": "content/Inventory.html",
-    "title": "Inventory",
-    "section": "",
-    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear beingin the field. This can be a link to a Google sheet or embedded in the website.\n\nSAEL Lab Example\n\nMeanwhile, stuff people should be aware of: * Alex Curtis has an Iridium satellite phone (inherited from Annette) in her office.",
-    "crumbs": [
-      "Inventory"
-    ]
-  },
-  {
-    "objectID": "content/GroundSurveys.html",
-    "href": "content/GroundSurveys.html",
-    "title": "Ground Surveys",
-    "section": "",
-    "text": "Counts taken from the ground are also used for pinnipeds at times when aerial surveys are not possible. These counts can be calibrated based on years with contemporaneous aerial survey data, since ground surveys tend to undercount animals due to limited visibility, greater disturbance of the animals, and other conditions such as light and weather.",
-    "crumbs": [
-      "Population Surveys",
-      "Ground Surveys"
-    ]
-  },
-  {
-    "objectID": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
-    "href": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
-    "title": "Ground Surveys",
-    "section": "Pinniped ground surveys at San Clemente Island",
-    "text": "Pinniped ground surveys at San Clemente Island\nStarting in 1981, SWFSC biologists began monitoring pinnipeds at San Clemente Island near Mail Point, the location of rookeries for California sea lions (CSL) and Northern elephant seals (NES), collecting both count data from ground surveys and diet data for California sea lions specifically. For the majority of the time series, the ground surveys have been quarterly and have included all life stages. Since 2019, only pups have been routinely counted, and only during the respective breeding seasons for CSL (July-August) and NES (January-February). Counts of CSL pups from this southernmost rookery for the U.S. stock provide complementary and often contrasting information with trends at other rookeries to the north. The NES rookery is very small and may provide limited ecological insight.\nData from these surveys are available on GitHub and forked to the SWFSC GitHub Enterprise organization.",
-    "crumbs": [
-      "Population Surveys",
-      "Ground Surveys"
-    ]
-  },
-  {
     "objectID": "content/Software.html",
     "href": "content/Software.html",
     "title": "Software",
@@ -159,6 +67,148 @@
     "text": "SeriousInjury\nThe SeriousInjury R package is discussed under Human-Caused Mortality.",
     "crumbs": [
       "Software"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html",
+    "href": "content/Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "content/Projects.html#background",
+    "href": "content/Projects.html#background",
+    "title": "Projects",
+    "section": "",
+    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html",
+    "href": "content/Inventory.html",
+    "title": "Inventory",
+    "section": "",
+    "text": "An inventory page is highly recommended to keep track of equipment, loans, and gear being in the field. This can be a link to a Google sheet or embedded in the website.",
+    "crumbs": [
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/Inventory.html#common-equipment-list",
+    "href": "content/Inventory.html#common-equipment-list",
+    "title": "Inventory",
+    "section": "Common equipment list:",
+    "text": "Common equipment list:\n\nAlex Curtis has an Iridium satellite phone (inherited from Annette) in her office.",
+    "crumbs": [
+      "Inventory"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html",
+    "href": "content/MMPA_Implementation.html",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/TRT.html",
+    "href": "content/TRT.html",
+    "title": "Take Reduction Team (TRT) Efforts",
+    "section": "",
+    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
+    "crumbs": [
+      "Take Reduction Teams"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The data collection efforts referenced here have been conducted under a series of MMPA/ESA Reseach/Enhancement permits issued to SWFSC. Specific information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries Authorizations and Permits for Protected Species (APPS) database.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/Resources.html#permits",
+    "href": "content/Resources.html#permits",
+    "title": "Resources",
+    "section": "",
+    "text": "The data collection efforts referenced here have been conducted under a series of MMPA/ESA Reseach/Enhancement permits issued to SWFSC. Specific information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries Authorizations and Permits for Protected Species (APPS) database.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/Risk.html",
+    "href": "content/Risk.html",
+    "title": "Population Risk Assessment",
+    "section": "",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
+    "objectID": "content/Risk.html#background",
+    "href": "content/Risk.html#background",
+    "title": "Population Risk Assessment",
+    "section": "",
+    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
+    "objectID": "content/Risk.html#obscovgtools",
+    "href": "content/Risk.html#obscovgtools",
+    "title": "Population Risk Assessment",
+    "section": "ObsCovgTools",
+    "text": "ObsCovgTools\nAssessing the potential risk of fisheries to marine wildlife populations may include an evaluation of observer coverage in terms of how well it documents bycatch of a species of conservation concern (Curtis and Carretta, 2020). The R package ObsCovgTools (Curtis, 2020) provides utilities for evaluating observer coverage with respect to documenting and estimating rare bycatch, including (1) probabilities of observing a bycatch event and of one occurring in total effort, (2) upper confidence limit for bycatch given none was observed, and (3) bycatch estimation CV (coefficient of variation). This tool has generated wide interest, including from ICES, IATTC, MSC, and NOPAT.\nThe package includes a Shiny web application that is served on the NMFS Posit Connect server at https://connect.fisheries.noaa.gov/ObsCovg/ (which requires a Posit Connect account). Login to Posit Connect (via single sign-on) provides access to a dashboard with usage statistics and settings for the app deployment. The package version served on Posit Connect must have been built in one of the R versions available on the server. If a Shiny app is no longer working on the Posit Connect server, one of the administrators will typically notify the maintainer of the app, who will need to update the package build to a newer version of R, or otherwise troubleshoot it as needed, and then redeploy it on the server. Resources for Posit Connect users include NMFS-generated FAQs and a Posit Connect demo video. Contacts who may be able to provide help with setting up a Posit Connect account and redeploying an app include Kathryn Doering (kathryn.doering@noaa.gov, SWFSC), Sam Woodman (sam.woodman@noaa.gov, SWFSC), and Christine Stawitz (christine.stawitz@noaa.gov, OST).\nThe ObsCovgTools repository has also been forked to the SWFSC GitHub Enterprise organization.\n\nReferences\nCurtis K. A. 2020. ObsCovgTools: Evaluate Fishery Observer Coverage for Bycatch Estimation. R package version 3.1.1. https://kacurtis.github.io/ObsCovgTools\nCurtis K. A., Carretta J. V. 2020. ObsCovgTools: Assessing observer coverage needed to document and estimate rare event bycatch. Fisheries Research, 225: 105493. https://doi.org/10.1016/j.fishres.2020.105493",
+    "crumbs": [
+      "Risk Assessment"
+    ]
+  },
+  {
+    "objectID": "content/GroundSurveys.html",
+    "href": "content/GroundSurveys.html",
+    "title": "Ground Surveys",
+    "section": "",
+    "text": "Counts taken from the ground are also used for pinnipeds at times when aerial surveys are not possible. These counts can be calibrated based on years with contemporaneous aerial survey data, since ground surveys tend to undercount animals due to limited visibility, greater disturbance of the animals, and other conditions such as light and weather.",
+    "crumbs": [
+      "Population Surveys",
+      "Ground Surveys"
+    ]
+  },
+  {
+    "objectID": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
+    "href": "content/GroundSurveys.html#pinniped-ground-surveys-at-san-clemente-island",
+    "title": "Ground Surveys",
+    "section": "Pinniped ground surveys at San Clemente Island",
+    "text": "Pinniped ground surveys at San Clemente Island\nStarting in 1981, SWFSC biologists began monitoring pinnipeds at San Clemente Island near Mail Point, the location of rookeries for California sea lions (CSL) and Northern elephant seals (NES), collecting both count data from ground surveys and diet data for California sea lions specifically. For the majority of the time series, the ground surveys have been quarterly and have included all life stages. Since 2019, only pups have been routinely counted, and only during the respective breeding seasons for CSL (July-August) and NES (January-February). Counts of CSL pups from this southernmost rookery for the U.S. stock provide complementary and often contrasting information with trends at other rookeries to the north. The NES rookery is very small and may provide little ecological insight.\nData from these surveys are available on GitHub (access restricted) and forked to the SWFSC GitHub Enterprise organization.",
+    "crumbs": [
+      "Population Surveys",
+      "Ground Surveys"
     ]
   },
   {
@@ -237,135 +287,53 @@
     ]
   },
   {
-    "objectID": "content/AerialSurveys.html",
-    "href": "content/AerialSurveys.html",
-    "title": "Aerial Surveys",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "Background Paragraph (what they are, why we do it)",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
+      "Home"
     ]
   },
   {
-    "objectID": "content/AerialSurveys.html#pinniped-population-surveys",
-    "href": "content/AerialSurveys.html#pinniped-population-surveys",
-    "title": "Aerial Surveys",
-    "section": "Pinniped population surveys",
-    "text": "Pinniped population surveys\nStarting in 1993(?), the then-named Coastal Marine Mammal Program led aerial surveys to census populations of pinniped species – primarily California sea lions, northern elephant seals, and harbor seals – at haul-outs along the U.S. West Coast. In 2020, the California Current Ecosystem Program at Alaska Fisheries Science Center assumed responsibility for the continuation of these surveys, and they house the most current version of the database of pinniped counts from the photos (sharon.melin@noaa.gov). Many of these surveys were funded by the U.S. Navy.\nPhotos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:\n\nPhysical film archive in storage closet in LJ 389\nDigital photo archive (2010-2020) on the Pinniped drive at //swc-storage4-s/Pinniped and backed up at ‘SWFSC-MMTD-CMAP://Alex Curtis/Pinniped surveys’",
-    "crumbs": [
-      "Population Surveys",
-      "Aerial Surveys"
-    ]
-  },
-  {
-    "objectID": "content/MMPA_Implementation.html",
-    "href": "content/MMPA_Implementation.html",
-    "title": "MMPA_Implementation",
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "SWFSC-CMAP Lab Manual",
     "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "text": "The California Current Marine Mammal Assessment Program conducts research on population assessment for species inhabiting waters off the U.S. West Coast, and on improving assessment methodology for application throughout the U.S. and internationally. We provide scientific advice to regional and national policy-makers within NOAA, pursuant to the Marine Mammal Protection Act and Endangered Species Act.",
     "crumbs": [
-      "MMPA Implementation"
+      "Home"
     ]
   },
   {
-    "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
-    "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "objectID": "index.html#how-to-use-this-lab-manual",
+    "href": "index.html#how-to-use-this-lab-manual",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "How to Use this Lab Manual",
+    "text": "How to Use this Lab Manual\nThis lab manual resource is intended to provide an overview for lab members adn others about how we do our work, it serves as a space to document our institutional knowledge, and provides important information about procedures and available resources. If you have suggestions for additions or changes, please contact Shannon (shannon.rankin@noaa.gov) or Kourtney (kourtney.burger@noaa.gov), or make a pull request.",
     "crumbs": [
-      "MMPA Implementation"
+      "Home"
     ]
   },
   {
-    "objectID": "content/Risk.html",
-    "href": "content/Risk.html",
-    "title": "Population Risk Assessment",
-    "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "objectID": "index.html#cmap-team-how-to-backup-your-brain",
+    "href": "index.html#cmap-team-how-to-backup-your-brain",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "CMAP Team: How to Backup Your Brain",
+    "text": "CMAP Team: How to Backup Your Brain\n\nCMAP Lab Manual\nCATALOG Your one-stop shop to identify and find all CMAP related data and metadata (this manual!) Resources: Link to Get Help!, here (below)\n\n\nGithub\nCODE Project based repositories (research compendiums, code repositories) Resources: PSAW 2022 R/Github Trainings, specifically the video for an Intro to Github (this is a good approach to using Github) NMFS Open Science Resource Book\n\n\nGoogle Cloud (standby!)\nData Archive Long term data storage (minimum), will also serve as a working space when virtual machine (vm) is set up. Resources: standby!\n\n\nGoogle Drive\nNONPUBLIC Data/Metadata For data/metadata that must be accessed locally and/or is not to be publicly accessible. Also appropriate for data/metadata for collaborations that do not work well via github and/or cloud. Resources: CMAP shared Google Drive Link Here Instructions for setting up Google Drive for Desktop Link Here\n\n\nCMAP Hard Drive (temporary)\nTEMPORARY External hard drive set up for temporary local use prior to porting to the cloud. Set up on computer (SWC-SWEAV-D) and each team member will have their own folder. We ask that you create folders for each group of materials/topic. Within each folder there should be a ‘readme’ text file with a basic summary of what is in that folder. Resources: When you are ready to backup your data, reach out directly to Kourtney at kourtney.burger@noaa.gov.",
     "crumbs": [
-      "Risk Assessment"
+      "Home"
     ]
   },
   {
-    "objectID": "content/Risk.html#background",
-    "href": "content/Risk.html#background",
-    "title": "Population Risk Assessment",
-    "section": "",
-    "text": "Risk refers to the likelihood and severity of negative outcomes (e.g., of an endangered population not recovering). Our scientists conducts analyses to evaluate risks to marine mammal associated with human stressors or environmental change (e.g., entanglement risk for large whales). They communicate risk assessment findings to NOAA managers, and develop tools to help guide decisions for managing risk.",
+    "objectID": "index.html#get-help",
+    "href": "index.html#get-help",
+    "title": "SWFSC-CMAP Lab Manual",
+    "section": "Get Help!",
+    "text": "Get Help!\nYou can either email Shannon to get you started, or send us info for each topic following these methods:\n\nPrep Material. For each topic, prepare content in format that works for you.\n\nCreate a project summary\nAdd other information (as a word doc or similar). Ok to add pictures, etc. We can also do tables.\nIdentify all links, pathways (if not online), etc. This can include where this information is stored on the CMAP External Hard drive (the one we are now building).\n\nIdentify info for Public Accessibility. If there is any component of this project that you would like to make publicly available, let us know more about this data/code/info (file types, # files, total size of info, is there any PII?). We can help make this publicly available for you.\nCreate a Github Issue. When all info is complied, Go to the webpage for that topic and create an issue.\n\nFrom that specific topic webpage, go to the right hand side of the page, click on the “Report an Issue”. Select the green New Issue button (on the right)\nCreate a concise but informative title.\nWrite a detailed description and include as much info as you can (if this info is saved on a document file, then point us to that document). Provide as much info as you can– what you want on the page itself, links to what is already publicly available, what you want made publicly available, and what you want to retain privately but provide a pathway/link.\nAssign this issue to Shannon, Kourtney, and yourself (if you can). Here is more info on creating an issue.\n\nRinse, Repeat. Do this for each ‘Topic’ you have, including any side projects (give us a new topic name, and state that they are side projects!). We’ll Reach out with any questions!\n\n\nDo it Yourself!\nIf you want to do it yourself, go for it! If you need to learn, we are happy to help you through it. Here is a basic outline to follow (with links for more info).\n\nGet Local Access to Repo. Use Github Desktop and RStudio to get local access to the CMAP-SWFSC repo. Instructions Link (after you make sure you have the appropriate software, skip down to Clone Repo to Local Computer).\nCreate and Modify Content. Instructions provided here.\nSave ancillary documents. If you have documents (not big file size) that you want to save directly to this Repo, save them in the ‘supplemental’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/supplement/xxx (where xxx is your file name with extension).\nSave related code. If you have code or rMarkdown docs (not huge) that you want to save directly to the Repo, save them in the ‘code’ folder. To add a link in your webpage file (quarto do), use this format: https://github.com/CMAP-SWFSC/CMAP-SWFSC/tree/main/code/xxx (where xxx is your file name with extension).\nAdd Smaller Projects. If you want to add smaller projects (not the bigger topics, there are instructions on the Projects Page.\nPush changes to Github. When you are finished working on it for the moment, commit & save to github following these instructions.\n\nIf you need to make additional repositories for specific projects, feel free to use our github templates to create a Lab Manual-style Repo (with a website like this!) or our Research Compendium template(these set you up with less work!). Instructions are provided in the links.\nOnce you are done, please add an issue, assign to Kourtney/Shannon, and ask us to check it (and also let us know if there are any things you need added, or if you need us to put in links to your other docs).\nAs always, reach out if you need help!",
     "crumbs": [
-      "Risk Assessment"
-    ]
-  },
-  {
-    "objectID": "content/Risk.html#obscovgtools",
-    "href": "content/Risk.html#obscovgtools",
-    "title": "Population Risk Assessment",
-    "section": "ObsCovgTools",
-    "text": "ObsCovgTools\nAssessing the potential risk of fisheries to marine wildlife populations may include an evaluation of observer coverage in terms of how well it documents bycatch of a species of conservation concern (Curtis and Carretta, 2020). The R package ObsCovgTools (Curtis, 2020) provides utilities for evaluating observer coverage with respect to documenting and estimating rare bycatch, including (1) probabilities of observing a bycatch event and of one occurring in total effort, (2) upper confidence limit for bycatch given none was observed, and (3) bycatch estimation CV (coefficient of variation). This tool has generated wide interest, including from ICES, IATTC, MSC, and NOPAT.\nThe package includes a Shiny web application that is served on the NMFS Posit Connect server at https://connect.fisheries.noaa.gov/ObsCovg/ (which requires a Posit Connect account). Login to Posit Connect (via single sign-on) provides access to a dashboard with usage statistics and settings for the app deployment. The package version served on Posit Connect must have been built in one of the R versions available on the server. If a Shiny app is no longer working on the Posit Connect server, one of the administrators will typically notify the maintainer of the app, who will need to update the package build to a newer version of R, or otherwise troubleshoot it as needed, and then redeploy it on the server. Resources for Posit Connect users include NMFS-generated FAQs and a Posit Connect demo video. Contacts who may be able to provide help with setting up a Posit Connect account and redeploying an app include Kathryn Doering (kathryn.doering@noaa.gov, SWFSC), Sam Woodman (sam.woodman@noaa.gov, SWFSC), and Christine Stawitz (christine.stawitz@noaa.gov, OST).\nThe ObsCovgTools repository has also been forked to the SWFSC GitHub Enterprise organization.\n\nReferences\nCurtis K. A. 2020. ObsCovgTools: Evaluate Fishery Observer Coverage for Bycatch Estimation. R package version 3.1.1. https://kacurtis.github.io/ObsCovgTools\nCurtis K. A., Carretta J. V. 2020. ObsCovgTools: Assessing observer coverage needed to document and estimate rare event bycatch. Fisheries Research, 225: 105493. https://doi.org/10.1016/j.fishres.2020.105493",
-    "crumbs": [
-      "Risk Assessment"
-    ]
-  },
-  {
-    "objectID": "content/PAM.html",
-    "href": "content/PAM.html",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
-    "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
-    "crumbs": [
-      "Passive Acoustics"
-    ]
-  },
-  {
-    "objectID": "content/PAM.html#background",
-    "href": "content/PAM.html#background",
-    "title": "Southwest Acoustic Ecology Lab (SAEL)",
-    "section": "",
-    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
-    "crumbs": [
-      "Passive Acoustics"
-    ]
-  },
-  {
-    "objectID": "content/Resources.html",
-    "href": "content/Resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "The data collection efforts referenced here have been conducted under a series of MMPA/ESA Reseach/Enhancement permits issued to SWFSC. Specific information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries Authorizations and Permits for Protected Species (APPS) database.",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/Resources.html#permits",
-    "href": "content/Resources.html#permits",
-    "title": "Resources",
-    "section": "",
-    "text": "The data collection efforts referenced here have been conducted under a series of MMPA/ESA Reseach/Enhancement permits issued to SWFSC. Specific information for more recent permits (since circa 1990), as well as additional historic permits issued to SWFSC, are available from the NOAA Fisheries Authorizations and Permits for Protected Species (APPS) database.",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/TRT.html",
-    "href": "content/TRT.html",
-    "title": "Take Reduction Team (TRT) Efforts",
-    "section": "",
-    "text": "Take Reduction Plans (TRP) help recover and prevent the depletion of strategic marine mammal stocks that interact with Category I and II fisheries. (Section 118 of the Marine Mammal Protection Act (MMPA) specifies that we develop and implement take reduction plans.)\nA strategic stock is one which is:\nListed as endangered or threatened under the Endangered Species Act (ESA). Declining, and likely to be listed as threatened under the ESA. Listed as depleted under the MMPA. Experiencing direct human-caused mortality that exceeds the stock’s “Potential Biological Removal (PBR) level.” Goals The immediate goal of take reduction plans is to reduce, within six months of its implementation, the incidental mortality or serious injury of marine mammals from commercial fishing to less than the PBR level.\nThe long-term goal is to reduce, within five years of its implementation, the incidental mortality and serious injury mortality of marine mammals from commercial fishing operations to insignificant levels, approaching a zero mortality and serious injury rate, taking into account the economics of the fishery, the availability of existing technology, and existing state or regional fishery management plans.\nPrior TRT-TRP efforts by the Southwest Fisheries Science Center include the Pacific Offshore TRT-TRP\nReferences:\nBarlow, J. and Cameron, G.A., 2003. Field experiments show that acoustic pingers reduce marine mammal bycatch in the California drift gill net fishery. Marine mammal science, 19(2), pp.265-283.",
-    "crumbs": [
-      "Take Reduction Teams"
-    ]
-  },
-  {
-    "objectID": "content/HabitatModels.html#background",
-    "href": "content/HabitatModels.html#background",
-    "title": "Habitat Models",
-    "section": "Background",
-    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
-    "crumbs": [
-      "Habitat Models"
+      "Home"
     ]
   },
   {
@@ -380,23 +348,14 @@
     ]
   },
   {
-    "objectID": "content/Projects.html",
-    "href": "content/Projects.html",
-    "title": "Projects",
+    "objectID": "content/Project-MnStockProps.html",
+    "href": "content/Project-MnStockProps.html",
+    "title": "Humpback Stock Proportions",
     "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
+    "text": "Curtis et al. (2025) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package ApportionMnStocks (Curtis, 2025), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results.\n\nAdditional data and files:\n\nR code for this analysis is in the Mn-StockProportions-USWC-2025 GitHub repository that has been forked to the SWFSC GitHub Enterprise organization.\nThe version of the CRC MN ID database used for this analysis, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20250303.zip/MN ID.mdb’.\n\n\n\nReferences\nCurtis, K.A. 2025. ApportionMnStocks. Version 1.0.0. NOAA Fisheries, Southwest Fisheries Science Center, 8901 La Jolla Shores Dr., La Jolla, CA 92037, DOI: 10.5281/zenodo.15540189\nCurtis, K.A., Calambokidis, J., Audley, K., Becker, E.A., Bejder, L., Black, N., Carretta, J.V., Cabanilles, P., Castaneda, M.G., Cheeseman, T., Currie, J.J., de Luna, E., De Weerdt, J., Doe, N., Doniol-Valcroze, T., Flynn, K., Forney, K.A., Frisch-Jordán, A., Fry, S., Gabriele, C., Gisborne, B., Huggins, J.L., Lyman, E., Martínez-Loustalot, P., McMillan, C.J., Pack, A.A., Quintana-Rizzo, E., Ransome, N., Shaw, T.J.H., Szabo, A., Torres, L., Urbán R., J., van Aswegen, M., Wray, J., Moore, J. 2025. Harnessing the power of photo-ID data for apportionment to migratory whale herds: U.S. West Coast humpback whale stock proportions by latitude for the period 2019-2024, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-723. https://doi.org/10.25923/ah7d-sj35",
     "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "content/Projects.html#background",
-    "href": "content/Projects.html#background",
-    "title": "Projects",
-    "section": "",
-    "text": "This is a landing page for additional Projects. To add an additional project page, follow these instructions:\n\nNavigate to the CMAP-SWFSC/content folder\nAdd a new Quarto Document and label it: “Project-xxx”, where ‘xxx’ is an abbreviated name for your project\nAdd the following to the top of your document (But add a more official project title). You will document your information here (ask for help!)\n\nOpen to the CMAP-SWFSC/quarto.yml, and scroll down to the section that looks like this (section: Project):\n\n\n– You will need to add 1 lines to include your project, using the appropriate syntax “content/Project-xxx.qmd”",
-    "crumbs": [
-      "Projects"
+      "Projects",
+      "Mn Stock Proportions"
     ]
   },
   {
@@ -430,14 +389,113 @@
     ]
   },
   {
-    "objectID": "content/Project-MnStockProps.html",
-    "href": "content/Project-MnStockProps.html",
-    "title": "Humpback Stock Proportions",
+    "objectID": "content/SeaLionDiets.html",
+    "href": "content/SeaLionDiets.html",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
     "section": "",
-    "text": "Curtis et al. (2025) estimated humpback whale stock proportions for latitude bins along the U.S. West Coast. The R package ApportionMnStocks (Curtis, 2025), available on GitHub and forked to the SWFSC GHE organization, allows users to estimate stock proportions for a latitude (range) of interest based on these results.\n\nAdditional data and files:\n\nR code for this analysis is in the Mn-StockProportions-USWC-2025 GitHub repository that has been forked to the SWFSC GitHub Enterprise organization.\nThe version of the CRC MN ID database used for this analysis, is available at ‘SWFSC-MMTD-CMAP://Alex Curtis/Humpbacks/data/MN ID 20250303.zip/MN ID.mdb’.\n\n\n\nReferences\nCurtis, K.A. 2025. ApportionMnStocks. Version 1.0.0. NOAA Fisheries, Southwest Fisheries Science Center, 8901 La Jolla Shores Dr., La Jolla, CA 92037, DOI: 10.5281/zenodo.15540189\nCurtis, K.A., Calambokidis, J., Audley, K., Becker, E.A., Bejder, L., Black, N., Carretta, J.V., Cabanilles, P., Castaneda, M.G., Cheeseman, T., Currie, J.J., de Luna, E., De Weerdt, J., Doe, N., Doniol-Valcroze, T., Flynn, K., Forney, K.A., Frisch-Jordán, A., Fry, S., Gabriele, C., Gisborne, B., Huggins, J.L., Lyman, E., Martínez-Loustalot, P., McMillan, C.J., Pack, A.A., Quintana-Rizzo, E., Ransome, N., Shaw, T.J.H., Szabo, A., Torres, L., Urbán R., J., van Aswegen, M., Wray, J., Moore, J. 2025. Harnessing the power of photo-ID data for apportionment to migratory whale herds: U.S. West Coast humpback whale stock proportions by latitude for the period 2019-2024, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-723. https://doi.org/10.25923/ah7d-sj35",
+    "text": "Since 1981, we have been collecting a quarterly time series of California sea lion diet from major southern Channel Islands rookeries, providing long-term ecological information on pelagic foraging conditions in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how the pelagic forage community in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
     "crumbs": [
-      "Projects",
-      "Mn Stock Proportions"
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#background",
+    "href": "content/SeaLionDiets.html#background",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "",
+    "text": "Since 1981, we have been collecting a quarterly time series of California sea lion diet from major southern Channel Islands rookeries, providing long-term ecological information on pelagic foraging conditions in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how the pelagic forage community in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#sample-archive",
+    "href": "content/SeaLionDiets.html#sample-archive",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Sample archive",
+    "text": "Sample archive\nThe sample archive and partially processed samples for SLiDERS are stored in the Marine Mammal Ecology Lab (LJ 389). Unprocessed frozen samples are stored in red buckets in the necropsy freezer (LJ 119).",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#file-storage",
+    "href": "content/SeaLionDiets.html#file-storage",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "File storage",
+    "text": "File storage\nFiles for SLiDERS are distributed among three places:\n\nThe SLiDERS-Survey GitHub organization (‘SLiDERS GitHub organization’, currently access-restricted, and all repositories forked to the SWFSC GitHub organization, with access provided to Jeff Moore)\nThe scatdb directory on the on-prem swc data server (scatdb-drive, access-restricted; Jeff Moore has access)\nAlex’s Google Drive directory SLiDERS shared with Jeff Moore (SLiDERS-GDrive)\n\nAll files are backed up to SWFSC-MMTD-CMAP://Alex Curtis/SLiDERS.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#data-and-metadata",
+    "href": "content/SeaLionDiets.html#data-and-metadata",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Data and metadata",
+    "text": "Data and metadata\nData for processed samples as well as an inventory of unprocessed samples are maintained in the R package SLiDERS.data.raw, as a repository in the SLiDERS GitHub organization (currently access-restricted). Additional information and context for the time series are available in SLiDERS-GDrive/About SLiDERS and scatdb-drive/SCB sea lions as samplers white paper. Data not yet imported to SLiDERS.data.raw, for partially processed trips, are available in scatdb-drive/New Scat Data.\nA separate data set supporting prey size reconstruction, including data on prey and prey hard part sizes as well as regressions relating these, was published at Seanoe and in a 2020 Technical Memorandum (Lowry et al., 2020). Underlying data and scripts are in scatdb-drive/Prey Size.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#data-management",
+    "href": "content/SeaLionDiets.html#data-management",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Data management",
+    "text": "Data management\nThe SLiDERS.data.mgmt R package, containing functions for checking new data and adding them to the data package (only once both otolith and EtOH fractions for a trip have been processed), is in the SLiDERS GitHub organization.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#diet-reconstruction-and-time-series",
+    "href": "content/SeaLionDiets.html#diet-reconstruction-and-time-series",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Diet reconstruction and time series",
+    "text": "Diet reconstruction and time series\nSLiDERS.data.raw (above) includes an initial data editing function that must be run prior to further data processing. scatdb-drive/R scripts contains scripts for producing time series of prey frequency of occurrence, numeric abundance, biomass consumed per sample, and relative biomass consumed over time (integrating changing sea lion population abundance). Prey size and numeric reconstruction are informed by captive feeding studies, including model-predicted numeric correction factors from an analysis of prey recovery from scats based on otolith characteristics (Curtis et al., 2022), for which scripts and data are in scatdb-drive/Captive feeding analysis.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#protocols",
+    "href": "content/SeaLionDiets.html#protocols",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Protocols",
+    "text": "Protocols\nSample collection and processing protocols, inclusive of field trip planning information and permit-related records, are maintained in SLiDERS-GDrive/Sample collection and SLiDERS-GDrive/Sample processing. Prey identification resources are collected in scatdb-drive/ID references.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#lab-management",
+    "href": "content/SeaLionDiets.html#lab-management",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Lab management",
+    "text": "Lab management\nscatdb-drive/Lab admin contains documentation of completed training for personnel and files related to maintaining the online chemical inventory. scatdb-drive/Microscopes contains information on the lab microscopes and calibrations.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#publications",
+    "href": "content/SeaLionDiets.html#publications",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "Publications",
+    "text": "Publications\nPublications based on or utilizing the SLiDERS and related data sets are compiled in SLiDERS-GDrive/Publications.",
+    "crumbs": [
+      "Sea Lion Diets"
+    ]
+  },
+  {
+    "objectID": "content/SeaLionDiets.html#references",
+    "href": "content/SeaLionDiets.html#references",
+    "title": "Sea Lion Diet for Ecological Remote Sampling (SLiDERS) Survey",
+    "section": "References",
+    "text": "References\nCurtis, K. A., Lowry, M. S., Sweeney, J. M., Orr, A. J., and Harvey, J. T. 2022. Predicting prey recovery from scats of California sea lions (Zalophus californianus) for novel prey species and sizes. ICES Journal of Marine Science, 79:193-203.\nLowry, M.S., Curtis, K.A., Boerger, C.M. 2020. Measurements and regressions of otoliths, cephalopod beaks, and other prey hard parts used to reconstruct California Current predator diet composition, U.S. Department of Commerce, NOAA Technical Memorandum NMFS-SWFSC-637.",
+    "crumbs": [
+      "Sea Lion Diets"
     ]
   },
   {
@@ -491,6 +549,48 @@
     ]
   },
   {
+    "objectID": "content/Publications.html",
+    "href": "content/Publications.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "Note: If you have time, please add your publications to this Zotero Library: https://www.zotero.org/groups/5945188/cmap-swfsc\nHere are instructions for using Zotero: https://nmfs-ost.github.io/PAM-OpenScience/content/Zotero.html\nTo copy publications for your own Zotero library to the group library, select the desired items in your library, export as a Zotero RDF file, and then import that file to the group library.",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "content/AerialSurveys.html",
+    "href": "content/AerialSurveys.html",
+    "title": "Aerial Surveys",
+    "section": "",
+    "text": "Background Paragraph (what they are, why we do it)",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/AerialSurveys.html#pinniped-population-surveys",
+    "href": "content/AerialSurveys.html#pinniped-population-surveys",
+    "title": "Aerial Surveys",
+    "section": "Pinniped population surveys",
+    "text": "Pinniped population surveys\nStarting in 1993(?), the then-named Coastal Marine Mammal Program led aerial surveys to census populations of pinniped species – primarily California sea lions, northern elephant seals, and harbor seals – at haul-outs along the U.S. West Coast. In 2020, the California Current Ecosystem Program at Alaska Fisheries Science Center assumed responsibility for the continuation of these surveys, and they house the most current version of the database of pinniped counts from the photos (sharon.melin@noaa.gov). Many of these surveys were funded by the U.S. Navy.\nPhotos (physical and digital, not duplicative) collected from 1993 to 2020 are still stored at SWFSC in the following locations:\n\nPhysical film archive in storage closet in LJ 389\nDigital photo archive (2010-2020) on the Pinniped drive at //swc-storage4-s/Pinniped and backed up at ‘SWFSC-MMTD-CMAP://Alex Curtis/Pinniped surveys’",
+    "crumbs": [
+      "Population Surveys",
+      "Aerial Surveys"
+    ]
+  },
+  {
+    "objectID": "content/HabitatModels.html#background",
+    "href": "content/HabitatModels.html#background",
+    "title": "Habitat Models",
+    "section": "Background",
+    "text": "Background\nSpecies distribution models or “habitat models” identify quantitative relationships between animal distributions and a variety of ecologically relevant habitat variables (e.g., sea surface temperature, oceanic fronts, seafloor depth). Our scientists develop species distribution models for cetaceans, based on the Marine Mammal and Turtle Division’s extensive line-transect survey data collected in the Pacific Ocean since the mid-1980s. The resulting model predictions are used by scientists, managers and other federal agencies to assess and mitigate potential impacts to cetaceans from a wide range of human activities.",
+    "crumbs": [
+      "Habitat Models"
+    ]
+  },
+  {
     "objectID": "content/HumanCausedMortality.html",
     "href": "content/HumanCausedMortality.html",
     "title": "Fisheries Bycatch, Vessel Strikes and Other Sources of Human-Caused Mortality",
@@ -541,6 +641,26 @@
     ]
   },
   {
+    "objectID": "content/PAM.html",
+    "href": "content/PAM.html",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "section": "",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "crumbs": [
+      "Passive Acoustics"
+    ]
+  },
+  {
+    "objectID": "content/PAM.html#background",
+    "href": "content/PAM.html#background",
+    "title": "Southwest Acoustic Ecology Lab (SAEL)",
+    "section": "",
+    "text": "Sound travels exceptionally well in the marine environment, and marine mammals have evolved to use sound as their primary mode of interacting with the environment. By passively monitoring the ocean using acoustic sensors, our scientists study marine mammals and human-caused noise, as well as the impact of noise on the marine environment.\nThe SAEL Lab Manual is the go-to place for information related to this team, including protocol, methods, publications,and links to data/metadata.\nAdditional Repositories include:\nPAM Gliders\n\nPAM-UxS\nGlider Rodeo\n\nCalCurCEAS Acoustic Data:\nglider-CalCurCEAS\ndrifter-CalCurCEAS\nAdrift in the California Current:\n\nAdrift Report\nField Methods\nAnalysis Methods\n\nBANTER_Beaked Whales\nFOSSA Soundscape\nSAEL Lab Hardware\nPAM Open Science\nTowed Array Metadata (under construction)\nSonobuoy Metadata (under construction)",
+    "crumbs": [
+      "Passive Acoustics"
+    ]
+  },
+  {
     "objectID": "content/Surveys.html",
     "href": "content/Surveys.html",
     "title": "Population Surveys",
@@ -558,26 +678,6 @@
     "text": "Our program conducts ship-, aerial-, and land-based surveys of marine mammals throughout the California Current large marine ecosystem. Large-vessel line-transect cetacean surveys have been conducted since 1991, with recent surveys supported through the PacMAPPS Initiative. Aerial surveys are conducted for harbor porpoises and pinnipeds. Shore-based surveys are conducted for gray whales, led by the Cetacean Health and Life History Program.\nSurveys by Type:\nShipboard Surveys\nAerial Surveys\nGround Surveys",
     "crumbs": [
       "Population Surveys"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html",
-    "href": "content/SeaLionDiets.html",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
-    ]
-  },
-  {
-    "objectID": "content/SeaLionDiets.html#background",
-    "href": "content/SeaLionDiets.html#background",
-    "title": "Long Term Dataset on Sea Lion Diets",
-    "section": "",
-    "text": "For more than 40 years, we have been collecting a quarterly time series of California sea lion diet at Channel Islands rookeries in the Southern California Bight. This time series has applications to forage fish stock assessment, ecosystem-based management, and improving our understanding of how pelagic forage in the California Current Ecosystem varies, drives predator population dynamics, and is shifting as our oceans warm.",
-    "crumbs": [
-      "Sea Lion Diets"
     ]
   }
 ]
