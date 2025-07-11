@@ -9,6 +9,7 @@ editor:
 
 Here is a general 'social network' of the data streams that feed the SARs, as reviewed by Jeff Moore and Jim Carretta on 7-10-2025.
 ![](images/SAR_whiteboard.PNG){width="900"}
+
 And here is the directory where SARs can be found:
 ![](images/SARS_directory.PNG){width="900"}
 
