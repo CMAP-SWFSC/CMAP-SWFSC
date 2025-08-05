@@ -9,4 +9,4 @@ An inventory page is highly recommended to keep track of equipment, loans, and g
 
 ## Common equipment list: 
 
-* Alex Curtis has an Iridium satellite phone (inherited from Annette) in her office, but we do not currently have a plan for it.
+*An Iridium satellite phone (inherited from Annette) exists, but we do not currently have a plan for it.
