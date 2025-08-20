@@ -477,12 +477,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="annual-mmpa-sar-requirements-to-enumerate-human-caused-msi" class="level2">
 <h2 class="anchored" data-anchor-id="annual-mmpa-sar-requirements-to-enumerate-human-caused-msi">Annual MMPA SAR requirements to enumerate human-caused M/SI</h2>
 <p>Annually, accounting for human-caused M/SI is required to 1) produce an annual human-caused M/SI Technical Memorandum and 2) update SARS.</p>
-<p>The annual human-caused M/SI is produced in the format of Carretta et al.&nbsp;(2024), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. This is located in the “CARRETTA/Github/HCM_SI” folder = R-Studio Project (not a package).</p>
-<p>The annual report is based on data-mining an Excel file <a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx">“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”</a> that is updated annually. The annual human-caused M/SI report includes the most-recent 5 years of data to inform SARS.<br>
-Data sources / contacts for human-caused M/SI data include</p>
+<p>Data sources / contacts for human-caused M/SI data include:</p>
 <ol type="1">
 <li><p>States (CA sea lion removals under Sec. 120 of the MMPA): Robert.C.Anderson@noaa.gov and Nancy.Young@noaa.gov receive and share these data annually</p></li>
 <li><p>NMFS Regional Offices and Science Centers (all taxa): Allison.Henry@noaa.gov (NEFSC - Atl whales), Justin.Greenman@noaa.gov (WCR - all taxa), Lauren.Saez@noaa.gov (wCR - large whales), Kristin.Wilkinson@noaa.gov (NWFSC - all taxa), Nancy.Young@noaa.gov (AFSC - all taxa), Amelia.Brower@noaa.gov (AFSC - all taxa), Amanda.Bradford@noaa.gov (PIFSC - U.S. west coast pinnipeds that show up in HI longlines), Kayleigh.Somers@noaa.gov (NWFSC - all taxa NW groundfish fisheries), Elise.Kohli@noaa.gov (SWFSC - research takes).</p></li>
+</ol>
+<p>The annual human-caused M/SI report is produced in the format of <a href="https://repository.library.noaa.gov/view/noaa/66175">Carretta et al.&nbsp;2024</a>, based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. Files are located in the local directory “CARRETTA/Github/HCM_SI”. To generate an annual report, which traditionally includes the most-recent 5 years of available data, do the following:</p>
+<ol type="1">
+<li><p>Run R-script ‘SeriousInjuryExtract.R’ to data mine <a href="https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx">“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”</a> that is updated annually. You will have to edit the code to capture the minimum and maximum years that you want reflected in the resulting report. Running this script produces an RData output, which interacts with the next step, 2.</p></li>
+<li><p>Run R-Markdown script “CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD” to produce the annual report in the form of DOCX files.</p></li>
 </ol>
 </section>
 <section id="bycatch-estimation-in-ca-swordfish-gillnet-fishery" class="level2">
