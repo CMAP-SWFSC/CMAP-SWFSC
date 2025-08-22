@@ -12,19 +12,21 @@ Quantifying human-caused mortality and serious injury (M/SI) is integral to prod
 
 ## Annual MMPA SAR requirements to enumerate human-caused M/SI
 
-Annually, accounting for human-caused M/SI is required to 1) produce an annual human-caused M/SI Technical Memorandum and 2) update SARS.
+Annually, collating, evaluating, and summarizing human-caused M/SI is required to 1) produce an annual human-caused M/SI Technical Memorandum and 2) update SARS. The most current M/SI data file, where new records and determinations are entered and previous records edited, is [Anthropogenic_Mortality_Serious_Injury_Carretta.xls](https://github.com/SWFSC/MSI-data/blob/main/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx), housed in the public [SWFSC/MSI-data](https://github.com/SWFSC/MSI-data) GitHub repository (note that since this repository is public, care is required to ensure that all PII is eliminated from records as they are entered in this data sheet). 
 
 Data sources / contacts for human-caused M/SI data include:
 
 1. States (CA sea lion removals under Sec. 120 of the MMPA): Robert.C.Anderson@noaa.gov and Nancy.Young@noaa.gov receive and share these data annually
 
-2. NMFS Regional Offices and Science Centers (all taxa): Allison.Henry@noaa.gov (NEFSC - Atl whales), Justin.Greenman@noaa.gov (WCR - all taxa), Lauren.Saez@noaa.gov (wCR - large whales), Kristin.Wilkinson@noaa.gov (NWFSC - all taxa), Nancy.Young@noaa.gov (AFSC - all taxa), Amelia.Brower@noaa.gov (AFSC - all taxa), Amanda.Bradford@noaa.gov (PIFSC - U.S. west coast pinnipeds that show up in HI longlines), Kayleigh.Somers@noaa.gov (NWFSC - all taxa NW groundfish fisheries), Elise.Kohli@noaa.gov (SWFSC - research takes).
+2. NMFS Regional Offices and Science Centers (all taxa): Allison.Henry@noaa.gov (NEFSC - Atl whales), Justin.Greenman@noaa.gov (WCR - all taxa), Lauren.Saez@noaa.gov (WCR - large whales), Kristin.Wilkinson@noaa.gov (NWFSC - all taxa), Nancy.Young@noaa.gov (AFSC - all taxa), Amelia.Brower@noaa.gov (AFSC - all taxa), Amanda.Bradford@noaa.gov (PIFSC - U.S. west coast pinnipeds that show up in HI longlines), Kayleigh.Somers@noaa.gov (NWFSC - all taxa NW groundfish fisheries), Elise.Kohli@noaa.gov (SWFSC - research takes).
 
-The annual human-caused M/SI report is produced in the format of [Carretta et al. 2024](https://repository.library.noaa.gov/view/noaa/66175), based on R-Markdown code (“CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD”) and the R-Script ‘SeriousInjuryExtract.R’. Files are located in the local directory “CARRETTA/Github/HCM_SI”. To generate an annual report, which traditionally includes the most-recent 5 years of available data, do the following:
+The annual human-caused M/SI report is produced in the format of [Carretta et al. 2024](https://repository.library.noaa.gov/view/noaa/66175), and traditionally includes the most recent five years of available data. To generate an annual report, you will use R scripts and an R Markdown file housed in the [SWFSC/MSI-report](https://github.com/SWFSC/MSI-report) repository (accessible to all NOAA Github Enterprise users) to produce an automated report based on the [Anthropogenic_Mortality_Serious_Injury_Carretta.xls](https://github.com/SWFSC/MSI-data/blob/main/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx) file. Detailed instructions are provided within the [SWFSC/MSI-report](https://github.com/SWFSC/MSI-report) repository, and include these main steps:
 
-1. Run R-script 'SeriousInjuryExtract.R' to data mine [“Anthropogenic_Mortality_Serious_Injury_Carretta.xls”](https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx) that is updated annually. You will have to edit the code to capture the minimum and maximum years that you want reflected in the resulting report. Running this script produces an RData output, which interacts with the next step, 2.
+1. Run 'SeriousInjuryExtract.R' to data mine [Anthropogenic_Mortality_Serious_Injury_Carretta.xls](https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/Anthropogenic_Mortality_Serious_Injury_Carretta.xlsx). Running this script produces an RData file, which interacts with the steps 2 and 3.
 
-2. Run R-Markdown script “CARRETTA/Github/HCM_SI/HCM_SI_Report.RMD” to produce the annual report in the form of DOCX files.
+2. Run 'AppendixTable.R' to produce Appendix 1 as a DOCX file for the report. 
+
+3. Run R Markdown file 'HCM_SI_Report.Rmd' to produce the main body of the annual report as a DOCX file, which is edited for format and collated with Appendix 1 for publication. 
 
 ## Bycatch Estimation in CA Swordfish gillnet fishery
 
