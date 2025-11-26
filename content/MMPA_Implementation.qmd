@@ -3,6 +3,10 @@ title: "MMPA_Implementation"
 format: html
 ---
 
+## Primary home
+
+The new home for MMPA Implementation work writ large (MSI data and reports, bycatch estimation and reports, coordination, etc) is under construction under the umbrella of the [SWFSC GitHub Enterprise organization MMPA-Implementation team]{https://github.com/orgs/SWFSC/teams/mmpa-implementation}.
+
 ## Location of Carretta's files (laptop + backups)
 
 In addition to pages on the CMAP Github, I've written a general guide [**MMPA Implementation Carretta.docx**](https://github.com/CMAP-SWFSC/CMAP-SWFSC/blob/main/content/MMPA%20Implementation%20CARRETTA.docx). The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.
