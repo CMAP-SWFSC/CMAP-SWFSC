@@ -179,7 +179,17 @@
     "href": "content/MMPA_Implementation.html",
     "title": "MMPA_Implementation",
     "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "text": "The new home for MMPA Implementation work writ large (MSI data and reports, bycatch estimation and reports, coordination, etc) is under construction under the umbrella of the [SWFSC GitHub Enterprise organization MMPA-Implementation team]{https://github.com/orgs/SWFSC/teams/mmpa-implementation}.",
+    "crumbs": [
+      "MMPA Implementation"
+    ]
+  },
+  {
+    "objectID": "content/MMPA_Implementation.html#primary-home",
+    "href": "content/MMPA_Implementation.html#primary-home",
+    "title": "MMPA_Implementation",
+    "section": "",
+    "text": "The new home for MMPA Implementation work writ large (MSI data and reports, bycatch estimation and reports, coordination, etc) is under construction under the umbrella of the [SWFSC GitHub Enterprise organization MMPA-Implementation team]{https://github.com/orgs/SWFSC/teams/mmpa-implementation}.",
     "crumbs": [
       "MMPA Implementation"
     ]
@@ -188,8 +198,8 @@
     "objectID": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
     "href": "content/MMPA_Implementation.html#location-of-carrettas-files-laptop-backups",
     "title": "MMPA_Implementation",
-    "section": "",
-    "text": "In addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
+    "section": "Location of Carretta’s files (laptop + backups)",
+    "text": "Location of Carretta’s files (laptop + backups)\nIn addition to pages on the CMAP Github, I’ve written a general guide MMPA Implementation Carretta.docx. The doc is also located in the directory shown below. Content on several of these CMAP pages attempts to mirror the Word document.",
     "crumbs": [
       "MMPA Implementation"
     ]
