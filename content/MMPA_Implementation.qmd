@@ -5,7 +5,7 @@ format: html
 
 ## Primary home
 
-The new home for MMPA Implementation work writ large (MSI data and reports, bycatch estimation and reports, coordination, etc) is under construction under the umbrella of the [SWFSC GitHub Enterprise organization MMPA-Implementation team]{https://github.com/orgs/SWFSC/teams/mmpa-implementation}. This page will continue to be updated as a central landing page for this work, with relevant information and links as they evolve.
+The new home for MMPA Implementation work writ large (MSI data and reports, bycatch estimation and reports, coordination, etc) is under construction under the umbrella of the [SWFSC GitHub Enterprise organization MMPA-Implementation team](https://github.com/orgs/SWFSC/teams/mmpa-implementation). This page will continue to be updated as a central landing page for this work, with relevant information and links as they evolve.
 
 ## Location of Carretta's files (laptop + backups)
 
